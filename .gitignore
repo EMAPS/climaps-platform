@@ -29,3 +29,6 @@ node_modules
 
 # DS Store Mac File
 .DS_Store
+
+# contents and other stories
+drive-out/contents
