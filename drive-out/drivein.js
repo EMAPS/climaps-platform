@@ -140,7 +140,7 @@ exports.getFolderContentsSync = function(folderId) {
       });
 
   console.log("      ", '... statusCode', colors.green(response.statusCode));
-  //console.log(response.body);
+  console.log(response.body);
 
   try{
     var body = JSON.parse(response.body);
