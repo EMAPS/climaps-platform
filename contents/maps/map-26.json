@@ -1,0 +1,87 @@
+[
+  {
+    "title": "data",
+    "slug": "data",
+    "sort": "data",
+    "id": "0B-TUKPEe5qkOQUd3R29xbkp2ekk",
+    "type": "folder",
+    "sections": []
+  },
+  {
+    "title": "The specialization of OECD donor countries by negotiating groups in the United Nations Framework Convention on Climate Change (UNFCCC).",
+    "slug": "02-description",
+    "sort": "02 description",
+    "id": "1MgCESJwPrjjNX1_CM2cl29WSs0WdtbcVSB-122oMVWI",
+    "type": "Document",
+    "src": "https://lh3.googleusercontent.com/ff5KJ2B7hqnM6qn-NVo6XVQJQovHedIFy1-6r7reAJL6-TVxRIqjg-dtIEo7aifCP4ebSxbnX6nLplLteTJRBw",
+    "sections": [
+      "<p class=\"c8 c12 title\"><a name=\"h.z4oeqkmqvlhv\"></a><span>The specialization of OECD donor countries by negotiating groups in the United Nations Framework Convention on Climate Change (UNFCCC).</span></p><p class=\"c0\"><span></span></p><p class=\"c9 c3\"><span style=\"overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 616.00px; height: 465.94px;\"><img alt=\"\" src=\"https://lh5.googleusercontent.com/9NcELMoKdpyBb3Kx9X8qmsVlktcIGmQa8rWQ9wWQu_dk9JbR9XEB0CCloChOO44qRX0vBujtI4W3bfMP5u_3DGhv4KAN0ebwOptVZuyRa8Jx40hv9cYYeY63q3o\" style=\"width: 1214.48px; height: 684.28px; margin-left: -289.02px; margin-top: -142.31px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);\" title=\"\"></span></p><p class=\"c9 c0\"><span></span></p><p class=\"c0 c9\"><span></span></p><h4 class=\"c3 c4\"><a name=\"h.mmdtv1coj29o\"></a><span class=\"c1\">Figure 1. Network of terms co-occurring in the same paragraphs of the ENB, Volume 12. Node position is determined by a force vector algorithm (Jacomy et al., forthcoming) bringing together terms directly or indirectly linked, and keeping away terms with fewer co-occurrences. Node size is proportional to their frequency in the corpus. Node color follows the clusters identified by the clustering algorithm. The names of the clusters have been attributed manually. SOURCE_DATE</span></h4><p class=\"c0\"><span></span></p><p class=\"c3\"><span class=\"c5\">Short-caption</span></p><p class=\"c3\"><span>This map is a network based on the flow of bilateral adaptation aid between donor countries and receiving countries. Nodes represent the countries or UNFCCC groups of countries, and lines the flow of committed money. The donor countries represented are only OECD member countries. The receiving countries can be visualized either individually, or agreggated in UNFCCC negotiating groups they belong to. The maps visualizes the relative positions of donor countries and receiving countries/UNFCCC groups, thus showing the affinities between them. Outside the central cluster of countries, non-conformist affinities can be observed, based on the allocation decisions taken by donor countries.</span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><h4 class=\"c0 c4\"><a name=\"h.rsv99oic179s\"></a></h4><p class=\"c0\"><span></span></p><p class=\"c3\"><span style=\"overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 528.00px; height: 479.00px;\"><img alt=\"\" src=\"https://lh4.googleusercontent.com/8ZHZAkkjC48hMskBHlfNdiFIAaM2UpMfutBh6agX1QWf9fpSNbB4YzLrWQfNGe14NKHus67C6DcByDOBKJLDcfxh5oBtM1TjdG-lRVRdU-BMCs5Am_nOknbMNVI\" style=\"width: 1032.83px; height: 580.59px; margin-left: -248.28px; margin-top: -66.86px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);\" title=\"\"></span></p><h4 class=\"c3 c12\"><a name=\"h.c7vymkfb4odr\"></a><span>Figure X. Zoomed view.</span></h4><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><h1 class=\"c3 c7\"><a name=\"h.undpthsa1rf9\"></a><span>How to read the map</span></h1><p class=\"c0\"><span></span></p><p class=\"c3\"><span class=\"c10\">Here both the </span><span>nodes and edges are sized by the cummulative amount of committed adaptation money. One should be careful to the fact that recipient countries belong to several groups, thus the money received by each country is double-counted in each group they belong to.</span></p><p class=\"c0\"><span></span></p><p class=\"c3\"><span>The size of the bubbles in the above map represent the number of countries that the donor country gives to. The thickness of the line refers to the size of the funds allocated. Canda funds the most countries, followed by Australia etc. In comparison, EU Institutions give to a smaller number of countries </span></p><p class=\"c0\"><span></span></p><h1 class=\"c3 c7\"><a name=\"h.nfjvr2a5zplw\"></a><span>How the map is built (map building protocol)</span></h1><p class=\"c8\"><span>The data extracted from the OECD StatExtracts database (stats.oecd.org) collects general Official Development Assistance (ODA) and is reported by OECD member countries. We identified aid that was labelled through the RioMarkers and selected only projects that had been categorised with adaptation aid as their principal objective. &nbsp;As the RioMarker &ldquo;adaptation&rdquo; was implemented in 2010, we have only used data beginning from that year in order to identify adaptation-related projects.</span></p><p class=\"c6\"><span></span></p><p class=\"c8\"><span>We grouped the adaptation aid of every donor country committed to particular UNFCCC negotiating groups, and represented both donor countries and recipient groups as nodes. We used the spatialization software Gephi, which </span><span class=\"c10\">through a force-vectors algorithm, attributes a position to each node by simulating a system of physical forces in which nodes are attributed a repellent force that drives them apart, while the edges work as spring bounding nodes pulling them together. Once the balance of forces is reached, the distance amongst the nodes becomes meaningful: two nodes are closer the more they are connected to the same neighbors. </span></p><p class=\"c6\"><span class=\"c10\"></span></p><p class=\"c6\"><span></span></p><h1 class=\"c3 c7\"><a name=\"h.xo94nwvaky1k\"></a><span>References</span></h1><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p>"
+    ],
+    "subtitle": ""
+  },
+  {
+    "title": "metadata",
+    "slug": "03-metadata",
+    "sort": "03 metadata",
+    "id": "1eaNhQTNAj0T1GzTqWglN2PcR-3O9zJVWandWgIhi43s",
+    "type": "Document",
+    "src": "https://lh5.googleusercontent.com/kZ0ArM2Kv7BcwcvgHaL--kJiRbQbRbp442ydr_-N_ypL6PUqM2no4kVek0eKwX56G8q6h21mxxo9akaffNM7ow",
+    "sections": [
+      "<h1 class=\"c5 c6\"><a name=\"h.n41z25rzjmoi\"></a><span>Authors</span></h1><p class=\"c5 c8\"><span class=\"c1\"><a class=\"c2\" href=\"http://www.google.com/url?q=http%3A%2F%2Fsdfsdfs&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFT0c5JRSgJ7g5q2h5PaHG_szMKWQ\">Ashley Ball</a></span><span><a class=\"c2\" href=\"http://www.google.com/url?q=http%3A%2F%2Fsdfsdfs&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFT0c5JRSgJ7g5q2h5PaHG_szMKWQ\">&nbsp;(Young Foundation), </a></span><span class=\"c1\"><a class=\"c2\" href=\"http://www.google.com/url?q=http%3A%2F%2Fsdfsdfs&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFT0c5JRSgJ7g5q2h5PaHG_szMKWQ\">Erik Borra</a></span><span><a class=\"c2\" href=\"http://www.google.com/url?q=http%3A%2F%2Fsdfsdfs&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFT0c5JRSgJ7g5q2h5PaHG_szMKWQ\">&nbsp;(Digital Methods Initiative), </a></span><span class=\"c1\"><a class=\"c2\" href=\"http://www.google.com/url?q=http%3A%2F%2Fsdfsdfs&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFT0c5JRSgJ7g5q2h5PaHG_szMKWQ\">Marta Croce and Carlo De Gaetano</a></span><span><a class=\"c2\" href=\"http://www.google.com/url?q=http%3A%2F%2Fsdfsdfs&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFT0c5JRSgJ7g5q2h5PaHG_szMKWQ\">&nbsp;(Density Design ), </a></span><span class=\"c1\"><a class=\"c2\" href=\"http://www.google.com/url?q=http%3A%2F%2Fsdfsdfs&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFT0c5JRSgJ7g5q2h5PaHG_szMKWQ\">Axel Meunier</a></span><span><a class=\"c2\" href=\"http://www.google.com/url?q=http%3A%2F%2Fsdfsdfs&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFT0c5JRSgJ7g5q2h5PaHG_szMKWQ\">&nbsp;and </a></span><span class=\"c1\"><a class=\"c2\" href=\"http://www.google.com/url?q=http%3A%2F%2Fsdfsdfs&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFT0c5JRSgJ7g5q2h5PaHG_szMKWQ\">Tommaso Venturini</a></span><span><a class=\"c2\" href=\"http://www.google.com/url?q=http%3A%2F%2Fsdfsdfs&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFT0c5JRSgJ7g5q2h5PaHG_szMKWQ\">&nbsp;(m&eacute;dialab Sciences Po), </a></span><span class=\"c1\"><a class=\"c2\" href=\"http://www.google.com/url?q=http%3A%2F%2Fsdfsdfs&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFT0c5JRSgJ7g5q2h5PaHG_szMKWQ\">Romain Weikmans</a></span><span><a class=\"c2\" href=\"http://www.google.com/url?q=http%3A%2F%2Fsdfsdfs&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFT0c5JRSgJ7g5q2h5PaHG_szMKWQ\">&nbsp;(Universit&eacute; Libre de Bruxelles)</a></span></p><h1 class=\"c5 c6\"><a name=\"h.b6d9l3wdghmf\"></a><span>Data time-stamp</span></h1><p class=\"c5\"><span>EMAPS Paris Sprint, 6-10 January 2014</span></p><h1 class=\"c5 c6\"><a name=\"h.xl6mheq0t49a\"></a><span>Data source</span></h1><p class=\"c5\"><span>StatExtracts database (stats.oecd.org)</span></p><p class=\"c3\"><span></span></p><p class=\"c5\"><span class=\"c0\">Data files</span></p><p class=\"c5\"><span>https://drive.google.com/?utm_source=fr&amp;utm_medium=button&amp;utm_campaign=web&amp;utm_content=gotodrive&amp;usp=gtd&amp;ltmpl=drive&amp;pli=1&amp;authuser=0#folders/0B-TUKPEe5qkOa3poaFZ0d244NEE</span></p><p class=\"c3\"><span></span></p><p class=\"c5\"><span class=\"c0\">Code</span></p><p class=\"c5\"><span>No additional code associated with this map</span></p><h1 class=\"c5 c6\"><a name=\"h.d8z13mklyk8r\"></a><span>Related narratives</span></h1><p class=\"c5\"><span>OECD Member Countries&rsquo; Funding Styles</span></p><p class=\"c3\"><span></span></p><p class=\"c5 c7\"><span class=\"c0\">Related maps</span></p><p class=\"c5 c7\"><span>Concentration and Fragmentation of Adaptation Aid of OECD member countries&rsquo; bilateral adaptation aid.</span></p><p class=\"c3\"><span class=\"c0\"></span></p><p class=\"c3\"><span></span></p>"
+    ]
+  },
+  {
+    "title": "finding 01",
+    "slug": "04-finding-01",
+    "sort": "04 finding 01",
+    "id": "15svVwVD22E9uWlZRycVBXX5FQfNHf9pMfmjRR4SB27c",
+    "type": "Document",
+    "src": "https://lh6.googleusercontent.com/z-TXl_wUlXgALspGLAzQRyk3BXATTzv17qITh9NTEVQ32e3EUyTXWvD7IEhkmOvivCM0EBxIBxwxmdIjWeH18g",
+    "sections": []
+  },
+  {
+    "title": "finding 02",
+    "slug": "04-finding-02",
+    "sort": "04 finding 02",
+    "id": "1WZyAb1YrjyKfFIipGcsbrOEZSgVS3nR--5gRK1fPExQ",
+    "type": "Document",
+    "src": "https://lh5.googleusercontent.com/ErqEZQqqMg2YcpuSzuDSQ76n1La_ZQkPwbGikB8xv3taoh4KqabepW6wJBfYomaQZbxjl1rFtfKt6ZjdaxOqcw",
+    "sections": []
+  },
+  {
+    "title": "26.pdf",
+    "slug": "26pdf",
+    "sort": "26.pdf",
+    "id": "0B_CpGym5Ms7qcTE3QWF6c3JzNU0",
+    "type": "PDF",
+    "src": "https://lh3.googleusercontent.com/lQTMOh0hibsDjOlxVPg62T66UpCF50HomUAAvzEKwQo63R8FA0UntKVuqUYVeJyuGFMd9Q",
+    "sections": []
+  },
+  {
+    "title": "map 26_new.pdf",
+    "slug": "map-26-newpdf",
+    "sort": "map 26_new.pdf",
+    "id": "0B-TUKPEe5qkOSllGbkdUbk9xOEE",
+    "type": "PDF",
+    "src": "https://lh5.googleusercontent.com/h_QbXWJCiW-5_Hby6v_cKZYDthIceMmYkfieUUDv8qewMoMH186-P03fDIgIL20Im7QFQg",
+    "sections": []
+  },
+  {
+    "title": "map 26_new_B.pdf",
+    "slug": "map-26-new-bpdf",
+    "sort": "map 26_new_B.pdf",
+    "id": "0B-TUKPEe5qkOUENXQnRhN3pzYmM",
+    "type": "PDF",
+    "src": "https://lh6.googleusercontent.com/aj_Ht8X-MX_iDqE11-DjI9UE_VGkuPK1z6b7TvHVmGx0huiS-GofuoYD-TqsP7cJSjBZow",
+    "sections": []
+  },
+  {
+    "title": "map 26_new_B_corrected.pdf",
+    "slug": "map-26-new-b-correctedpdf",
+    "sort": "map 26_new_B_corrected.pdf",
+    "id": "0B-TUKPEe5qkOLV9TNHltX2ZHUWs",
+    "type": "PDF",
+    "src": "https://lh6.googleusercontent.com/k0OhM54VFD5VU6LWpZ-0b1r1p84FkkpGs4qJoqxPa1Fx759Ch2UogFzTpl9f8mMBxCC8Sw",
+    "sections": []
+  }
+]

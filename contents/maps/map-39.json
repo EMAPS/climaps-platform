@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Data",
+    "slug": "data",
+    "sort": "Data",
+    "id": "0B62v418roMdaSVJ2ZGp4ZW1nTGc",
+    "type": "folder",
+    "sections": []
+  },
+  {
+    "title": "Profiling adaptation and its place in climate change debates with Twitter&nbsp;(II) ",
+    "slug": "02-description",
+    "sort": "02 description",
+    "id": "1Q3zfneDfCCNLohVNf7EJd0H44eK6TBIjLCkNacocOf0",
+    "type": "Document",
+    "src": "https://lh6.googleusercontent.com/XvJss9prAv--h0CiQrOChfOVhfV_0EP2j1cuxRv87ktx-gjiP3rBFjC6Uqkm7PdB466-M2VxvU_tXf5SMzuyJw",
+    "sections": [
+      "<p class=\"c3 c6 title\"><a name=\"h.azk7oos3s8cn\"></a><span class=\"c0\">Profiling adaptation and its place in climate change debates with Twitter</span><span class=\"c4 c0\">&nbsp;(II) </span></p><p class=\"c3\"><span>If we take an exploratory approach, what issues emerge in the climate change Twitter space? To answer this questions we </span><span class=\"c4\">took a sample of one year&rsquo;s worth of climate-related tweets and focused on the hashtags these contained. A variety of hashtag clusters were identified and manually annotated, giving insight into the different themes that are addressed in the Twitter climate debate.The analysis revealed a multiplicity of sub-issues within the debate, including extreme weather conditions, international events, vulnerable animals and habitats, everyday life, and conflict. Here, the Twitter hashtag sphere also points to different vulnerability metrics, in particular in terms of victims of climate vulnerability. &nbsp;</span></p><p class=\"c14 c3\"><span class=\"c4\"></span></p><p class=\"c3\"><span style=\"overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 586.50px; height: 350.00px;\"><img alt=\"Screen Shot 2014-09-10 at 11.58.21 AM.png\" src=\"https://lh3.googleusercontent.com/8sHqljDyRyPjkuKIZ7d4wUjgC4TcWcHYxSR9ZpDJhuGslfutOVU3ZhNOKBD1LXyoM-414WddonP7a9V0SUoQFJqy1jfHlHY9VlDs6ewMO4K4I8b3X7LcV0j4dGw\" style=\"width: 586.50px; height: 350.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);\" title=\"\"></span><sup><a href=\"#cmnt1\" name=\"cmnt_ref1\">[a]</a></sup></p><p class=\"c3 c17\"><span>Figure 1: Profiling adaptation and its place in climate change debates with Twitter (II). Source: Digital Methods Initiative Fall Data Sprint. Date: </span><span class=\"c4\">21-25 October 2013</span></p><h1 class=\"c3 c11\"><a name=\"h.qeajlqjlacdc\"></a><span>How to read the map</span></h1><p class=\"c3 c10\"><span>A first broad exploration of the network graph shows a number of aspects that have long been a subject of discussion in the climate debate among scientists and the public. The network displays clusters focused on the two main approaches to dealing with the impacts of climate change, which are adaptation and mitigation. The visualization further reveals a number of dense clusters and some smaller more dispersed clusters. The particularly dense clusters reflect a localized take on the issue of climate change, centered on political events. Different metrics of vulnerability also find their way as important topics in the network, including international clusters, driven by instances of extreme weather as well as intergovernmental climate change conferences and similar events. </span></p><p class=\"c14 c3\"><span class=\"c0\"></span></p><h1 class=\"c3 c11\"><a name=\"h.syd3mjkex10l\"></a><span>How the map is built </span></h1><p class=\"c3 c15\"><span>Using the Twitter Capture and Analysis Toolset (TCAT), developed by the Digital Methods Initiative at the University of Amsterdam (Rieder &amp; Borra, 2014), a dataset of tweets between 23 November 2012 and 23 November 2013 containing the query [climate change or global warming] was obtained, consisting of 4,771,135 tweets from 1,780,225 distinct users. We identified hashtag clusters in the climate change Twitter space through a co-hashtag network analysis performed in Gephi using the modularity class algorithm and OpenOrd layout, and further manually annotated the clusters along with a close reading of the actual tweets to verify the different themes. The result is an annotated map of clusters which shows the top issues in the climate change space on Twitter.</span></p><p class=\"c14 c3\"><span></span></p><p class=\"c3 c14\"><span></span></p><h1 class=\"c3 c11\"><a name=\"h.golwjjbauyyu\"></a><span>References</span></h1><p class=\"c3 c16\"><span class=\"c4 c5\">E.K. Borra &amp; B. Rieder (2014). </span><span class=\"c1\"><a class=\"c18\" href=\"http://www.google.com/url?q=http%3A%2F%2Fwww.emeraldinsight.com%2Fjournals.htm%3Fissn%3D2050-3806%26volume%3D66%26issue%3D3%26articleid%3D17109516%26show%3Dabstract&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEvtXpZZEDG6AwKEzxsh9DD8ofSQw\">Programmed Method: Developing a Toolset for Capturing and Analyzing Tweets.</a></span><span class=\"c4 c5\">&nbsp;</span><span class=\"c4 c5 c13\">Aslib Journal of Information Management, 66</span><span class=\"c4 c5\">(3).</span></p><p class=\"c2\"><span></span></p><p class=\"c3 c7\"><span></span></p><p class=\"c2\"><span></span></p><p class=\"c2\"><span></span></p><div class=\"c9\"><p class=\"c3 c8\"><a href=\"#cmnt_ref1\" name=\"cmnt1\">[a]</a><span class=\"c19\">Colour-coding the hashtags is not that relevant so we might want to remove that.</span></p></div>"
+    ],
+    "subtitle": ""
+  },
+  {
+    "title": "metadata",
+    "slug": "03-metadata",
+    "sort": "03 metadata",
+    "id": "1JzKTijPctPKMxAGKkJSqtn8JUU3cdDGM1r4ONyQtxF8",
+    "type": "Document",
+    "src": "https://lh6.googleusercontent.com/-uAACAofc8JgPpya6c5FL4iuMnwycb9iYb59QEuQAlKR1M70N-qtZVBFI6ZoQOa56QAGKxRm6QJAs9rYZEKyKA",
+    "sections": [
+      "<h1 class=\"c1 c10\"><a name=\"h.z8f5pxp7ws2w\"></a><span>Authors</span></h1><p class=\"c1 c3\"><span>Sabine Niederer, Sophie Waterloo (University of Amsterdam), Gabriele Colombo (Density Design)</span></p><h1 class=\"c1 c10\"><a name=\"h.d776skyws2fx\"></a><span>Data time-stamp</span></h1><p class=\"c1 c3\"><span>Digital Methods Initiative Fall Data Sprint, </span><span class=\"c6\">21-25 October 2013</span></p><h1 class=\"c1 c10\"><a name=\"h.by2tmd68tmmy\"></a><span>Data source</span></h1><p class=\"c1 c3\"><span>Twitter, TCAT </span><span>(</span><span class=\"c6\">Twitter Capture and Analysis Toolset): </span><span class=\"c0\"><a class=\"c7\" href=\"https://www.google.com/url?q=https%3A%2F%2Fwiki.digitalmethods.net%2FDmi%2FToolDmiTcat&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNErYXEg8NEMGhjYMOzMmHqyYU5ydg\">https://wiki.digitalmethods.net/Dmi/ToolDmiTcat</a></span><span class=\"c6\">&nbsp;</span></p><p class=\"c1 c3 c4\"><span class=\"c5\"></span></p><p class=\"c1 c3\"><span class=\"c5\">Data files</span></p><p class=\"c1 c3\"><span class=\"c9\"><a class=\"c7\" href=\"https://drive.google.com/?tab=mo&amp;authuser=0#folders/0B62v418roMdaSVJ2ZGp4ZW1nTGc\">https://drive.google.com/?tab=mo&amp;authuser=0#folders/0B62v418roMdaSVJ2ZGp4ZW1nTGc</a></span><span>&nbsp;</span></p><p class=\"c1 c3 c4\"><span></span></p><p class=\"c1 c3\"><span class=\"c5\">Code</span></p><p class=\"c1 c3\"><span>No additional code associated with this map</span></p><h1 class=\"c1 c8\"><a name=\"h.fdux7m1reczs\"></a><span>Related narratives</span></h1><p class=\"c1\"><span>Narrative 4 - What is the substance of adaptation projects?</span></p><p class=\"c1\"><span>Narrative 6 - The status of mitigation and adaptation in the UNFCCC debates over time</span></p><h1 class=\"c1 c8\"><a name=\"h.jn4usoz3xpc8\"></a><span>Related maps</span></h1><p class=\"c1\"><span>Map_29</span></p><p class=\"c1\"><span>Map_8, Map_2</span></p><p class=\"c1 c4\"><span class=\"c5\"></span></p><p class=\"c1 c4\"><span></span></p>"
+    ]
+  },
+  {
+    "title": "finding 01",
+    "slug": "04-finding-01",
+    "sort": "04 finding 01",
+    "id": "1MXoHAKf1jOkifn5XkDcx8wlqC03SYOHdoWAu5CcffDM",
+    "type": "Document",
+    "src": "https://lh3.googleusercontent.com/Mtr5wNNVGXDXf0-ULgPq3S3luwVS3jmJkXdHBk4ZFGkt7wbxdj6w4--2Hi80FqVKDpj2EF15odwacmBBgp8sMA",
+    "sections": []
+  },
+  {
+    "title": "map 39.pdf",
+    "slug": "map-39pdf",
+    "sort": "map 39.pdf",
+    "id": "0B62v418roMdaYmpqT0VOXzFCUFE",
+    "type": "PDF",
+    "src": "https://lh6.googleusercontent.com/_Na21N9zzM3RZAGW8NSNYpOaHL7_nrj6PJTFaEgF6ResbLbCUqGE8MDTfFJdAfklds9o7g",
+    "sections": []
+  }
+]

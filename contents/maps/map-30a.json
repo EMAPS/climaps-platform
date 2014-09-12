@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Data",
+    "slug": "data",
+    "sort": "Data",
+    "id": "0B_CpGym5Ms7qREp2dEprd2FCZVk",
+    "type": "folder",
+    "sections": []
+  },
+  {
+    "title": "metadata",
+    "slug": "03-metadata",
+    "sort": "03 metadata",
+    "id": "1riJ-WhXjyrPn_1eu4RBoUdMfXYOJn-pqKC08ew53JFc",
+    "type": "Document",
+    "src": "https://lh6.googleusercontent.com/BjvnG6LwPZQzl_AIwPqE5z1ySGjjqzKVBrJC9DNOWbG9IAMWy2zw5NC2Pddz4M-VvNPLGVtL3219y4NfsoaPFw",
+    "sections": [
+      "<h1 class=\"c3\"><a name=\"h.z8f5pxp7ws2w\"></a><span>Authors</span></h1><p class=\"c1\"><span>Tommaso Venturini, Nicolas Baya-Laffite, Benjamin Ooghe-Tabanou, Kari De Pryck (M&eacute;dialab, Sciences Po, Paris); Martina Elisa Cecchi and Paolo Ciuccarelli (Density Design); Richard Rogers (University of Amsterdam) and Farhana Yamin (Chatham House)</span></p><h1 class=\"c3\"><a name=\"h.d776skyws2fx\"></a><span>Data time-stamp</span></h1><p class=\"c1\"><span>EMAPS Paris Sprint, 6-10 January 2014</span></p><h1 class=\"c3\"><a name=\"h.by2tmd68tmmy\"></a><span>Data source</span></h1><p class=\"c1\"><span>Earth Negotiations Bulletin, Volume 12, http://www.iisd.ca/vol12/.</span></p><p class=\"c1 c4\"><span class=\"c2\"></span></p><p class=\"c1\"><span class=\"c2\">Data files</span></p><p class=\"c1\"><span>https://drive.google.com/#folders/0B3e-HpGNh9BwTldnVEtmZFpvZVk</span></p><p class=\"c1 c4\"><span></span></p><p class=\"c1\"><span class=\"c2\">Code</span></p><p class=\"c1\"><span>No additional code associated with this map</span></p><h1 class=\"c3\"><a name=\"h.fdux7m1reczs\"></a><span>Related narratives</span></h1><p class=\"c1\"><span>The Status of Mitigation and Adaptation in the UNFCCC Debates over time</span></p><h1 class=\"c0\"><a name=\"h.jn4usoz3xpc8\"></a><span>Related maps</span></h1><p class=\"c6\"><span>Figure 2. Stream graph of the absolute and relative visibility of the themes of the negotiation. </span></p><p class=\"c4 c6\"><span></span></p>"
+    ]
+  },
+  {
+    "title": "30a.pdf",
+    "slug": "30apdf",
+    "sort": "30a.pdf",
+    "id": "0B8IzzGJL8A61R25pblpQdlJRTE0",
+    "type": "PDF",
+    "src": "https://lh3.googleusercontent.com/YS5_KXKpHp2qF007TiVrFF0nVtqJo-6Azp7XFIL5ETiPYDC2i1DiR6-h5AN_BdLcsJEWjQ",
+    "sections": []
+  },
+  {
+    "title": "30a_old.pdf",
+    "slug": "30a-oldpdf",
+    "sort": "30a_old.pdf",
+    "id": "0B_CpGym5Ms7qNC1xdDZUUFRDNDA",
+    "type": "PDF",
+    "src": "https://lh5.googleusercontent.com/5QTEaDxETU2Rk1nJLmNMxYEFyBcaY1SkNv5gqEN3Lgn-0qXJX0D_eDvVvxWkyNF7fdtIiA",
+    "sections": []
+  },
+  {
+    "title": "description",
+    "slug": "description",
+    "sort": "description",
+    "id": "108jQT_0C4DdV0iT1cyG4elzFaazf5BQFKojWwA9sLRY",
+    "type": "Document",
+    "src": "https://lh3.googleusercontent.com/pyI5NCUTAk6N7b0BVlc6KqSDdFJEqCnypT6XYW9_oGScH6Sp9dNq6Nbbr7ynl6rCoMxIEoAu24n8UEbKnzdFMg",
+    "sections": []
+  },
+  {
+    "title": "finding",
+    "slug": "finding",
+    "sort": "finding",
+    "id": "1jH3bT89fHDiO6dQkW6LyF97qvBl7_HRvbL2EQPsr8x8",
+    "type": "Document",
+    "src": "https://lh5.googleusercontent.com/R26RQO02YUHjkBEihWvYsx7hkSDm5XJlNiYqbEGa_aCQHxU4rK54-8Pyfxl9Lgl1Vjp5f99-57w7W492XqOagA",
+    "sections": []
+  }
+]

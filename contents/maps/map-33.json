@@ -1,0 +1,70 @@
+[
+  {
+    "title": "placeholder.png",
+    "slug": "01-placeholderpng",
+    "sort": "01 placeholder.png",
+    "id": "0B8IzzGJL8A61NFVxTDBBejlqNjA",
+    "type": "PNG Image",
+    "src": "https://lh3.googleusercontent.com/36ILaolj9sXpvJt9UFAXedLexOHMqgKHNIWKnaEKd15AMUEqmwZc0s0y5_cf6BmRZI4XLw",
+    "sections": []
+  },
+  {
+    "title": "Comparison of &ldquo;climate talk&rdquo; in February 2014 and September 2013, in France.",
+    "slug": "02-description",
+    "sort": "02 description",
+    "id": "13nERv4ut_3J8E4NIKwhVuq93Z_2XysW_nqHGfkZOmWc",
+    "type": "Document",
+    "src": "https://lh6.googleusercontent.com/ChawVqqpEYASsVLB3aOgkNC1v0049qnHqNJpzd70VFBeSFvbplYaovdrtgLDT-BNAFrvzEPPG3pnOJ4Q1xCnSg",
+    "sections": [
+      "<p class=\"c1 c5 title\"><a name=\"h.azk7oos3s8cn\"></a><span>Comparison of &ldquo;climate talk&rdquo; in February 2014 and September 2013, in France.</span></p><p class=\"c0\"><span></span></p><p class=\"c1\"><span class=\"c7\">The </span><span class=\"c4\">map </span><span class=\"c7\">is a geographical illustration of &ldquo;climate talk&rdquo;. A comparison is made between comments made regarding climate change in September 2013 (blue), and those made in February 2014 (pink). The basemap is shaded to represent the total amount of comments in each d&eacute;partement of France. </span><span class=\"c2\">The half-bubbles grow according to their percentage of total comments.</span></p><p class=\"c0\"><span></span></p><p class=\"c1 c8\"><span style=\"overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 388.00px;\"><img alt=\"\" src=\"https://lh6.googleusercontent.com/J65jHKM-Or_veyVR-CBQwQNyHNljLfM80nJhjPfYu0AFwPzGx8b3rY4rb8L44fKmBe4wqPcuBVRXnYOdzUVApojvRB03kUr6o5sb-MtnGoqc1KF9vzL2pAjy-Bs\" style=\"width: 624.00px; height: 388.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);\" title=\"\"></span></p><h4 class=\"c1 c5 c10\"><a name=\"h.sohw3tvzm6g8\"></a><span>Figure 1. Comparison of &ldquo;climate talk&rdquo; </span><span>in February 2014 and September 2013, in France</span></h4><h1 class=\"c1 c3\"><a name=\"h.undpthsa1rf9\"></a><span>How to read the map</span></h1><p class=\"c1\"><span class=\"c6\">The map shows a network of terms that co-occur in the same paragraphs of the ENB, Volume 12. Node position is determined by a force vector algorithm in Gephi (Jacomy et al., forthcoming) bringing together terms directly or indirectly linked, and keeping away terms with fewer co-occurrences. Node size is proportional to their frequency in the corpus. Node color follows the clusters identified by the clustering algorithm. The names of the clusters have been attributed manually. Adaptation themes, whilst fewer than those of mitigation, are central.</span><span>&nbsp;</span></p><h1 class=\"c1 c3\"><a name=\"h.nfjvr2a5zplw\"></a><span>How the map is built (map building protocol)</span></h1><p class=\"c1\"><span>Our corpus was built from user comments on the Facebook pages of 23 French newspapers (9 national and 14 regional). All comments from September 2013 and February 2014 were included which were returned on the basis of the query &ldquo;climat/ rechauffement&rdquo; (climate/ warming).</span></p><p class=\"c0\"><span></span></p><p class=\"c1\"><span>February 2014 was selected for inclusion as a month of intense storms in France, and contrasted with September 2013 which was a relatively quiet month in terms of weather events. </span></p><p class=\"c0\"><span></span></p><p class=\"c1\"><span>The second step is dedicated to analysis. Netvizz and its comments analytics tool was used.</span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><h1 class=\"c1 c3\"><a name=\"h.xo94nwvaky1k\"></a><span>References</span></h1><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p>"
+    ],
+    "subtitle": ""
+  },
+  {
+    "title": "metadata",
+    "slug": "03-metadata",
+    "sort": "03 metadata",
+    "id": "1ZRKMdd_N-OdIgnIpJkg1D4pSU62Z0SORCVD_RvofoHY",
+    "type": "Document",
+    "src": "https://lh3.googleusercontent.com/Glvxpdh2EVpDSSbgG-FBhUSmZYLmrRoJ-NF_lsZGyAXl3SyRWUgNdreT0qiX_d-tz2_nPWP_cnOOLkJkcHF-3w",
+    "sections": [
+      "<h1 class=\"c2\"><a name=\"h.z8f5pxp7ws2w\"></a><span>Authors</span></h1><p class=\"c4\"><span>Axel Meunier (M&eacute;dialab, Sciences Po, Paris); Giovanni Magni and Giulia de Amicis (Density Design); Bernhard Rieder (University of Amsterdam) and Ezgi Akdag, Inte Gloerich and Andreas Birkbak (institution?)</span></p><h1 class=\"c2\"><a name=\"h.d776skyws2fx\"></a><span>Data time-stamp</span></h1><p class=\"c4\"><span>EMAPS Amsterdam Sprint, 24-28 March 2014</span></p><h1 class=\"c2\"><a name=\"h.by2tmd68tmmy\"></a><span>Data source</span></h1><p class=\"c0\"><span></span></p><p class=\"c0\"><span class=\"c1\"></span></p><p class=\"c4\"><span class=\"c1\">Data files</span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><p class=\"c4\"><span class=\"c1\">Code</span></p><p class=\"c0\"><span></span></p><h1 class=\"c2\"><a name=\"h.fdux7m1reczs\"></a><span>Related narratives</span></h1><h1 class=\"c2\"><a name=\"h.m86654r30iaf\"></a><span>Related maps</span></h1><p class=\"c0\"><span></span></p>"
+    ]
+  },
+  {
+    "title": "finding 01",
+    "slug": "04-finding-01",
+    "sort": "04 finding 01",
+    "id": "1ooqE9tcoHq-sHVtcD6L_ZAQo94fuCliuVASyj8aUr8w",
+    "type": "Document",
+    "src": "https://lh6.googleusercontent.com/buUKmP8jOuO5SjsrDdbMy0QWJ8wQMY7hX-aS79Mr_5Cm0zvhanhRZ--dODOmMiMVKZMEHGRUeFajy0Xx2uAW4A",
+    "sections": []
+  },
+  {
+    "title": "finding 02",
+    "slug": "04-finding-02",
+    "sort": "04 finding 02",
+    "id": "17NUGBKq48XjdCHUwg7-0e-tIeE1aYBXN20vLVdw5tbU",
+    "type": "Document",
+    "src": "https://lh3.googleusercontent.com/n8Zpeeu-DEA6zW92amTJuTJe_QBJpnBwAuTLifIJ7-aCr7reS-1MrBOtiSoZTZ6TST0WPPXVnsKfoRl5cf8D7g",
+    "sections": []
+  },
+  {
+    "title": "33.pdf",
+    "slug": "33pdf",
+    "sort": "33.pdf",
+    "id": "0B8IzzGJL8A61TDAxWlRFMWdGM1E",
+    "type": "PDF",
+    "src": "https://lh3.googleusercontent.com/Wbp_7e4sMAka7BWG-Nzc7o88CBTZQrhhp8PT1tU-Pli7qDaZ9jolGbqvuLUkV84O8CC5gQ",
+    "sections": []
+  },
+  {
+    "title": "33_old.pdf",
+    "slug": "33-oldpdf",
+    "sort": "33_old.pdf",
+    "id": "0B_CpGym5Ms7qWmJONFhSWE1zR3M",
+    "type": "PDF",
+    "src": "https://lh6.googleusercontent.com/F-6H1KOGxLLAT1w7Ol3RYnBQUlyItXnrtKD0SbM636g760jnDyZu39nK9LsZExG0CBh3TA",
+    "sections": []
+  }
+]

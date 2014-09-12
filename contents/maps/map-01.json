@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Data",
+    "slug": "data",
+    "sort": "Data",
+    "id": "0B0Qm7RJqWbEoV2cxekgwTlJTT1E",
+    "type": "folder",
+    "sections": []
+  },
+  {
+    "title": "data",
+    "slug": "data",
+    "sort": "data",
+    "id": "0BxqL8KlS3YihT3c1ejNHNjkxMkE",
+    "type": "folder",
+    "sections": []
+  },
+  {
+    "title": "cover.png",
+    "slug": "coverpng",
+    "sort": "cover.png",
+    "id": "0ByZTyEnzm9qqNDdyLUF2RTAxdGc",
+    "type": "PNG Image",
+    "src": "https://lh6.googleusercontent.com/nIuvcjwaMzdFMi1By339zG8CCCayMSV5P2uPIOflb68w-fjmSZzrY_sbiz7lXCLv01Q_iA",
+    "sections": []
+  },
+  {
+    "title": "placeholder.png",
+    "slug": "placeholderpng",
+    "sort": "placeholder.png",
+    "id": "0B_CpGym5Ms7qbHFZUm9tbE42eTA",
+    "type": "PNG Image",
+    "src": "https://lh6.googleusercontent.com/n1gQwNAypTKULjz7-x8j8Uxlm-1-uKeDof9t5rjIpukjZG6Q58A7-3p3qM7F_62_neP7UA",
+    "sections": []
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "title": "data",
+    "slug": "data",
+    "sort": "data",
+    "id": "0BxqL8KlS3YihVW81Yk1lQU1BQ1E",
+    "type": "folder",
+    "sections": []
+  },
+  {
+    "title": "Bilateral Funds and vulnerability indexes",
+    "slug": "02-description",
+    "sort": "02 description",
+    "id": "1n1-ICLi_prdZE7vBXZOJnN_lRuFyRy1v6gTBmJnHlAw",
+    "type": "Document",
+    "src": "https://lh6.googleusercontent.com/cjn9eYAGheVmfIoWRrMCZP_Lfb7fCfDhIPvos0JKPuFA6s9xAepigkBoghcrNHF8dsGMfyZtYgaZpWj1aq1Luw",
+    "sections": [
+      "<p class=\"c1 c4 title\"><a name=\"h.azk7oos3s8cn\"></a><span>Bilateral Funds and vulnerability indexes</span></p><p class=\"c1\"><span>The map shows the distribution of bilateral funding from each donor country going to recipient countries coloured for the four indexes (GAIN, Germanwatch, Dara and the Human Development Index). Data is from the Climate Funds Update database. </span></p><p class=\"c1 c3\"><span></span></p><p class=\"c1 c7\"><span style=\"overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 519.76px; height: 659.50px;\"><img alt=\"\" src=\"https://lh5.googleusercontent.com/1MhRXsJn4MLIVOPzHmUQJwzeni-KIQQ_2YtNMh7tXXQFZfT732KCeETVkofoFRus8t_2xNqXRzaZyPHcWS51z-IcoSbysnP1wABP0CBbSlg3P00iMbeD-MnpeYQ\" style=\"width: 519.76px; height: 659.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);\" title=\"\"></span></p><h4 class=\"c1 c2\"><a name=\"h.hf9ziohb6665\"></a><span>Figure 1. </span></h4><h4 class=\"c1 c2 c3\"><a name=\"h.sohw3tvzm6g8\"></a></h4><h1 class=\"c0\"><a name=\"h.undpthsa1rf9\"></a><span>How to read the map</span></h1><p class=\"c1\"><span class=\"c5\">By comparing the temparature scales between countries you can see the split of funding according to the rankings for each index. The more red a country&rsquo;s scale is, the more funding is going to highly vulnerable ranked countries. </span></p><p class=\"c1 c3\"><span class=\"c5\"></span></p><p class=\"c1\"><span class=\"c5\">The visualisation shows that most countries providing bilateral aid have a fairly balanced approach. In terms of the most significant findings per index, bilateral funding data compared with the Germanwatch index indicates that Japan is granting the most adaptation funding, but this is mostly to countries ranking as having medium or low vulnerability. This suggests that the granting of funding does not necessarily just relate to the vulnerability of the country, and may also relate to the geopolitical interests of the donor. The DARA index however, indicates that many donor countries are donating small amounts of funding, but frequently to high vulnerability countries. The GAIN index and HDI also indicate this trend, leading to the assumption that vulnerability funding may be development aid by another name.</span></p><h1 class=\"c0\"><a name=\"h.iyolzkf6qjls\"></a><span>How the map is built (map building protocol)</span></h1><p class=\"c1\"><span class=\"c5\">Data on bilateral funding from the Climate Funds Update database was combined with four indices, to investigate the relationships between bilateral funding and the indices assessed vulnerability of recipient countries. This data is visualised per index. Here the four indices are shown as lines of donors. The colour represents high vulnerability on a temperature scale with red indicating the most vulnerable, and green the least. Notably, not all countries are represented on the index, as some go to country groupings such as small island nations.</span></p><p class=\"c1 c3\"><span class=\"c5\"></span></p><h1 class=\"c0\"><a name=\"h.xo94nwvaky1k\"></a><span>References</span></h1><p class=\"c1\"><span>Jacomy et al., forthcoming<br>Louvain et al., 2008<br>Weeds and Weir, 2005</span></p><p class=\"c1 c3\"><span></span></p><p class=\"c1 c3\"><span></span></p><p class=\"c1 c3\"><span></span></p><p class=\"c1 c3\"><span></span></p><p class=\"c1 c3\"><span></span></p>"
+    ],
+    "subtitle": ""
+  },
+  {
+    "title": "metadata",
+    "slug": "03-metadata",
+    "sort": "03 metadata",
+    "id": "1tKGqhGSIexmzHec-Zqf2ngYlCS9ctPQVt7GynjDfF7o",
+    "type": "Document",
+    "src": "https://lh5.googleusercontent.com/Acuwd1usBbNsc9xiAcR6icqHa5O5EY0hXur2vxfF6VnTJBp4efnCz0tmBSaBY7uAvYnzTK-4A-NcK9VIXg6WeA",
+    "sections": [
+      "<h1 class=\"c1\"><a name=\"h.z8f5pxp7ws2w\"></a><span>Authors</span></h1><p class=\"c2 c8\"><span class=\"c10\">Esther Weltevrede, Rebecca Cachia, Fernando van der Vlist, Susan Clandillon, Pascal Janssens, &nbsp;Marieke van Dijk (UvA), Alice Caravani (ODI), Mathieu Jacomy, Anders Munk (Sciences Po), Peter Gerry (Young Foundation), Stefania Guerra, Simone Pirini (Density Design)</span></p><h1 class=\"c1\"><a name=\"h.d776skyws2fx\"></a><span>Data time-stamp</span></h1><p class=\"c2 c8\"><span>EMAPS Paris Sprint, 6-10 January 2014</span></p><p class=\"c2\"><span>EMAPS Amsterdam Sprint, </span><span class=\"c10\">24 and 28 March</span><span class=\"c9\">&nbsp;</span><span>2014</span></p><h1 class=\"c1 c5\"><a name=\"h.by2tmd68tmmy\"></a><span>Data source</span></h1><p class=\"c2\"><span>Climate Funds Update (</span><span class=\"c4\"><a class=\"c3\" href=\"http://www.google.com/url?q=http%3A%2F%2Fwww.climatefundsupdate.org%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGSSUEBDaYI1eoxe4oBFHLMwGBIxA\">http://www.climatefundsupdate.org/</a></span><span>)</span></p><p class=\"c2\"><span>DARA Climate Vulnerabilty Index (</span><span class=\"c4\"><a class=\"c3\" href=\"http://www.google.com/url?q=http%3A%2F%2Fdaraint.org%2Fclimate-vulnerability-monitor%2Fclimate-vulnerability-monitor-2012%2Fcgd-cvm2nded%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGgl8tO5CIrwK4soPVyac_IU3pn-g\">http://daraint.org/climate-vulnerability-monitor/climate-vulnerability-monitor-2012/cgd-cvm2nded/</a></span><span>) </span></p><p class=\"c2\"><span>GAIN Index (</span><span class=\"c4\"><a class=\"c3\" href=\"http://www.google.com/url?q=http%3A%2F%2Findex.gain.org%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNE9m8NuE_RPpHF7oYGeIZEEIxNX7Q\">http://index.gain.org/</a></span><span>)</span></p><p class=\"c2\"><span>Germanwatch Index (</span><span class=\"c4\"><a class=\"c3\" href=\"https://www.google.com/url?q=https%3A%2F%2Fgermanwatch.org%2Fen%2Fccpi&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFVvZkDYy_Qie8BkF3lUlsq6O9Nvg\">https://germanwatch.org/en/ccpi</a></span><span>) </span></p><p class=\"c2\"><span>Human Development Index (</span><span class=\"c4\"><a class=\"c3\" href=\"http://www.google.com/url?q=http%3A%2F%2Fhdr.undp.org%2Fen%2Fcontent%2Fhuman-development-index-hdi&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEYBpC5pSqDaESqyoqlVJR8S8cS6A\">http://hdr.undp.org/en/content/human-development-index-hdi</a></span><span>)</span></p><p class=\"c2 c6\"><span class=\"c0\"></span></p><p class=\"c2\"><span class=\"c0\">Data files</span></p><p class=\"c2\"><span class=\"c4\"><a class=\"c3\" href=\"https://docs.google.com/spreadsheets/d/1UzbI9vshyxP8tOx4Or48x5EotsRO_Piwu63cwZQHcK4/edit?usp=sharing\">https://docs.google.com/spreadsheets/d/1UzbI9vshyxP8tOx4Or48x5EotsRO_Piwu63cwZQHcK4/edit?usp=sharing</a></span><span>&nbsp;</span></p><p class=\"c2 c6\"><span class=\"c0\"></span></p><p class=\"c2\"><span class=\"c0\">Code</span></p><p class=\"c2\"><span>No additional code associated with this map</span></p><h1 class=\"c1 c5\"><a name=\"h.fdux7m1reczs\"></a><span>Related narratives</span></h1><p class=\"c2 c6\"><span></span></p><h1 class=\"c1 c5\"><a name=\"h.jn4usoz3xpc8\"></a><span>Related maps</span></h1><p class=\"c2\"><span>Map 12: Multilateral Funding </span></p><p class=\"c2\"><span>Map 15: Index Mentions in UNFCCC</span></p><p class=\"c2 c6\"><span></span></p><p class=\"c2 c6\"><span></span></p>"
+    ]
+  },
+  {
+    "title": "finding 01",
+    "slug": "04-finding-01",
+    "sort": "04 finding 01",
+    "id": "1OJkwn-LLsq5c1Xui38BIS7vef02aqpkpJYXSJrODvrE",
+    "type": "Document",
+    "src": "https://lh4.googleusercontent.com/ORdqBFr-GljkGmM7YXvSGKH28RfPaJrCXX-cGCP2GHZl1Z-XHqu6he6NEjQxzCmQY2qPgLg6W5OoECZGiRTNTw",
+    "sections": []
+  },
+  {
+    "title": "finding 02",
+    "slug": "04-finding-02",
+    "sort": "04 finding 02",
+    "id": "1qhJTK1Ysns1_NvXbSS4mOXYrU5UUcEFGA-0lRvWvCLs",
+    "type": "Document",
+    "src": "https://lh6.googleusercontent.com/3TN4xnl_XR-Jm7uvOIIFdBA7R5QsZ-O9jnIeiI1M0KsrnZeyPtkKsuZqvosDprmBE-4W7F0-cUYebY4seTvVrg",
+    "sections": []
+  },
+  {
+    "title": "13.jpg",
+    "slug": "13jpg",
+    "sort": "13.jpg",
+    "id": "0BxqL8KlS3Yihcll4RjNGNjVHc1U",
+    "type": "JPEG Image",
+    "src": "https://lh6.googleusercontent.com/xf6cp5Pb7PhJS8ZKs8bjIe-Es4JxPvH50AS0fJPrN9dw1ZS0HfrWoeWQ2qxGDfIvJcCg1w",
+    "sections": []
+  },
+  {
+    "title": "13.pdf",
+    "slug": "13pdf",
+    "sort": "13.pdf",
+    "id": "0B_CpGym5Ms7qVDEyeFVYWk5ZTWs",
+    "type": "PDF",
+    "src": "https://lh4.googleusercontent.com/DvuW-lp7P58Y4qVlIk-M4btOWAoOSKI5jfyhjcezhm9CBDhBNNv8vB2Jg8DsU2QW-J4NJg",
+    "sections": []
+  },
+  {
+    "title": "13_new.pdf",
+    "slug": "13-newpdf",
+    "sort": "13_new.pdf",
+    "id": "0B8IzzGJL8A61aFJ3Nk9YanRfNlk",
+    "type": "folder",
+    "sections": []
+  }
+]

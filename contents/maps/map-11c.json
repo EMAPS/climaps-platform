@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Map_11",
+    "slug": "map-11",
+    "sort": "Map_11",
+    "id": "0B_CpGym5Ms7qREN5SDRqMlBmNVk",
+    "type": "folder",
+    "sections": []
+  },
+  {
+    "title": "Adaptation projects in Germany per natural area ",
+    "slug": "02-description",
+    "sort": "02 description",
+    "id": "1zv-GdXBG920zmYAmcXhJ7tq_tCGq-9NR1QwxD3JiLUA",
+    "type": "Document",
+    "src": "https://lh3.googleusercontent.com/pnT1jU9pZw4JfI2y7mWmssepdSgDmrE1op4c-A5E5TI-o850qDDbLNHrkAGIs1gezthCBqkSsTWmD9fulv0jjQ",
+    "sections": [
+      "<p class=\"c2 c8 title\"><a name=\"h.azk7oos3s8cn\"></a><span>Adaptation projects in Germany per natural area </span></p><p class=\"c2\"><span>Distribution of adaptation research projects per natural area of Germany. The identification of vulnerability of natural areas to global change (especially climate change) in Germany is based on the vulnerability matrix with concluding vulnerability estimations for the natural regions in Germany </span><span class=\"c10\">by simple overlapping and adding the vulnerabilities of the sectors of water, agriculture, forestry, biodiversity and nature protection, human health, tourism, transport (Zebisch et al. 2005, p. 168).</span><span>&nbsp; </span></p><p class=\"c2 c5\"><span></span></p><p class=\"c2 c5\"><span></span></p><p class=\"c2\"><span>Disclaimer: this map is agnostic wih respect to the amount of money spent on each project, so the size of circles is just to be interpreted as number of projects, and it does not necessarily correspond to the total amount of money spent on an area.</span></p><p class=\"c2 c5\"><span></span></p><p class=\"c2 c9\"><span style=\"overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 441.33px;\"><img alt=\"11c.png\" src=\"https://lh4.googleusercontent.com/GOJ2iNRtXdMZZYLNGyEjazLazLik94e_9hM7L3JmX46lSH6vlO9b8HgdwHtPRAHOnu_wsSSY-EbMp5RMqPZYpfcwpijxEyYAxh9igqKqqbWBaJgyXQMEhXB1e98\" style=\"width: 624.00px; height: 441.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);\" title=\"\"></span></p><h5 class=\"c2 c8\"><a name=\"h.a1gi146csj73\"></a><span>Figure 1: Distribution of adaptation research projects per natural area of Germany. </span></h5><h1 class=\"c2 c8\"><a name=\"h.fct9zgeet9l\"></a><span>How to read the map</span></h1><p class=\"c2\"><span>The map shows the number of adaptation projects funded in Germany per natural area. The territory is not divided according to administrative regions, but to natural areas. Color represents the vulnerability level of each natural area. The size of each circle represents the number of funded adaptation projects in the corresponding area. </span></p><p class=\"c2 c5 c7\"><span></span></p><h1 class=\"c2 c8\"><a name=\"h.lp1sdakd5hic\"></a><span>How the map is built (map building protocol)</span></h1><p class=\"c2\"><span>As a part of its mission, KomPass put together a project catalogue that documents about 300 scientific projects from 1990 to 2014 in Germany and Central Europe, in order to generate basic knowledge on climate change adaptation to citizens and funders, as well as academia. It is created to inform stakeholders from research and research sponsors by collecting existing knowledge about climate impacts and adaptation.</span></p><p class=\"c2\"><span>The project catalogue dataset by KomPass was processed multiple times in order to receive the those fields that were necessary to answer the research questions but also additional fields:</span></p><ol class=\"c6 lst-kix_3dbxwugtru1q-0 start\" start=\"1\"><li class=\"c0\"><span>Title + Abstract</span></li><li class=\"c0\"><span>Start date + end date</span></li><li class=\"c0\"><span>Impacts and sectors/fields of activity</span></li><li class=\"c0\"><span>Involved actors (founders, coordinators, participants)</span></li><li class=\"c0\"><span>Target administrative region</span></li><li class=\"c0\"><span>Target bio-geographical region (uncontrolled)</span></li><li class=\"c0\"><span>Fundings</span></li></ol><p class=\"c2\"><span>By doing this it was possible to identify project locations in relation to the natural areas.</span></p><p class=\"c2\"><span>Overlapping the two maps of project locations and vulnerabilities (figure 1), is to define the relationship between the number of projects and the geography of Germany and to investigate if the vulnerable places have more projects conducted in them. In other words, with this map we get an overview of the distribution of projects in relation to the vulnerability of each area. This data is matched with specific impacts of climate change for each of the natural areas with the number of projects concerning the relevant sectors.</span></p><p class=\"c2\"><span>The vulnerability map shows in which natural area floods, droughts, agricultural impacts, forestry impacts, diseases and heat waves are more (or less) susceptible, and the vulnerability levels compared to the number of projects that were funded in these areas.</span></p><h1 class=\"c2 c3\"><a name=\"h.6fzls23p1m6y\"></a></h1><h1 class=\"c2 c8\"><a name=\"h.qehwadohv7f8\"></a><span>References</span></h1><p class=\"c2 c5 c7\"><span></span></p><p class=\"c2\"><span>Fleischhauer, M., Lindner, C., L&uuml;ckenk&ouml;tter, J. &amp; Greiving, S. &ldquo;Gesamtbild der Vulnerabilit&auml;t in Deutschland &ndash; Ergebnisse einer Meta-Analyse von Klimafolgenstudien&rdquo; </span><span class=\"c4\">(= A vulnerability patchwork - results from a meta-analysis of climate change adaptation studies in Germany)</span><span>&nbsp;Schlussbericht AP 2 zum Netzwerk Vulnerabilit&auml;t (UBA-Vorhaben Z 6 &ndash; 50 205 5/10), 2014.</span></p><p class=\"c2 c5\"><span></span></p><p class=\"c2\"><span>Greiving, S., Zebisch, M., Schneiderbauer, S., Fleischhauer, M., Lindner, C., L&uuml;ckenk&ouml;tter, J., Schauser, I., Kahlenborn, W. &amp; Buth, M. &ldquo;A consensus based vulnerability assessment to climate change in Germany&rdquo;. </span><span class=\"c4\">International Journal of Climate Change Strategies and Management</span><span>&nbsp;2014 (manuscript accepted; manuscript ID = IJCCSM-11-2013-0124.R4.)</span></p><p class=\"c2 c5\"><span></span></p><p class=\"c2 c5\"><span></span></p>"
+    ],
+    "subtitle": ""
+  },
+  {
+    "title": "metadata",
+    "slug": "03-metadata",
+    "sort": "03 metadata",
+    "id": "12zA9z1RR8YN8dkfdZoElvq5H7L-15X9-r-tlGYw1Awk",
+    "type": "Document",
+    "src": "https://lh6.googleusercontent.com/1VANBve3wABOv5yiUGTQXydLtU1hBwUhBAKeprZlYcNKvZeg_IpPybCfD4een-Uak1cu3HXyIXfr4Dqrt-VqRA",
+    "sections": [
+      "<h1 class=\"c0\"><a name=\"h.z8f5pxp7ws2w\"></a><span>Authors</span></h1><p class=\"c4\"><span>Valarakis, A., Jang, Y. J. C., De Gaetano, C., Elli, T., Laniado, D., Fleischhauer, M.</span></p><h1 class=\"c0\"><a name=\"h.d776skyws2fx\"></a><span>Data time-stamp</span></h1><p class=\"c1\"><span>EMAPS Amsterdam Sprint, 24-28 March 2014</span></p><h1 class=\"c0\"><a name=\"h.by2tmd68tmmy\"></a><span>Data source</span></h1><p class=\"c1\"><span>KomPass project database &hellip;.</span></p><p class=\"c1 c6\"><span></span></p><p class=\"c1\"><span class=\"c2\">Data files</span></p><p class=\"c1\"><span class=\"c5\"><a class=\"c3\" href=\"https://drive.google.com/#folders/0B3e-HpGNh9BwOVZraUh4dnRyS1U\">https://drive.google.com/#folders/0B3e-HpGNh9BwOVZraUh4dnRyS1U</a></span></p><p class=\"c1 c6\"><span class=\"c2\"></span></p><p class=\"c1\"><span class=\"c2\">Code</span></p><p class=\"c1\"><span class=\"c5\"><a class=\"c3\" href=\"https://drive.google.com/#folders/0B3e-HpGNh9BwOVZraUh4dnRyS1U\">https://drive.google.com/#folders/0B3e-HpGNh9BwOVZraUh4dnRyS1U</a></span></p><h1 class=\"c0\"><a name=\"h.fdux7m1reczs\"></a><span>Related narratives</span></h1><p class=\"c1\"><span>Narrative 1-2, &hellip;.</span></p><h1 class=\"c0 c8\"><a name=\"h.jn4usoz3xpc8\"></a><span>Related maps</span></h1><p class=\"c4\"><span>Map 11l</span></p>"
+    ]
+  },
+  {
+    "title": "finding 01",
+    "slug": "04-finding-01",
+    "sort": "04 finding 01",
+    "id": "1DC13Jf9UheS12oJ4ePEPB8KfK0-IovUifTmtoElEz8c",
+    "type": "Document",
+    "src": "https://lh4.googleusercontent.com/6w8WKDZ__-o04YPY5BDgEnFR3AsCG0aixvaUL5AXVF5v_CSso4JyJTzoHwQbA5n4lz5ODlv3dYHrywgV78VKEg",
+    "sections": []
+  },
+  {
+    "title": "11c",
+    "slug": "11c",
+    "sort": "11c",
+    "id": "19c-6Wprmc9H3ERp4_tYPGuPXx1HZDnHVdcRH5e4tX-0",
+    "type": "Document",
+    "src": "https://lh5.googleusercontent.com/7Wb6GTp3Y1RrNTJsqvDoNyy_Ez88uVVEgaHujSkWMYLdcqSS-cU-9pXb8pqfkh_COaOqfZrJTaonBpEknAWnBg",
+    "sections": []
+  },
+  {
+    "title": "11c.png",
+    "slug": "11cpng",
+    "sort": "11c.png",
+    "id": "0B3_Z30yM93jgMmpjZGUzS2d2V1k",
+    "type": "PNG Image",
+    "src": "https://lh5.googleusercontent.com/13uaGAn4gUbGYqw7YUR0DPP9TggedkK05mfwIeFPKlCdOCfMwud3OV44OQx-NgEdJCst9w",
+    "sections": []
+  }
+]

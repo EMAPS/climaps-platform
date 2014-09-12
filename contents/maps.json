@@ -1,0 +1,316 @@
+[
+  {
+    "title": "Map_01",
+    "slug": "map-01",
+    "sort": "Map_01",
+    "id": "0B_CpGym5Ms7qU3loWjI4RDFtSEk",
+    "type": "folder",
+    "cover": "https://lh6.googleusercontent.com/nIuvcjwaMzdFMi1By339zG8CCCayMSV5P2uPIOflb68w-fjmSZzrY_sbiz7lXCLv01Q_iA"
+  },
+  {
+    "title": "Comparing adaption project datasets",
+    "slug": "map-02",
+    "sort": "Map_02",
+    "id": "0B_CpGym5Ms7qOGZRUUtfX3hSWWM",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Adaptation projects querying tool",
+    "slug": "map-07",
+    "sort": "Map_07",
+    "id": "0B_CpGym5Ms7qMGVveE90cDEyZHc",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Adaptation Funding in Bangladesh - Treemaps of the distribution of funds and projects",
+    "slug": "map-10",
+    "sort": "Map_10",
+    "id": "0B_CpGym5Ms7qWVUxZTBIaUpqcWs",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Map_10a",
+    "slug": "map-10a",
+    "sort": "Map_10a",
+    "id": "0B8TmR5AwOSwicmdENHJGOEFSQ28",
+    "type": "folder"
+  },
+  {
+    "title": "Map_10b",
+    "slug": "map-10b",
+    "sort": "Map_10b",
+    "id": "0B8TmR5AwOSwibnhfT1RVS1hTbkk",
+    "type": "folder"
+  },
+  {
+    "title": "Map_10c",
+    "slug": "map-10c",
+    "sort": "Map_10c",
+    "id": "0B8TmR5AwOSwidW5JZ25QRXktT2M",
+    "type": "folder"
+  },
+  {
+    "title": "Map_10d",
+    "slug": "map-10d",
+    "sort": "Map_10d",
+    "id": "0B8TmR5AwOSwiT2VwbE5KbDBvYzg",
+    "type": "folder"
+  },
+  {
+    "title": "Adaptation projects in Germany per natural area ",
+    "slug": "map-11c",
+    "sort": "Map_11c",
+    "id": "0B3_Z30yM93jgU1VoSU9ObjJUMlU",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Amount of funding for projects in specific areas of Germany",
+    "slug": "map-11l",
+    "sort": "Map_11l",
+    "id": "0B3_Z30yM93jgVTlEZERZanJWdDA",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Adaptation funding and vulnerability indexes.",
+    "slug": "map-12",
+    "sort": "Map_12",
+    "id": "0B_CpGym5Ms7qVEJWemg3dnNpRTA",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Bilateral Funds and vulnerability indexes",
+    "slug": "map-13",
+    "sort": "Map_13",
+    "id": "0B_CpGym5Ms7qaFRIQ2F4Um83TTQ",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Two decades of UNFCCC negotiations on mitigation and adaptation, 1995-2013.",
+    "slug": "map-14",
+    "sort": "Map_14",
+    "id": "0B_CpGym5Ms7qNEdPdjhJR2V1RkE",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Mentions of vulnerability and development indices in the UNFCCC national communications",
+    "slug": "map-15",
+    "sort": "Map_15",
+    "id": "0B_CpGym5Ms7qamZzZmV0LXRoR2c",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Vulnerability mentions in academic journals",
+    "slug": "map-17",
+    "sort": "Map_17",
+    "id": "0B_CpGym5Ms7qM21VLTBqa2lDSHM",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Mentions of vulnerability and development indices in the news media",
+    "slug": "map-18",
+    "sort": "Map_18",
+    "id": "0B_CpGym5Ms7qbG9QTjNETW1JMFE",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Concentration and fragmentation of OECD member countries&rsquo; bilateral adaptation aid.",
+    "slug": "map-25a",
+    "sort": "Map_25a",
+    "id": "0B8cFcLTApf45dG5BSUk1XzJlUFE",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Sectorial Specialisation of OECD member countries.",
+    "slug": "map-25b",
+    "sort": "Map_25b",
+    "id": "0B_CpGym5Ms7qYXJSQkU4a2xuRjg",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "The specialization of OECD donor countries by negotiating groups in the United Nations Framework Convention on Climate Change (UNFCCC).",
+    "slug": "map-26",
+    "sort": "Map_26",
+    "id": "0B_CpGym5Ms7qSC1HMmV3RXVSWHM",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Two decades of UNFCCC negotiations on mitigation and adaptation, 1995-2013.",
+    "slug": "map-27",
+    "sort": "Map_27",
+    "id": "0B_CpGym5Ms7qYnNBZlZnVFlNemM",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Two decades of UNFCCC negotiations on mitigation and adaptation, 1995-2013.",
+    "slug": "map-29",
+    "sort": "Map_29",
+    "id": "0B_CpGym5Ms7qLWlXTFdDakFtak0",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Map_30a",
+    "slug": "map-30a",
+    "sort": "Map_30a",
+    "id": "0B_CpGym5Ms7qUjg0dUNTZHEtRFE",
+    "type": "folder"
+  },
+  {
+    "title": "Map_30b",
+    "slug": "map-30b",
+    "sort": "Map_30b",
+    "id": "0B0Qm7RJqWbEoX012aUJRLW4xeE0",
+    "type": "folder"
+  },
+  {
+    "title": "Map_30c",
+    "slug": "map-30c",
+    "sort": "Map_30c",
+    "id": "0B0Qm7RJqWbEobjBrVGhhWXhsVlE",
+    "type": "folder"
+  },
+  {
+    "title": "Localization of &ldquo;climate talk&rdquo; and &ldquo;storm talk&rdquo; in Feb 2014, France.",
+    "slug": "map-31",
+    "sort": "Map_31",
+    "id": "0B_CpGym5Ms7qcjhheC1pblhuRmc",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Comparison of &ldquo;climate talk&rdquo; in February 2014 and September 2013, in France.",
+    "slug": "map-33",
+    "sort": "Map_33",
+    "id": "0B_CpGym5Ms7qcEpmLUE2c1ZsODA",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Climate Talk.",
+    "slug": "map-34",
+    "sort": "Map_34",
+    "id": "0B_CpGym5Ms7qMTRDbW52bFdBQ0k",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Map_35",
+    "slug": "map-35",
+    "sort": "Map_35",
+    "id": "0BxqL8KlS3YihNWdUV3RqOERYUXM",
+    "type": "folder"
+  },
+  {
+    "title": "Map_36",
+    "slug": "map-36",
+    "sort": "Map_36",
+    "id": "0BxqL8KlS3YihcWNQQU9vR3RQNE0",
+    "type": "folder"
+  },
+  {
+    "title": "Climate Talk.",
+    "slug": "map-37",
+    "sort": "Map_37",
+    "id": "0B62v418roMdaZng1UENQTTFKbXc",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Profiling adaptation and its place in climate change debates with Twitter (I)",
+    "slug": "map-38",
+    "sort": "Map_38",
+    "id": "0B62v418roMdaYkU4ZEVWRjMzQXc",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Profiling adaptation and its place in climate change debates with Twitter&nbsp;(II) ",
+    "slug": "map-39",
+    "sort": "Map_39",
+    "id": "0B62v418roMdaNzNTR0w2bmI0aXM",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Reading the state of climate change in Amazon.com. Conflict Literature.",
+    "slug": "map-40",
+    "sort": "Map_40",
+    "id": "0B62v418roMdaMUNRMlBVLWhJaXM",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Mapping cli-fi scenarios: Book covers with landscapes, issues, and personal narratives",
+    "slug": "map-41a",
+    "sort": "Map_41a",
+    "id": "0B62v418roMdaUXF3eXFLYUIxdGc",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Map_41b",
+    "slug": "map-41b",
+    "sort": "Map_41b",
+    "id": "0B0Qm7RJqWbEod1dXZDBSenlBMDg",
+    "type": "folder"
+  },
+  {
+    "title": "Mapping cli-fi scenarios: Book covers with landscapes, issues, and personal narratives",
+    "slug": "map-42",
+    "sort": "Map_42",
+    "id": "0B62v418roMdaa1VHdzZZNExPcjA",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Top 20 Issues on the International Climate Change Issue Agenda according to the Web ",
+    "slug": "map-43ab",
+    "sort": "Map_43ab",
+    "id": "0B8TmR5AwOSwidWJ5MV9xeHhOV2s",
+    "type": "folder",
+    "subtitle": ""
+  },
+  {
+    "title": "Map_43c",
+    "slug": "map-43c",
+    "sort": "Map_43c",
+    "id": "0B8TmR5AwOSwiUHdtbzFRelZFUnc",
+    "type": "folder"
+  },
+  {
+    "title": "Map_44",
+    "slug": "map-44",
+    "sort": "Map_44",
+    "id": "0B62v418roMdaVlVvWWpMVmQ2aG8",
+    "type": "folder"
+  },
+  {
+    "title": "Map_45a",
+    "slug": "map-45a",
+    "sort": "Map_45a",
+    "id": "0B8TmR5AwOSwiQWo4NFBtdmZINjQ",
+    "type": "folder"
+  },
+  {
+    "title": "Map_45c",
+    "slug": "map-45c",
+    "sort": "Map_45c",
+    "id": "0B62v418roMdaWUMzVHRhRTJBZmM",
+    "type": "folder"
+  }
+]
