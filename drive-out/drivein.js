@@ -140,7 +140,7 @@ exports.getFolderContentsSync = function(folderId) {
       });
 
   console.log("      ", '... statusCode', colors.green(response.statusCode));
-  console.log(response.body);
+  //console.log(response.body);
 
   try{
     var body = JSON.parse(response.body);
@@ -204,7 +204,7 @@ exports.getFolderContents = function(folderId) {
           return reject(err);
         }
 
-        console.log('... statusCode', colors.green(res.statusCode));
+        console.log('... statusCode', colors.green(res.statusCode), body.query.results.div.length);
   
         if(body.query.results.div.length) {
           for(var i in body.query.results.div) {
