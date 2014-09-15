@@ -44,7 +44,7 @@ fs.existsSync('../contents/narratives') || fs.mkdirSync('../contents/narratives'
 fs.existsSync('../contents/maps') || fs.mkdirSync('../contents/maps');
 fs.existsSync('../contents/pages') || fs.mkdirSync('../contents/pages');
 
-drivein.getFolderContents(settings.folders.pages).then(function (pages) {
+false && drivein.getFolderContents(settings.folders.pages).then(function (pages) {
 
   for(var i =0; i<pages.length; i++) { 
     var contents = [];
@@ -109,11 +109,11 @@ drivein.getFolderContents(settings.folders.pages).then(function (pages) {
   }
 
 });
-return;
+
 /*
   Map request
 */
-drivein.getFolderContents(settings.folders.maps).then(function (folders) {
+false && drivein.getFolderContents(settings.folders.maps).then(function (folders) {
   //console.log(folders);
   var maps = folders.filter(function(d){ return d.slug.indexOf('map-') != -1; });
   
@@ -182,7 +182,7 @@ drivein.getFolderContents(settings.folders.maps).then(function (folders) {
   start narratives
 */
 drivein.getFolderContents(settings.folders.narratives).then(function (folders) {
-  return;
+  
   //console.log(folders);
   var narratives = folders.filter(function(d){ return d.slug.indexOf('narrative') != -1; });
   
@@ -205,16 +205,23 @@ drivein.getFolderContents(settings.folders.narratives).then(function (folders) {
         var html = drivein.getHtmlSync(files[j].id),
             body = html.match(/<body[^>]*>(.*?)<\/body>/i)[1],
             title,
-            subtitle;
+            subtitle,
+            sections;
 
         if (files[j].slug.indexOf('narrative-')!= -1) { // narrative specific approach
           //console.log(body);
           try{
             title = body.match(/class="[^"]*title"[^>]*>(.*?)<\/p>/i)[1].replace(/<[^>]*>/g, "");
+          } catch(e) {
+            console.log('   narrative *title* not found', e);
+          };
+
+          try{
             subtitle = body.match(/class="[^"]*subtitle"[^>]*>(.*?)<\/p>/i)[1].replace(/<[^>]*>/g, "");
           } catch(e) {
             console.log(e);
-          }
+          };
+
           narratives[i].title = title || narratives[i].title;
           narratives[i].subtitle = subtitle || '';
           
@@ -222,7 +229,76 @@ drivein.getFolderContents(settings.folders.narratives).then(function (folders) {
           files[j].subtitle = subtitle || '';
           // split narratives into sections based on h1s, extract the links and so on
 
-          files[j].sections.push(body);
+          console.log('         ','title: ', colors.inverse(files[j].title))
+          sections = body.split(/<h1/); // search for h2 tags...
+          
+          if(sections.length<2) // no section on doument
+            continue;
+          
+          // cycle H! gdoc sections
+          for(var k=0; k<sections.length; k++) {
+            if(!sections[k].length)
+              continue;
+
+            var section = {
+                  type: 'text',
+                  html: '<h1' + sections[k]
+                },
+                
+                section_img_match,
+                section_directive_match;
+
+            // get the title
+            try{
+              section.title = section.html.match(/(.*?)<\/h1>/i)[1].replace(/<[^>]*>/g, "");
+            } catch(e) { // no section title
+              //console.log(colors.red('warning, *section title* not found'), e, sections[k]);
+              section.title = ''; // aka untitled
+            };
+
+            // check if section does contain image
+            console.log('           ','section:', colors.underline(section.title));
+            
+
+            var section_img_match = section.html.match(/<img(.*?)src="([^"]+)"(.*?)>/)
+            if(section_img_match) {
+                section.type = 'image';
+                section.src = section_img_match[2];
+                
+              // get caption
+              try{
+                section.caption = section.html.match(/<h5(.*?)>(.*?)<\/h5>/)[2].replace(/<[^>]*>/g, "");
+                console.log('           ','.caption:', section.caption.substring(0, 25),'...');
+              } catch(e) {
+                // caption not found
+              }
+
+              // get directive
+              try{
+                section_directive_match = section.html.match(/<h6(.*?)>(.*?)<\/h6>/);
+                console.log('           ','.directive:', section_directive_match[2].replace(/<[^>]*>/g, ""));
+
+                section.directive = section_directive_match[2].replace(/<[^>]*>/g, "");
+                section.type = 'interactive';
+                
+                // parse directives here, block if errors
+
+              } catch(e) {/* directive not found */ };
+            }
+            console.log('           ','.type:',section.type);
+            
+            
+            /*page.sections.push({
+              html: '<h2' + sections[k],
+              title: title
+            });
+            */
+            files[j].sections.push(section);
+          }
+
+          
+          
+          
 
         } else if (files[j].type == "Document" && files[j].slug.indexOf('-metadata')!= -1) { 
           files[j].sections.push(body); // spplit in section? other stugffs?
@@ -239,6 +315,7 @@ drivein.getFolderContents(settings.folders.narratives).then(function (folders) {
     // break
       //console.log('writing contents of', folders[i].type.yellow, folders[i].slug);
   }
-  console.log('hey', narratives)
+  console.log(colors.blink('narratives completed'));
   fwrite('../contents/narratives.json', JSON.stringify(narratives,null,2));
 });
+
