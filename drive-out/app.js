@@ -6,18 +6,23 @@ var drivein  = require('./drivein'),
     
     Promise  = require('promise'),
 
-    fs = require('fs');
+    fs = require('fs'),
+
+    cheerio = require('cheerio'); // jquerylike usage $ = cheerio.load('<h2 class="title">Hello world</h2>'); $('h2.title').text('Hello there!');
 
 
-console.log(colors.bold('driving out'));
+console.log(colors.inverse.bold('driving out'));
 
 
 function fwrite(path, contents) {
   return new Promise(function (resolve, reject) {
     fs.open(path, 'w', function(err, fd){
-      if(err)
+      if(err){
+        console.log('error in writing', path, err);
         return reject(err);
 
+      }
+        
       console.log(colors.white('writing file'), colors.inverse(path));
       fs.write(fd, contents);
       fs.close(fd, function(){
@@ -206,84 +211,66 @@ drivein.getFolderContents(settings.folders.narratives).then(function (folders) {
             body = html.match(/<body[^>]*>(.*?)<\/body>/i)[1],
             title,
             subtitle,
-            sections;
+            sections,
+            $ = cheerio.load(html);
 
         if (files[j].slug.indexOf('narrative-')!= -1) { // narrative specific approach
-          //console.log(body);
-          try{
-            title = body.match(/class="[^"]*title"[^>]*>(.*?)<\/p>/i)[1].replace(/<[^>]*>/g, "");
-          } catch(e) {
-            console.log('   narrative *title* not found', e);
-          };
-
-          try{
-            subtitle = body.match(/class="[^"]*subtitle"[^>]*>(.*?)<\/p>/i)[1].replace(/<[^>]*>/g, "");
-          } catch(e) {
-            console.log(e);
-          };
+          title = $('.title').text();
+          subtitle = $('.subtitle').html();
 
           narratives[i].title = title || narratives[i].title;
           narratives[i].subtitle = subtitle || '';
+          narratives[i].authors = $('h4').text(); // in any case
+          
           
           files[j].title = title || files[j].title;
           files[j].subtitle = subtitle || '';
+          files[j].authors = $('h4').text();
+          files[j].introduction = $('h2').text();
+          
+          console.log('         ','title:   ', colors.inverse(files[j].title))
+          console.log('         ','authors: ', colors.bold(narratives[i].authors))
           // split narratives into sections based on h1s, extract the links and so on
+          console.log('         ','sections:', $('h1').length);
+          sections = body.split(/<h1/); // search for spection specific tags
 
-          console.log('         ','title: ', colors.inverse(files[j].title))
-          sections = body.split(/<h1/); // search for h2 tags...
-          
-          if(sections.length<2) // no section on doument
-            continue;
-          
           // cycle H! gdoc sections
           for(var k=0; k<sections.length; k++) {
-            if(!sections[k].length)
+            // is it a real section ? if it is, it should begin with h1
+            var title_match = ('<h1' + sections[k]).match(/(.*?)<\/h1>/i);
+            
+            if(!title_match)
               continue;
 
             var section = {
                   type: 'text',
-                  html: '<h1' + sections[k]
+                  html: '<h1' + sections[k],
+                  title: title_match[1].replace(/<[^>]*>/g, "")
                 },
                 
-                section_img_match,
-                section_directive_match;
+                section_img_match = section.html.match(/<img(.*?)src="([^"]+)"(.*?)>/),
 
-            // get the title
-            try{
-              section.title = section.html.match(/(.*?)<\/h1>/i)[1].replace(/<[^>]*>/g, "");
-            } catch(e) { // no section title
-              //console.log(colors.red('warning, *section title* not found'), e, sections[k]);
-              section.title = ''; // aka untitled
-            };
+                $ = cheerio.load(section.html);
 
-            // check if section does contain image
-            console.log('           ','section:', colors.underline(section.title));
+            console.log('         ', colors.underline(section.title)); // check if section does contain image
             
-
-            var section_img_match = section.html.match(/<img(.*?)src="([^"]+)"(.*?)>/)
             if(section_img_match) {
-                section.type = 'image';
-                section.src = section_img_match[2];
-                
-              // get caption
-              try{
-                section.caption = section.html.match(/<h5(.*?)>(.*?)<\/h5>/)[2].replace(/<[^>]*>/g, "");
-                console.log('           ','.caption:', section.caption.substring(0, 25),'...');
-              } catch(e) {
-                // caption not found
+              section.type = 'image';
+              section.src = section_img_match[2];
+
+              if($('h5').length) {
+                section.caption = $('h5').html();
               }
 
-              // get directive
-              try{
-                section_directive_match = section.html.match(/<h6(.*?)>(.*?)<\/h6>/);
-                console.log('           ','.directive:', section_directive_match[2].replace(/<[^>]*>/g, ""));
-
-                section.directive = section_directive_match[2].replace(/<[^>]*>/g, "");
-                section.type = 'interactive';
-                
-                // parse directives here, block if errors
-
-              } catch(e) {/* directive not found */ };
+              if($('h6').length) { // appliing directive
+                section.directive = $('h6').text();
+                section.type = 'directive';
+                section.datasrc = [];
+                $('h6 a').each(function(i, e) {
+                  if(e.attribs['href'] && e.attribs['href'].indexOf('http') != -1 )
+                    section.datasrc.push(e.attribs['href']);
+                })// a href is data stuffs
+              }
             }
             console.log('           ','.type:',section.type);
             
@@ -310,8 +297,9 @@ drivein.getFolderContents(settings.folders.narratives).then(function (folders) {
           //console.log('metadata', body.split(/<h1(.*?)>/))
       };
     }
+   
     fwrite('../contents/narratives/'+ narratives[i].slug +'.json', JSON.stringify(files,null,2));
-    //break; // firs 
+    // firs 
     // break
       //console.log('writing contents of', folders[i].type.yellow, folders[i].slug);
   }
