@@ -1,74 +1,82 @@
 [
   {
-    "title": "Who should receive adaptation funding?",
-    "slug": "narrative-01",
-    "sort": "Narrative_01",
-    "id": "0B_CpGym5Ms7qSWZ0QnlOR3ZIUUE",
-    "type": "folder",
-    "subtitle": "<a name=\"h.fal7zp5z26o2\"></a><span class=\"c6\">Who is funded? Who deserves it? And why? </span>",
-    "authors": "Authors"
-  },
-  {
-    "title": "Climate Adaptation in Bangladesh",
-    "slug": "narrative-03",
-    "sort": "Narrative_03",
     "id": "0B_CpGym5Ms7qejU2cG5FN1ZNNjA",
+    "original": "Narrative_03",
+    "slug": "climate-adaptation-in-bangladesh",
+    "createdDate": "2014-09-08T09:36:45.491Z",
     "type": "folder",
-    "subtitle": "<a name=\"h.njra9bjffvtc\"></a><span>A case study on tracking adaptation funding</span>",
+    "title": "Climate Adaptation in Bangladesh",
+    "subtitle": "A case study on tracking adaptation funding",
     "authors": "Authors"
   },
   {
-    "title": "What is the substance of adaptation projects?",
-    "slug": "narrative-04",
-    "sort": "Narrative_04",
     "id": "0B_CpGym5Ms7qLVFkb1JvRFp3ODg",
+    "original": "Narrative_04",
+    "slug": "what-is-the-substance-of-adaptation-projects",
+    "createdDate": "2014-09-08T09:36:50.359Z",
     "type": "folder",
-    "subtitle": "<a name=\"h.g3noxnbk3ugx\"></a><span>Subtitle</span>",
+    "title": "What is the substance of adaptation projects?",
+    "subtitle": "Subtitle",
     "authors": "Authors"
   },
   {
-    "title": "OECD Member Countries’ Funding Styles",
-    "slug": "narrative-05",
-    "sort": "Narrative_05",
-    "id": "0B_CpGym5Ms7qVWJLZUo1U3cydlk",
+    "id": "0B_CpGym5Ms7qSWZ0QnlOR3ZIUUE",
+    "original": "Narrative_01",
+    "slug": "who-should-receive-adaptation-funding",
+    "createdDate": "2014-09-08T09:36:36.763Z",
     "type": "folder",
-    "subtitle": "<a name=\"h.iftmo0x7wuvx\"></a><span>The Geopolitics of Adaptation Expenditure</span>",
+    "title": "Who should receive adaptation funding?",
+    "subtitle": "Who is funded? Who deserves it? And why? ",
     "authors": "Authors"
   },
   {
-    "title": "The status of mitigation and adaptation in the UNFCCC debates over time",
-    "slug": "narrative-06",
-    "sort": "Narrative_06",
+    "id": "0B0Qm7RJqWbEoWExrbGdUbXNCamM",
+    "original": "Narrative_09",
+    "slug": "reading-the-state-of-climate-change-from-digital-media",
+    "createdDate": "2014-09-11T13:02:58.898Z",
+    "type": "folder",
+    "title": "Reading the State of Climate Change from Digital Media",
+    "subtitle": "Situating Adaptation in Climate Change Discourse in Digital Media",
+    "authors": ""
+  },
+  {
+    "id": "0B_CpGym5Ms7qYnVmeExJcVJDOVE",
+    "original": "Narrative_08",
+    "slug": "responding-to-the-occurrence-of-natural-disasters-in-facebook-comments",
+    "createdDate": "2014-09-08T09:37:08.340Z",
+    "type": "folder",
+    "title": "Responding to the occurrence of natural disasters in facebook comments",
+    "subtitle": "Subtitle",
+    "authors": "Authors"
+  },
+  {
+    "id": "0B_CpGym5Ms7qS09Rc2lJSkc5QkE",
+    "original": "Narrative_07",
+    "slug": "narrative-7-monitoring-evaluation-frameworks",
+    "createdDate": "2014-09-08T09:37:04.411Z",
+    "type": "folder",
+    "title": "Narrative 7: Monitoring & Evaluation Frameworks",
+    "subtitle": "Subtitle",
+    "authors": "Authors"
+  },
+  {
     "id": "0B_CpGym5Ms7qeWFJM0dZS3hWWkE",
+    "original": "Narrative_06",
+    "slug": "the-status-of-mitigation-and-adaptation-in-the-unfccc-debates-over-time",
+    "createdDate": "2014-09-08T09:36:59.383Z",
     "type": "folder",
-    "subtitle": "<a name=\"h.t7hppfu0bu2w\"></a><span>An analysis of the UNFCCC&#x2019;s discussions provided by the Earth Negotiations Bulletin</span>",
+    "title": "The status of mitigation and adaptation in the UNFCCC debates over time",
+    "subtitle": "An analysis of the UNFCCC’s discussions provided by the Earth Negotiations Bulletin",
     "authors": "Venturini, T., Baya-Laffite, N., Cointet, J., Gray, I., Zabban, V., De Pryck, K., Ooghe-Tabanou, B., Cecchi, M. E., Ciuccarelli, P., Rogers, R., Yamin, F., Ricci, D., Bardelli, F., De Gaetano, C. & Fleischhauer, M."
   },
   {
-    "title": "Narrative 7: Monitoring & Evaluation Frameworks",
-    "slug": "narrative-07",
-    "sort": "Narrative_07",
-    "id": "0B_CpGym5Ms7qS09Rc2lJSkc5QkE",
+    "id": "0B_CpGym5Ms7qVWJLZUo1U3cydlk",
+    "original": "Narrative_05",
+    "slug": "oecd-member-countries-funding-styles",
+    "createdDate": "2014-09-08T09:36:58.343Z",
     "type": "folder",
-    "subtitle": "<a name=\"h.62ck2y22hem8\"></a><span>Subtitle</span>",
-    "authors": "Authors"
-  },
-  {
-    "title": "Responding to the occurrence of natural disasters in facebook comments",
-    "slug": "narrative-08",
-    "sort": "Narrative_08",
-    "id": "0B_CpGym5Ms7qYnVmeExJcVJDOVE",
-    "type": "folder",
-    "subtitle": "<a name=\"h.daqzabjr8w6p\"></a><span>Subtitle</span>",
-    "authors": "Authors"
-  },
-  {
-    "title": "Reading the State of Climate Change from Digital Media",
-    "slug": "narrative-09",
-    "sort": "Narrative_09",
-    "id": "0B0Qm7RJqWbEoWExrbGdUbXNCamM",
-    "type": "folder",
-    "subtitle": "<a name=\"h.suvztq4el1bd\"></a><span>Situating Adaptation in Climate Change Discourse in Digital Media</span>",
-    "authors": ""
+    "title": "OECD Member Countries’ Funding Styles",
+    "subtitle": "The Geopolitics of Adaptation Expenditure",
+    "authors": "Axel Meunier[a][b]"
   }
 ]

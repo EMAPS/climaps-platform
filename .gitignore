@@ -30,5 +30,11 @@ node_modules
 # DS Store Mac File
 .DS_Store
 
+# sublime files
+sublime
+*.sublime-workspace
+
 # contents and other stories
 drive-out/contents
+drive-out/settings.js
+drive-out/secrets.json
