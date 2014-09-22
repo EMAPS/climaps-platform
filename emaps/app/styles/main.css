@@ -105,14 +105,7 @@ a:hover{
   margin-left: -15px;
   background: #fff;
   cursor: pointer;
-}
-
-.narrative-thumb:hover{
-  border-top: 1px solid #f0ecec;
-  min-height: 200px;
-  padding-left: 0px;
-  background-image:  url(../images/thumb_narrative.jpg);
-  background-size:   cover;
+  background-size:cover;
 }
 
 .narrative-thumb h1{
@@ -127,9 +120,10 @@ a:hover{
 }
 
 .map-thumb {
-  min-height: 200px;
-  background-image:  url(../images/placeholder.png);
+  height: 200px;
+  background-color:  #f0ecec;
   border: 1px solid #f0ecec;
+  background-size:cover;
 }
 
 .map-thumb h1{

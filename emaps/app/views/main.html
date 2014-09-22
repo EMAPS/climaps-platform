@@ -25,100 +25,39 @@
       <a ng-href="#">More about this project</a>
     </p>
     <hr>
-  </div>
-
-  <div class="container switch">
-    <div class="row">
-      <div class="col-md-12">
-        <span class="active">Narratives</span>
-        <span class="not-active">Maps</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid">
-    <div class="row narrative-thumb">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10">
-            <h1>
-              A really long title about this narrative that can go on two lines
-            </h1>
-            <h2>
-              A really long subtitle about this narrative that explain briefly the content
-            </h2>
+</div>
+<div class="container switch">
+  <div class="row">
+    <div class="col-md-12">
+      <tabset>
+        <tab heading="Narratives">
+          <div class="container-fluid">
+            <div ng-repeat="narrative in narratives" class="row narrative-thumb" ng-style="overclass" ng-mouseover="overclass = { 'background-image': 'url(images/thumb_narrative.jpg)'}" ng-mouseout="overclass = { 'background-image': 'none'}">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-10">
+                    <h1>
+                      <a ng-href="#/narrative/{{narrative.slug}}">{{narrative.title}}</a>
+                    </h1>
+                    <h2>
+                      {{narrative.subtitle}}
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="row narrative-thumb">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10">
-            <h1>
-              A really long title about this narrative that can go on two lines
-            </h1>
-            <h2>
-              A really long subtitle about this narrative that explain briefly the content
-            </h2>
+        </tab>
+        <tab heading="Maps">
+          <div class="container-fluid">
+            <div class="row">
+              <div ng-repeat="map in maps" class="col-md-3 map-thumb" ng-style="overclass" ng-mouseover="overclass = { 'background-image': 'url(images/thumb_narrative.jpg)'}" ng-mouseout="overclass = { 'background-image': 'none'}">
+                <a ng-href="#/map/{{map.slug}}"><h1>{{map.title}}</h1></a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="row narrative-thumb">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10">
-            <h1>
-              A really long title about this narrative that can go on two lines
-            </h1>
-            <h2>
-              A really long subtitle about this narrative that explain briefly the content
-            </h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row narrative-thumb">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10">
-            <h1>
-              A really long title about this narrative that can go on two lines
-            </h1>
-            <h2>
-              A really long subtitle about this narrative that explain briefly the content
-            </h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row narrative-thumb">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10">
-            <h1>
-              A really long title about this narrative that can go on two lines
-            </h1>
-            <h2>
-              A really long subtitle about this narrative that explain briefly the content
-            </h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row narrative-thumb">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10">
-            <h1>
-              A really long title about this narrative that can go on two lines
-            </h1>
-            <h2>
-              A really long subtitle about this narrative that explain briefly the content
-            </h2>
-          </div>
-        </div>
-      </div>
+        </tab>
+      </tabset>
     </div>
   </div>
+</div>

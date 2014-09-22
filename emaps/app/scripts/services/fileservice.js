@@ -8,7 +8,7 @@
  * Factory in the emapsApp.
  */
 angular.module('emapsApp')
-  .factory('fileService', function () {
+  .factory('fileService', function ($http, $q) {
      return {
 
        getFile : function(url){
