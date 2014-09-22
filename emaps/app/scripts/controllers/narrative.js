@@ -8,10 +8,7 @@
  * Controller of the emapsApp
  */
 angular.module('emapsApp')
-  .controller('NarrativeCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('NarrativeCtrl', function ($scope, content) {
+  	console.log(content)
+  	$scope.content = content;
   });

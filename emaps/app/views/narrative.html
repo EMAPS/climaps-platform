@@ -1,1 +1,93 @@
-<p>This is the narrative view.</p>
+<div class="container narrative">
+  <div class="row">
+    <div class="col-md-8 intro">
+      <h4>
+        {{content.authors}}
+      </h4>
+      <h1>
+        {{content.title}}
+      </h1>
+      <hr>
+      <p>
+        {{content.introduction}}
+      </p>
+    </div>
+  </div>
+</div>
+
+<div ng-repeat="section in content.sections" ng-class="{text:'container narrative', image:'container-fluid narrative-viz', directive:'container-fluid narrative-viz'}[section.type]">
+<div ng-if="section.type == 'text'">
+  <div class="row">
+    <div class="col-md-8 text-narrative">
+      <h4>{{section.title}}</h4>
+      <p ng-bind-html="section.html">
+      </p>
+    </div>   
+  </div>
+</div>
+<div ng-if="section.type != 'text'">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1>
+            Title of the Viz
+          </h1>
+          <p>
+            Cras a tortor egestas, placerat elit quis, interdum purus. Praesent viverra lectus at maximus mollis. Proin ac ultrices enim. Morbi consectetur nec urna nec blandit. Vestibulum id sapien mi.
+          </p>
+        </div>
+      </div>
+    </div>
+    <nav class="nav-roundslide">
+      <a class="next" href="/item3">
+        <span class="icon-wrap"><svg class="icon" width="21" height="21" viewBox="0 0 64 64"><use xlink:href="#arrow-right"></svg></span>
+        <h3>View map page</h3>
+      </a>
+    </nav>
+</div>
+
+</div>
+
+<!--   <div class="container-viz">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1>
+            Title of the Viz
+          </h1>
+          <p>
+            Cras a tortor egestas, placerat elit quis, interdum purus. Praesent viverra lectus at maximus mollis. Proin ac ultrices enim. Morbi consectetur nec urna nec blandit. Vestibulum id sapien mi.
+          </p>
+        </div>
+      </div>
+    </div>
+    <nav class="nav-roundslide">
+      <a class="next" href="/item3">
+        <span class="icon-wrap"><svg class="icon" width="21" height="21" viewBox="0 0 64 64"><use xlink:href="#arrow-right"></svg></span>
+        <h3>View map page</h3>
+      </a>
+    </nav>
+
+  </div>
+
+  <div class="container narrative">
+    <div class="row">
+      <div class="col-md-8 text-narrative">
+        <hr>
+        <h4>
+          Related Narratives
+        </h4>
+        <p>
+          <a href="#">Title of the related narrative</a>
+
+        </p>
+      </div>
+      <div class="col-md-4 aside">
+        <div class="caption">
+          <p>    
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit, nibh id faucibus sodales, augue turpis scelerisque ex, at egestas metus leo nec mi. Donec ac convallis tortor.
+          </p>   
+        </div>
+      </div>
+    </div>
+  </div> -->

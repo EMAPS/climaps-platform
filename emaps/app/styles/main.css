@@ -282,7 +282,7 @@ a:hover{
   color: #000;
 }
 
-.container-viz {
+/*.container-viz {
   height:100%;
   border-top: 1px #f0ecec solid;
   border-bottom: 1px #f0ecec solid;
@@ -290,6 +290,14 @@ a:hover{
   background-color: #FCFAFA;
   position: relative;
   width:100%;
+  min-height: 600px;
+}*/
+
+.narrative-viz {
+  border-top: 1px #f0ecec solid;
+  border-bottom: 1px #f0ecec solid;
+  margin-top: 50px;
+  background-color: #FCFAFA;
   min-height: 600px;
 }
 
