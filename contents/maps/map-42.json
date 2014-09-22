@@ -1,51 +1,50 @@
-[
-  {
-    "title": "Data",
-    "slug": "data",
-    "sort": "Data",
-    "id": "0B62v418roMdaLXpTYWRiQVN2RW8",
-    "type": "folder",
-    "sections": []
-  },
-  {
-    "title": "Mapping cli-fi scenarios: Book covers with landscapes, issues, and personal narratives",
-    "slug": "02-description",
-    "sort": "02 description",
-    "id": "1girj5SqNABXm-7cVgk8KPxy69ti6bOLE1EdEOnT2_Ak",
-    "type": "Document",
-    "src": "https://lh4.googleusercontent.com/Ic6AhPowTeEfv5F3GJ7GCw8a4TE74TxdZwhfdZFtRQtXNbs689erjUg6jSdn2nuJp3xlTJYpYdBu9TjFNv0MWg",
-    "sections": [
-      "<p class=\"c0 c5\"><span class=\"c11 c10 c13\">Mapping climate change imagery with Google Images</span></p><p class=\"c0 c5\"><span>The concern here is with visual representations of climate change. </span><span class=\"c2\">Previous research on climate change pinpointed that there is a role of imagery in the main climate change discourses. For example, climate change representation moved away from naturalistic landscapes towards abstract and symbolic imagery (Hansen and Machin, 2008). Also, people seemed to be dominating the representation, followed by images of climate change impacts</span><span class=\"c2\"><a class=\"c9\" href=\"https://www.google.com/url?q=https%3A%2F%2Fwiki.digitalmethods.net%2Fbin%2Fedit%2FDmi%2FDiFrancesco%3Ftopicparent%3DDmi.MappingClimateConflictVulnerabilityAndVictims&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNE4i-TgRdHIvsr8iJTTU_CGQEs3Gg\">&nbsp;(</a></span><span class=\"c2 c7\"><a class=\"c9\" href=\"https://www.google.com/url?q=https%3A%2F%2Fwiki.digitalmethods.net%2Fbin%2Fedit%2FDmi%2FDiFrancesco%3Ftopicparent%3DDmi.MappingClimateConflictVulnerabilityAndVictims&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNE4i-TgRdHIvsr8iJTTU_CGQEs3Gg\">Di Francesco</a></span><span class=\"c2\">&nbsp;and Young, 2011). </span></p><p class=\"c0 c5 c4\"><span class=\"c2\"></span></p><p class=\"c0 c5\"><span class=\"c2\">This project brings this question to online imagery and the device that organizes it, in this case Google Images. </span><span>What does web-based imagery of climate change add to climate change discourse? </span><span class=\"c2\">How does imagery of climate change address these vulnerability indicators? </span><span>Do we see adapted or vulnerable landscapes? Is the issue humanized (showing people, animals and landscapes) or quantified (in scientific stats and graphs) in imagery?</span></p><p class=\"c0 c5 c4\"><span></span></p><p class=\"c0 c5\"><span>We find that the most dominant subsets of climate change related images according to Google are &ldquo;landscapes&rdquo;, &ldquo;science&rdquo;, and &ldquo;</span><span>people</span><sup><a href=\"#cmnt1\" name=\"cmnt_ref1\">[a]</a></sup><span>&rdquo;. </span></p><p class=\"c0 c5 c4\"><span></span></p><p class=\"c0 c5\"><span style=\"overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 464.50px; height: 327.26px;\"><img alt=\"images_quantity_overall.jpg\" src=\"https://lh6.googleusercontent.com/EJJe0Zeup9FMCw2PStWb5N_Bg96Q1tgk5HNe2Hfptc36VT5pJT8Q8Y1-_dSZz46wM9n91u5IzBHTEj0L9cHoS6P-t6ZMXsIedurSAG2tVf_pX4W97ljSMpUQQec\" style=\"width: 464.50px; height: 327.26px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);\" title=\"\"></span><sup><a href=\"#cmnt2\" name=\"cmnt_ref2\">[b]</a></sup></p><h4 class=\"c0 c3\"><a name=\"h.d9iv54p4qis2\"></a><span>Figure 1. Mapping climate change imagery with Google Images. Source: Digital Methods Initiative Fall Data Sprint. Date: 21-25 October 2013</span></h4><p class=\"c0 c4\"><span></span></p><h1 class=\"c0 c3 c5\"><a name=\"h.bmw52c21222j\"></a><span>How to read the map</span></h1><p class=\"c0 c5\"><span class=\"c10\">The graphic is a treemap, which communicate through a visual hierarchy the distribution of categories in the image set. Those that are more recurrent occupy a larger area in the graphic. </span></p><p class=\"c0 c5 c4\"><span class=\"c10\"></span></p><h1 class=\"c0 c3\"><a name=\"h.dch62quneap0\"></a><span>How the map is built</span></h1><p class=\"c0 c5\"><span>Google Image Search is queried for the term [&ldquo;climate change&rdquo;]. The top 1.000 images outputted by the engine are manually analysed and categorized. Each category is assigned a value corresponding to the number of images that refer to that topic and is visualized in a treemap.</span></p><p class=\"c0 c4\"><span></span></p><h1 class=\"c0 c3\"><a name=\"h.jk2vzhbjrom8\"></a><span>References</span></h1><p class=\"c0\"><span class=\"c2\">Hansen and Machin, 2008</span></p><p class=\"c0\"><span class=\"c2\">Di Francesco</span><span class=\"c2\">&nbsp;and Young, 2011</span></p><div class=\"c8\"><p class=\"c1\"><a href=\"#cmnt_ref1\" name=\"cmnt1\">[a]</a><span class=\"c12\">Change sub-title of visualisation to &#39;&quot;climate change&quot; query on images.google.com</span></p></div><div class=\"c8\"><p class=\"c1\"><a href=\"#cmnt_ref2\" name=\"cmnt2\">[b]</a><span class=\"c12\">Remove collages, comparison, various and other from the map</span></p></div>"
-    ],
-    "subtitle": ""
-  },
-  {
-    "title": "metadata",
-    "slug": "03-metadata",
-    "sort": "03 metadata",
-    "id": "1Jvn5_BRju1ZtOKLhjYFBx3L7XX7LwMlVQrpxFxamSS0",
-    "type": "Document",
-    "src": "https://lh3.googleusercontent.com/D1BPX4FPGCwkXkGoxQlYpyrkVbtUxURwFHMhkZCRZIfjuZ7H5PPbGrWqxVyt2VFHJHpm7txEtTDOV3lOVtOG2Q",
-    "sections": [
-      "<h1 class=\"c0\"><a name=\"h.z8f5pxp7ws2w\"></a><span>Authors</span></h1><p class=\"c3\"><span class=\"c10\">Gabriele Colombo, Carlo di Gaetano, Stefania Guerra (Density Design) Catalina Iorga, Sabine Niederer, Simeona Petkova (University of Amsterdam).</span></p><h1 class=\"c0\"><a name=\"h.d776skyws2fx\"></a><span>Data time-stamp</span></h1><p class=\"c8\"><span>Digital Methods Initiative Fall Data Sprint, 21-25 October 2013</span></p><h1 class=\"c0\"><a name=\"h.by2tmd68tmmy\"></a><span>Data source</span></h1><p class=\"c3\"><span>Google Images Search</span></p><p class=\"c3 c5\"><span class=\"c7\"></span></p><p class=\"c3\"><span class=\"c7\">Data files</span></p><p class=\"c3\"><span class=\"c1\"><a class=\"c6\" href=\"https://drive.google.com/?tab=mo&amp;authuser=0#folders/0B62v418roMdaLXpTYWRiQVN2RW8\">https://drive.google.com/?tab=mo&amp;authuser=0#folders/0B62v418roMdaLXpTYWRiQVN2RW8</a></span><span>&nbsp;</span></p><p class=\"c3 c5\"><span></span></p><p class=\"c3\"><span class=\"c7\">Code</span></p><p class=\"c3\"><span>No additional code associated with this map</span></p><h1 class=\"c0\"><a name=\"h.fdux7m1reczs\"></a><span>Related narratives</span></h1><p class=\"c3 c5\"><span></span></p><h1 class=\"c0 c9\"><a name=\"h.jn4usoz3xpc8\"></a><span>Related maps</span></h1><p class=\"c4\"><span></span></p><p class=\"c4\"><span></span></p>"
-    ]
-  },
-  {
-    "title": "finding",
-    "slug": "04-finding",
-    "sort": "04 finding",
-    "id": "1mlOJIcAh09M1neJNbR0rzOeda3tKBtpC6aG9Iz6GGCo",
-    "type": "Document",
-    "src": "https://lh4.googleusercontent.com/3aMGjhOsDIe2SvC3PmYj-JW8s2nZF0chYpUombrjLdsTeTsAqqJi2LUliTPFVy-b80WFCWyt1W3eFxKerMt2fw",
-    "sections": []
-  },
-  {
-    "title": "placeholder Map 42a.jpg",
-    "slug": "placeholder-map-42ajpg",
-    "sort": "placeholder Map 42a.jpg",
-    "id": "0B62v418roMdaMjl4Z09RRW1NWkk",
-    "type": "JPEG Image",
-    "src": "https://lh3.googleusercontent.com/qfQz6PoEh1oQH48loqo3T_vFFaIKKr8fguEL73H8jUCHjIA5wRe2kyjjy7ypuYcSpjD7XA",
-    "sections": []
-  }
-]
+{
+  "title": "",
+  "subtitle": "",
+  "authors": "Figure 1. Mapping climate change imagery with Google Images. Source: Digital Methods Initiative Fall Data Sprint. Date: 21-25 October 2013",
+  "introduction": "",
+  "sections": [
+    {
+      "type": "text",
+      "html": "<p class=\"c1\"><span class=\"c0\">The graphic is a treemap, which communicate through a visual hierarchy the distribution of categories in the image set. Those that are more recurrent occupy a larger area in the graphic. </span></p><p class=\"c1 c6\"><span class=\"c0\"></span></p>",
+      "title": "How to read the map"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c1\"><span>Google Image Search is queried for the term [&ldquo;climate change&rdquo;]. The top 1.000 images outputted by the engine are manually analysed and categorized. Each category is assigned a value corresponding to the number of images that refer to that topic and is visualized in a treemap.</span></p><p class=\"c5 c6\"><span></span></p>",
+      "title": "How the map is built"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c5\"><span class=\"c3\">Hansen and Machin, 2008</span></p><p class=\"c5\"><span class=\"c3\">Di Francesco</span><span class=\"c3\">&nbsp;and Young, 2011</span></p><div class=\"c7\"><p class=\"c4\"><a href=\"#cmnt_ref1\" name=\"cmnt1\">[a]</a><span class=\"c11\">Change sub-title of visualisation to &#39;&quot;climate change&quot; query on images.google.com</span></p></div><div class=\"c7\"><p class=\"c4\"><a href=\"#cmnt_ref2\" name=\"cmnt2\">[b]</a><span class=\"c11\">Remove collages, comparison, various and other from the map</span></p></div>",
+      "title": "References"
+    }
+  ],
+  "metadata": [
+    {
+      "type": "text",
+      "html": "<p class=\"c1\"><span class=\"c7\">Gabriele Colombo, Carlo di Gaetano, Stefania Guerra (Density Design) Catalina Iorga, Sabine Niederer, Simeona Petkova (University of Amsterdam).</span></p>",
+      "title": "Authors"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c5\"><span>Digital Methods Initiative Fall Data Sprint, 21-25 October 2013</span></p>",
+      "title": "Data time-stamp"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c1\"><span>Google Images Search</span></p><p class=\"c1 c3\"><span class=\"c2\"></span></p><p class=\"c1\"><span class=\"c2\">Data files</span></p><p class=\"c1\"><span class=\"c8\"><a class=\"c9\" href=\"https://drive.google.com/?tab=mo&amp;authuser=0#folders/0B62v418roMdaLXpTYWRiQVN2RW8\">https://drive.google.com/?tab=mo&amp;authuser=0#folders/0B62v418roMdaLXpTYWRiQVN2RW8</a></span><span>&nbsp;</span></p><p class=\"c1 c3\"><span></span></p><p class=\"c1\"><span class=\"c2\">Code</span></p><p class=\"c1\"><span>No additional code associated with this map</span></p>",
+      "title": "Data source"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c1 c3\"><span></span></p>",
+      "title": "Related narratives"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c5 c3\"><span></span></p><p class=\"c3 c5\"><span></span></p>",
+      "title": "Related maps"
+    }
+  ]
+}

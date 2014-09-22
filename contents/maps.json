@@ -1,316 +1,412 @@
 [
   {
-    "title": "Map_01",
-    "slug": "map-01",
-    "sort": "Map_01",
-    "id": "0B_CpGym5Ms7qU3loWjI4RDFtSEk",
-    "type": "folder",
-    "cover": "https://lh6.googleusercontent.com/nIuvcjwaMzdFMi1By339zG8CCCayMSV5P2uPIOflb68w-fjmSZzrY_sbiz7lXCLv01Q_iA"
-  },
-  {
-    "title": "Comparing adaption project datasets",
-    "slug": "map-02",
-    "sort": "Map_02",
-    "id": "0B_CpGym5Ms7qOGZRUUtfX3hSWWM",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Adaptation projects querying tool",
-    "slug": "map-07",
-    "sort": "Map_07",
-    "id": "0B_CpGym5Ms7qMGVveE90cDEyZHc",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Adaptation Funding in Bangladesh - Treemaps of the distribution of funds and projects",
-    "slug": "map-10",
-    "sort": "Map_10",
-    "id": "0B_CpGym5Ms7qWVUxZTBIaUpqcWs",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Map_10a",
-    "slug": "map-10a",
-    "sort": "Map_10a",
-    "id": "0B8TmR5AwOSwicmdENHJGOEFSQ28",
-    "type": "folder"
-  },
-  {
-    "title": "Map_10b",
-    "slug": "map-10b",
-    "sort": "Map_10b",
-    "id": "0B8TmR5AwOSwibnhfT1RVS1hTbkk",
-    "type": "folder"
-  },
-  {
-    "title": "Map_10c",
-    "slug": "map-10c",
-    "sort": "Map_10c",
-    "id": "0B8TmR5AwOSwidW5JZ25QRXktT2M",
-    "type": "folder"
-  },
-  {
-    "title": "Map_10d",
-    "slug": "map-10d",
-    "sort": "Map_10d",
-    "id": "0B8TmR5AwOSwiT2VwbE5KbDBvYzg",
-    "type": "folder"
-  },
-  {
-    "title": "Adaptation projects in Germany per natural area ",
-    "slug": "map-11c",
-    "sort": "Map_11c",
-    "id": "0B3_Z30yM93jgU1VoSU9ObjJUMlU",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Amount of funding for projects in specific areas of Germany",
-    "slug": "map-11l",
-    "sort": "Map_11l",
-    "id": "0B3_Z30yM93jgVTlEZERZanJWdDA",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Adaptation funding and vulnerability indexes.",
-    "slug": "map-12",
-    "sort": "Map_12",
-    "id": "0B_CpGym5Ms7qVEJWemg3dnNpRTA",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Bilateral Funds and vulnerability indexes",
-    "slug": "map-13",
-    "sort": "Map_13",
-    "id": "0B_CpGym5Ms7qaFRIQ2F4Um83TTQ",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Two decades of UNFCCC negotiations on mitigation and adaptation, 1995-2013.",
-    "slug": "map-14",
-    "sort": "Map_14",
-    "id": "0B_CpGym5Ms7qNEdPdjhJR2V1RkE",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Mentions of vulnerability and development indices in the UNFCCC national communications",
-    "slug": "map-15",
-    "sort": "Map_15",
-    "id": "0B_CpGym5Ms7qamZzZmV0LXRoR2c",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Vulnerability mentions in academic journals",
-    "slug": "map-17",
-    "sort": "Map_17",
-    "id": "0B_CpGym5Ms7qM21VLTBqa2lDSHM",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Mentions of vulnerability and development indices in the news media",
-    "slug": "map-18",
-    "sort": "Map_18",
-    "id": "0B_CpGym5Ms7qbG9QTjNETW1JMFE",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Concentration and fragmentation of OECD member countries&rsquo; bilateral adaptation aid.",
-    "slug": "map-25a",
-    "sort": "Map_25a",
-    "id": "0B8cFcLTApf45dG5BSUk1XzJlUFE",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Sectorial Specialisation of OECD member countries.",
-    "slug": "map-25b",
-    "sort": "Map_25b",
-    "id": "0B_CpGym5Ms7qYXJSQkU4a2xuRjg",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "The specialization of OECD donor countries by negotiating groups in the United Nations Framework Convention on Climate Change (UNFCCC).",
-    "slug": "map-26",
-    "sort": "Map_26",
-    "id": "0B_CpGym5Ms7qSC1HMmV3RXVSWHM",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Two decades of UNFCCC negotiations on mitigation and adaptation, 1995-2013.",
-    "slug": "map-27",
-    "sort": "Map_27",
-    "id": "0B_CpGym5Ms7qYnNBZlZnVFlNemM",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Two decades of UNFCCC negotiations on mitigation and adaptation, 1995-2013.",
-    "slug": "map-29",
-    "sort": "Map_29",
-    "id": "0B_CpGym5Ms7qLWlXTFdDakFtak0",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Map_30a",
-    "slug": "map-30a",
-    "sort": "Map_30a",
-    "id": "0B_CpGym5Ms7qUjg0dUNTZHEtRFE",
-    "type": "folder"
-  },
-  {
-    "title": "Map_30b",
-    "slug": "map-30b",
-    "sort": "Map_30b",
-    "id": "0B0Qm7RJqWbEoX012aUJRLW4xeE0",
-    "type": "folder"
-  },
-  {
-    "title": "Map_30c",
-    "slug": "map-30c",
-    "sort": "Map_30c",
-    "id": "0B0Qm7RJqWbEobjBrVGhhWXhsVlE",
-    "type": "folder"
-  },
-  {
-    "title": "Localization of &ldquo;climate talk&rdquo; and &ldquo;storm talk&rdquo; in Feb 2014, France.",
-    "slug": "map-31",
-    "sort": "Map_31",
-    "id": "0B_CpGym5Ms7qcjhheC1pblhuRmc",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Comparison of &ldquo;climate talk&rdquo; in February 2014 and September 2013, in France.",
-    "slug": "map-33",
-    "sort": "Map_33",
-    "id": "0B_CpGym5Ms7qcEpmLUE2c1ZsODA",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Climate Talk.",
-    "slug": "map-34",
-    "sort": "Map_34",
-    "id": "0B_CpGym5Ms7qMTRDbW52bFdBQ0k",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Map_35",
-    "slug": "map-35",
-    "sort": "Map_35",
-    "id": "0BxqL8KlS3YihNWdUV3RqOERYUXM",
-    "type": "folder"
-  },
-  {
-    "title": "Map_36",
-    "slug": "map-36",
-    "sort": "Map_36",
-    "id": "0BxqL8KlS3YihcWNQQU9vR3RQNE0",
-    "type": "folder"
-  },
-  {
-    "title": "Climate Talk.",
-    "slug": "map-37",
-    "sort": "Map_37",
-    "id": "0B62v418roMdaZng1UENQTTFKbXc",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Profiling adaptation and its place in climate change debates with Twitter (I)",
-    "slug": "map-38",
-    "sort": "Map_38",
-    "id": "0B62v418roMdaYkU4ZEVWRjMzQXc",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Profiling adaptation and its place in climate change debates with Twitter&nbsp;(II) ",
-    "slug": "map-39",
-    "sort": "Map_39",
-    "id": "0B62v418roMdaNzNTR0w2bmI0aXM",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Reading the state of climate change in Amazon.com. Conflict Literature.",
-    "slug": "map-40",
-    "sort": "Map_40",
-    "id": "0B62v418roMdaMUNRMlBVLWhJaXM",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Mapping cli-fi scenarios: Book covers with landscapes, issues, and personal narratives",
-    "slug": "map-41a",
-    "sort": "Map_41a",
-    "id": "0B62v418roMdaUXF3eXFLYUIxdGc",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Map_41b",
-    "slug": "map-41b",
-    "sort": "Map_41b",
-    "id": "0B0Qm7RJqWbEod1dXZDBSenlBMDg",
-    "type": "folder"
-  },
-  {
-    "title": "Mapping cli-fi scenarios: Book covers with landscapes, issues, and personal narratives",
-    "slug": "map-42",
-    "sort": "Map_42",
-    "id": "0B62v418roMdaa1VHdzZZNExPcjA",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Top 20 Issues on the International Climate Change Issue Agenda according to the Web ",
-    "slug": "map-43ab",
-    "sort": "Map_43ab",
-    "id": "0B8TmR5AwOSwidWJ5MV9xeHhOV2s",
-    "type": "folder",
-    "subtitle": ""
-  },
-  {
-    "title": "Map_43c",
-    "slug": "map-43c",
-    "sort": "Map_43c",
-    "id": "0B8TmR5AwOSwiUHdtbzFRelZFUnc",
-    "type": "folder"
-  },
-  {
-    "title": "Map_44",
-    "slug": "map-44",
-    "sort": "Map_44",
-    "id": "0B62v418roMdaVlVvWWpMVmQ2aG8",
-    "type": "folder"
-  },
-  {
-    "title": "Map_45a",
-    "slug": "map-45a",
-    "sort": "Map_45a",
     "id": "0B8TmR5AwOSwiQWo4NFBtdmZINjQ",
+    "original": "Map_45a",
+    "slug": "map-45a",
+    "createdDate": "2014-09-11T13:00:45.551Z",
+    "type": "folder",
+    "title": "",
+    "subtitle": "",
+    "authors": "",
+    "cover": "/data/map-cover-map-45a.jpg"
+  },
+  {
+    "id": "0B3_Z30yM93jgVTlEZERZanJWdDA",
+    "original": "Map_11l",
+    "slug": "amount-of-funding-for-projects-in-specific-vulnerability-areas-of-germany",
+    "createdDate": "2014-09-11T16:20:21.984Z",
+    "type": "folder",
+    "title": "Amount of funding for projects in specific vulnerability areas of Germany",
+    "subtitle": "Distribution of adaptation research projects and the corresponding total amount of funding for three natural areas of Germany. ",
+    "authors": "",
+    "cover": "/data/map-cover-amount-of-funding-for-projects-in-specific-vulnerability-areas-of-germany.jpg"
+  },
+  {
+    "id": "0B3_Z30yM93jgU1VoSU9ObjJUMlU",
+    "original": "Map_11c",
+    "slug": "adaptation-projects-in-germany-per-natural-area",
+    "createdDate": "2014-09-11T16:20:11.172Z",
+    "type": "folder",
+    "title": "Adaptation projects in Germany per natural area ",
+    "subtitle": "",
+    "authors": "",
+    "cover": "/data/map-cover-adaptation-projects-in-germany-per-natural-area.jpg"
+  },
+  {
+    "id": "0B0Qm7RJqWbEoX012aUJRLW4xeE0",
+    "original": "Map_30b",
+    "slug": "stream-graph-of-the-absolute-and-relative-visibility-of-countries-in-the-unfccc-negotiations-1995-2013",
+    "createdDate": "2014-09-11T16:09:33.618Z",
+    "type": "folder",
+    "title": "Stream graph of the absolute and relative visibility of countries in the UNFCCC negotiations, 1995-2013",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
+    "id": "0B0Qm7RJqWbEobjBrVGhhWXhsVlE",
+    "original": "Map_30c",
+    "slug": "countries-issues-contingency-matrix-1995-2013",
+    "createdDate": "2014-09-11T16:09:46.767Z",
+    "type": "folder",
+    "title": "Countries’ issues contingency matrix, 1995-2013",
+    "subtitle": "",
+    "authors": "",
+    "cover": "/data/map-cover-countries-issues-contingency-matrix-1995-2013.jpg"
+  },
+  {
+    "id": "0B_CpGym5Ms7qUjg0dUNTZHEtRFE",
+    "original": "Map_30a",
+    "slug": "18-years-of-unfccc-negotiations-on-mitigation-and-adaptation-1995-2013-overall-topical-stream-graph",
+    "createdDate": "2014-09-08T09:14:27.462Z",
+    "type": "folder",
+    "title": "18 years of UNFCCC negotiations on mitigation and adaptation, 1995-2013, overall, topical stream graph",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
+    "id": "0B_CpGym5Ms7qLWlXTFdDakFtak0",
+    "original": "Map_29",
+    "slug": "two-decades-of-unfccc-negotiations-on-mitigation-and-adaptation-1995-2013",
+    "createdDate": "2014-09-08T09:14:27.229Z",
+    "type": "folder",
+    "title": "Two decades of UNFCCC negotiations on mitigation and adaptation, 1995-2013.",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
+    "id": "0B62v418roMdaVlVvWWpMVmQ2aG8",
+    "original": "Map_44",
+    "slug": "map-44",
+    "createdDate": "2014-09-11T09:02:08.294Z",
+    "type": "folder",
+    "title": "",
+    "subtitle": "",
+    "authors": "Locating adaptation in the U.N climate change agendaHow the map is built"
+  },
+  {
+    "id": "0B62v418roMdaa1VHdzZZNExPcjA",
+    "original": "Map_42",
+    "slug": "map-42",
+    "createdDate": "2014-09-11T08:48:54.621Z",
+    "type": "folder",
+    "title": "",
+    "subtitle": "",
+    "authors": "Figure 1. Mapping climate change imagery with Google Images. Source: Digital Methods Initiative Fall Data Sprint. Date: 21-25 October 2013",
+    "cover": "/data/map-cover-map-42.jpg"
+  },
+  {
+    "id": "0B0Qm7RJqWbEod1dXZDBSenlBMDg",
+    "original": "Map_41a",
+    "slug": "mapping-cli-fi-scenarios",
+    "createdDate": "2014-09-12T10:11:27.947Z",
+    "type": "folder",
+    "title": "Mapping cli-fi scenarios.",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
+    "id": "0B8TmR5AwOSwiaFVBLXhqX3RHM1k",
+    "original": "DROPPED",
+    "slug": "dropped",
+    "createdDate": "2014-09-11T12:44:42.647Z",
     "type": "folder"
   },
   {
-    "title": "Map_45c",
-    "slug": "map-45c",
-    "sort": "Map_45c",
-    "id": "0B62v418roMdaWUMzVHRhRTJBZmM",
+    "id": "0B62v418roMdaUXF3eXFLYUIxdGc",
+    "original": "Map_41b",
+    "slug": "mapping-cli-fi-scenarios-book-covers-with-landscapes-issues-and-personal-narratives",
+    "createdDate": "2014-09-11T08:38:21.643Z",
+    "type": "folder",
+    "title": "Mapping cli-fi scenarios: Book covers with landscapes, issues, and personal narratives",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
+    "id": "0B_CpGym5Ms7qcEpmLUE2c1ZsODA",
+    "original": "Map_33",
+    "slug": "comparison-of-climate-talk-in-february-2014-and-september-2013-in-france",
+    "createdDate": "2014-09-08T09:18:46.615Z",
+    "type": "folder",
+    "title": "Comparison of “climate talk” in February 2014 and September 2013, in France.",
+    "subtitle": "",
+    "authors": "Figure 1. Comparison of “climate talk” in February 2014 and September 2013, in France"
+  },
+  {
+    "id": "0BxqL8KlS3YihNWdUV3RqOERYUXM",
+    "original": "Map_35",
+    "slug": "the-rise-of-adaptation-funding",
+    "createdDate": "2014-09-10T12:44:37.029Z",
+    "type": "folder",
+    "title": "The rise of adaptation funding",
+    "subtitle": "",
+    "authors": "Figure 1. Adaptation funding over the last 18 years ",
+    "cover": "/data/map-cover-the-rise-of-adaptation-funding.jpg"
+  },
+  {
+    "id": "0B7TgENsGObg3RlQ5ZmJ4LURMNE0",
+    "original": "Template Maps",
+    "slug": "adaptation-funding-and-vulnerability-indexes",
+    "createdDate": "2014-09-18T17:01:13.010Z",
+    "type": "folder",
+    "title": "Adaptation funding and vulnerability indexes",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
+    "id": "0B_CpGym5Ms7qU3loWjI4RDFtSEk",
+    "original": "Map_01",
+    "slug": "map-01",
+    "createdDate": "2014-09-08T09:04:18.451Z",
     "type": "folder"
+  },
+  {
+    "id": "0B_CpGym5Ms7qMTRDbW52bFdBQ0k",
+    "original": "Map_34",
+    "slug": "climate-talk",
+    "createdDate": "2014-09-08T09:19:05.210Z",
+    "type": "folder",
+    "title": "Climate Talk.",
+    "subtitle": "",
+    "authors": "Figure 1. The unique and shared words used in September 2013 and February 2014 in national newspapers. The length of the lines indicates the frequency with which the word was used. SOURCE_DATE: 28 March 2014",
+    "cover": "/data/map-cover-climate-talk.jpg"
+  },
+  {
+    "id": "0B8TmR5AwOSwidW5JZ25QRXktT2M",
+    "original": "Map_10c ",
+    "slug": "map-10c",
+    "createdDate": "2014-09-11T12:47:06.438Z",
+    "type": "folder"
+  },
+  {
+    "id": "0B_CpGym5Ms7qbG9QTjNETW1JMFE",
+    "original": "Map_18",
+    "slug": "mentions-of-vulnerability-and-development-indices-in-the-news-media",
+    "createdDate": "2014-09-08T09:14:04.321Z",
+    "type": "folder",
+    "title": "Mentions of vulnerability and development indices in the news media",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
+    "id": "0B8TmR5AwOSwicmdENHJGOEFSQ28",
+    "original": "Map_10a",
+    "slug": "map-10a",
+    "createdDate": "2014-09-11T12:47:22.404Z",
+    "type": "folder"
+  },
+  {
+    "id": "0B_CpGym5Ms7qamZzZmV0LXRoR2c",
+    "original": "Map_15",
+    "slug": "mentions-of-vulnerability-and-development-indices-in-the-unfccc-national-communications",
+    "createdDate": "2014-09-08T09:13:58.099Z",
+    "type": "folder",
+    "title": "Mentions of vulnerability and development indices in the UNFCCC national communications",
+    "subtitle": "",
+    "authors": "Figure 1. Mentions of indices over time in the UNFCCC national communications. In the period from 2000-2014 there were 83 mentions of 15 different indices in 492 national communications. Over half of these (49 mentions) were of the Human Development Index (HDI) with the Human Poverty Index (HPI) and the Coastal Vulnerability Index (CVI) being the second most mentioned (6 each). "
+  },
+  {
+    "id": "0B8TmR5AwOSwidWJ5MV9xeHhOV2s",
+    "original": "Map_43ab",
+    "slug": "top-20-issues-on-the-international-climate-change-issue-agenda-according-to-the-web",
+    "createdDate": "2014-09-11T12:59:17.473Z",
+    "type": "folder",
+    "title": "Top 20 Issues on the International Climate Change Issue Agenda according to the Web ",
+    "subtitle": "This graphic gives a picture of the agenda of international climate change NGOs according to their websites. Adaptation is at the top of the agenda of climate NGOs, with the vulnerability indicators ‘food’ and ‘water’ being addressed as the top two issues, followed by ‘community’ as the third. ",
+    "authors": "Figure 1. Top 18 Issues on the International Climate Change Issue Agenda according to the Web. Source: EMAPS Sprint Amsterdam. Date: 24-28 March 2014."
+  },
+  {
+    "id": "0B8TmR5AwOSwiT2VwbE5KbDBvYzg",
+    "original": "Map_10d",
+    "slug": "map-10d",
+    "createdDate": "2014-09-11T12:54:07.036Z",
+    "type": "folder"
+  },
+  {
+    "id": "0B62v418roMdaWUMzVHRhRTJBZmM",
+    "original": "Map_45c",
+    "slug": "map-45c",
+    "createdDate": "2014-09-11T09:10:01.044Z",
+    "type": "folder"
+  },
+  {
+    "id": "0B_CpGym5Ms7qOGZRUUtfX3hSWWM",
+    "original": "Map_02",
+    "slug": "what-is-an-adaption-project-1",
+    "createdDate": "2014-09-08T09:13:40.054Z",
+    "type": "folder",
+    "title": "What is an adaption project 1",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
+    "id": "0B_CpGym5Ms7qWVUxZTBIaUpqcWs",
+    "original": "Map_10",
+    "slug": "adaptation-funding-in-bangladesh-scatterplots-of-strategies-sectors-risks-and-funding-source",
+    "createdDate": "2014-09-08T09:13:49.554Z",
+    "type": "folder",
+    "title": "Adaptation Funding in Bangladesh - Scatterplots of strategies, sectors, risks and funding source",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
+    "id": "0B62v418roMdaMUNRMlBVLWhJaXM",
+    "original": "Map_40",
+    "slug": "reading-the-state-of-climate-change-in-amazoncom-conflict-literature",
+    "createdDate": "2014-09-10T16:15:54.545Z",
+    "type": "folder",
+    "title": "Reading the state of climate change in Amazon.com. Conflict Literature.",
+    "subtitle": "",
+    "authors": "Figure 1. Reading the state of climate change in Amazon.com. Adaptation Literature.Source: amazon.com Date: 24-28/03/14"
+  },
+  {
+    "id": "0B62v418roMdaZng1UENQTTFKbXc",
+    "original": "Map_37",
+    "slug": "map-37",
+    "createdDate": "2014-09-10T16:08:07.634Z",
+    "type": "folder",
+    "title": "",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
+    "id": "0B62v418roMdaNzNTR0w2bmI0aXM",
+    "original": "Map_39",
+    "slug": "profiling-adaptation-and-its-place-in-climate-change-debates-with-twitter-ii",
+    "createdDate": "2014-09-10T16:13:37.663Z",
+    "type": "folder",
+    "title": "Profiling adaptation and its place in climate change debates with Twitter (II) ",
+    "subtitle": "",
+    "authors": "",
+    "cover": "/data/map-cover-profiling-adaptation-and-its-place-in-climate-change-debates-with-twitter-ii.jpg"
+  },
+  {
+    "id": "0B62v418roMdaYkU4ZEVWRjMzQXc",
+    "original": "Map_38",
+    "slug": "profiling-adaptation-and-its-place-in-climate-change-debates-with-twitter-i",
+    "createdDate": "2014-09-10T16:13:03.072Z",
+    "type": "folder",
+    "title": "Profiling adaptation and its place in climate change debates with Twitter (I)",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
+    "id": "0B8TmR5AwOSwibnhfT1RVS1hTbkk",
+    "original": "Map_10b",
+    "slug": "map-10b",
+    "createdDate": "2014-09-11T12:47:12.127Z",
+    "type": "folder"
+  },
+  {
+    "id": "0B8cFcLTApf45dG5BSUk1XzJlUFE",
+    "original": "Map_25a",
+    "slug": "concentration-and-fragmentation-of-oecd-member-countries-bilateral-adaptation-aid",
+    "createdDate": "2014-09-10T09:38:16.298Z",
+    "type": "folder",
+    "title": "Concentration and fragmentation of OECD member countries’ bilateral adaptation aid.",
+    "subtitle": "",
+    "authors": "Figure 1. Concentration and fragmentation of OECD member countries’ bilateral adaptation aid. Scatterplot of donor countries according to their number of recipient countries and their number of areas to be fostered by their action. Source : OECD StatExtracts. Date : Jan 6 2014"
+  },
+  {
+    "id": "1iocuTlOJgeo6d80lJNMGdQlO5ZW4-0Stry62sht5SyM",
+    "original": "Maps (for each group)",
+    "slug": "maps-for-each-group",
+    "createdDate": "2014-09-08T09:20:46.927Z"
+  },
+  {
+    "id": "0BxqL8KlS3YihcWNQQU9vR3RQNE0",
+    "original": "Map_36",
+    "slug": "map-36",
+    "createdDate": "2014-09-10T14:49:33.506Z",
+    "type": "folder"
+  },
+  {
+    "id": "0B_CpGym5Ms7qYXJSQkU4a2xuRjg",
+    "original": "Map_25b",
+    "slug": "sectorial-specialisation-of-oecd-member-countries",
+    "createdDate": "2014-09-08T09:14:16.342Z",
+    "type": "folder",
+    "title": "Sectorial Specialisation of OECD member countries.",
+    "subtitle": "",
+    "authors": "Figure 1. Sectorial Specialisation of OECD member countries. General view of the Sankey diagram. Donor countries are shown on the left, and sectors funded on the right. The streams represent the flow of bilateral adaptation aid from the countries to the sectors. Source : OECD StatExtracts. Date : Jan 6 2014"
+  },
+  {
+    "id": "0B_CpGym5Ms7qcjhheC1pblhuRmc",
+    "original": "Map_31",
+    "slug": "localization-of-climate-talk-and-storm-talk-in-feb-2014-france",
+    "createdDate": "2014-09-08T09:14:32.493Z",
+    "type": "folder",
+    "title": "Localization of “climate talk” and “storm talk” in Feb 2014, France.",
+    "subtitle": "",
+    "authors": "Figure 1. A geographical illustration of the percentage of total Facebook comments made on national and local French newspaper pages in Feb 2014 which refer to ‘stormtalk’ and ‘climatetalk’. SOURCE: DATE: 28 March 2014Table 1: the selected newspapers and their respective reach. Newspapers in the first column are distributed nationally."
+  },
+  {
+    "id": "0B_CpGym5Ms7qYnNBZlZnVFlNemM",
+    "original": "Map_27",
+    "slug": "two-decades-of-unfccc-negotiations-on-mitigation-and-adaptation-1995-2013",
+    "createdDate": "2014-09-08T09:14:22.131Z",
+    "type": "folder",
+    "title": "Two decades of UNFCCC negotiations on mitigation and adaptation, 1995-2013.",
+    "subtitle": "",
+    "authors": "Figure 1. Network of terms co-occurring in the same paragraphs of the ENB, Volume 12. Node position is determined by a force vector algorithm (Jacomy et al., forthcoming) bringing together terms directly or indirectly linked, and keeping away terms with fewer co-occurrences. Node size is proportional to their frequency in the corpus. Node color follows the clusters identified by the clustering algorithm. The names of the clusters have been attributed manually. SOURCE_DATE"
+  },
+  {
+    "id": "0B_CpGym5Ms7qSC1HMmV3RXVSWHM",
+    "original": "Map_26",
+    "slug": "the-specialization-of-oecd-donor-countries-by-negotiating-groups-in-the-united-nations-framework-convention-on-climate-change-unfccc",
+    "createdDate": "2014-09-08T09:14:16.342Z",
+    "type": "folder",
+    "title": "The specialization of OECD donor countries by negotiating groups in the United Nations Framework Convention on Climate Change (UNFCCC).",
+    "subtitle": "",
+    "authors": "Figure 1. Bipartite network of OECD donor countries and recipient countries of bilateral adaptation aid, assembled by UNFCCC groupings. SOURCE_DATE"
+  },
+  {
+    "id": "0B_CpGym5Ms7qM21VLTBqa2lDSHM",
+    "original": "Map_17",
+    "slug": "vulnerability-mentions-in-academic-journals",
+    "createdDate": "2014-09-08T09:14:03.577Z",
+    "type": "folder",
+    "title": "Vulnerability mentions in academic journals",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
+    "id": "0B_CpGym5Ms7qNEdPdjhJR2V1RkE",
+    "original": "Map_14",
+    "slug": "different-indices-different-issues",
+    "createdDate": "2014-09-08T09:13:54.434Z",
+    "type": "folder",
+    "title": "Different indices, different issues",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
+    "id": "0B_CpGym5Ms7qaFRIQ2F4Um83TTQ",
+    "original": "Map_13",
+    "slug": "bilateral-funds-and-vulnerability-indexes",
+    "createdDate": "2014-09-08T09:14:28.460Z",
+    "type": "folder",
+    "title": "Bilateral Funds and vulnerability indexes",
+    "subtitle": "",
+    "authors": "Figure 1. "
+  },
+  {
+    "id": "0B_CpGym5Ms7qVEJWemg3dnNpRTA",
+    "original": "Map_12",
+    "slug": "adaptation-funding-and-vulnerability-indexes",
+    "createdDate": "2014-09-08T09:13:51.186Z",
+    "type": "folder",
+    "title": "Adaptation funding and vulnerability indexes.",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
+    "id": "0B_CpGym5Ms7qMGVveE90cDEyZHc",
+    "original": "Map_07",
+    "slug": "what-is-an-adaptation-project-2",
+    "createdDate": "2014-09-08T09:13:43.677Z",
+    "type": "folder",
+    "title": "What is an adaptation project 2",
+    "subtitle": "",
+    "authors": ""
   }
 ]

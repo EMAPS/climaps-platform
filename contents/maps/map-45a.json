@@ -1,19 +1,34 @@
-[
-  {
-    "title": "data",
-    "slug": "data",
-    "sort": "data",
-    "id": "0BxqL8KlS3YihU1pfandUdFViazg",
-    "type": "folder",
-    "sections": []
-  },
-  {
-    "title": "map 45a",
-    "slug": "map-45a",
-    "sort": "map 45a",
-    "id": "0B62v418roMdac3dCZE5kS2gzaVk",
-    "type": "PDF",
-    "src": "https://lh3.googleusercontent.com/Jch_CWMiu2LouGwTO5ubuo9NCVpgBjWgqpFnA3uynQrDZTVv7oL8Pru3iQTz_Y0Brl-eVg",
-    "sections": []
-  }
-]
+{
+  "title": "",
+  "subtitle": "",
+  "authors": "",
+  "introduction": "",
+  "sections": [],
+  "metadata": [
+    {
+      "type": "text",
+      "html": "<h4 class=\"c9\"><a name=\"h.p9w8e8pcp91t\"></a><span class=\"c2\">Gabriele Colombo, Carlo di Gaetano, Stefania Guerra (Politecnico Milano), Catalina Iorga, Sabine Niederer, Simeona Petkova (University of Amsterdam).</span></h4><p class=\"c8 c11\"><span class=\"c6\"></span></p>",
+      "title": "Authors"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c4 c8\"><span></span></p>",
+      "title": "Data time-stamp"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c4\"><span class=\"c5\"><a class=\"c3\" href=\"http://www.google.com/url?q=http%3A%2F%2Fdownload.daraint.org%2FCVM2-Low.pdf&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGOxKT3M9OBt5RY8sav8tmXiZNJvQ\">http://download.daraint.org/CVM2-Low.pdf</a></span></p><p class=\"c4\"><span class=\"c5\"><a class=\"c3\" href=\"http://www.google.com/url?q=http%3A%2F%2Fgermanwatch.org%2Fklima%2Fcri11.pdf&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGaSjvE-FXgRpJ-8XU9JvFHz-ncYg\">http://germanwatch.org/klima/cri11.pdf</a></span></p><p class=\"c4\"><span>http://index.gain.org/</span></p><p class=\"c4 c8\"><span class=\"c7\"></span></p><p class=\"c4\"><span class=\"c7\">Data files</span></p><p class=\"c4\"><span>https://drive.google.com/?tab=oo&amp;authuser=0#folders/0BxqL8KlS3YihU1pfandUdFViazg</span></p><p class=\"c4 c8\"><span></span></p><p class=\"c4\"><span class=\"c7\">Code</span></p><p class=\"c4\"><span>No additional code associated with this map</span></p>",
+      "title": "Data source"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c4 c8\"><span></span></p>",
+      "title": "Related narratives"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c1\"><span></span></p><p class=\"c1\"><span></span></p>",
+      "title": "Related maps"
+    }
+  ]
+}

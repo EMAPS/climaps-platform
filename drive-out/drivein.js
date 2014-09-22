@@ -58,14 +58,20 @@ utils.write = function(filepath, contents) {
   @return Promise
 */
 file.downloadAsync = function(downloadUrl, filepath) {
-  console.log(secrets);
+  //console.log(secrets);
 
-  request({
-    url: downloadUrl,
-    headers: {
-      'Authorization' : 'Bearer ' + secrets.access_token
-    }
-  }).pipe(fs.createWriteStream(filepath)) // save image
+  try{
+    request({
+      url: downloadUrl,
+      headers: {
+        'Authorization' : 'Bearer ' + secrets.access_token
+      }
+    }).pipe(fs.createWriteStream(filepath)) // save image
+  } catch(e) {
+    console.log(e);
+    console.log(filepath,downloadUrl);
+    throw 'file not downloaded!!!!'
+  }
 };
 
 
@@ -91,7 +97,7 @@ file.download = function(downloadUrl, filepath) {
         'Authorization' : 'Bearer ' + secrets.access_token
       }
     });
-
+  console.log('downloading ... ', res.statusCode, filepath);
   res.statusCode == 200 && utils.write(filepath, res.body)
   
   return res.statusCode;
@@ -247,7 +253,7 @@ folder.list = function(folderId, driver) {
       
       console.log('items ', res.items.length);
       for(var i in res.items) {
-        console.log(colors.greenBright(res.items[i].mimeType), res.items[i].title);
+        console.log('\n',colors.greenBright(res.items[i].mimeType), res.items[i].title);
         var r = {};
 
         if(typeof driver == 'function') {
@@ -268,6 +274,25 @@ folder.list = function(folderId, driver) {
 
   });
 };
+
+
+folder.listAsync = function(options){
+  if(!options || !options.fileId)
+    throw 'folder.listAsync interrupted: please specify a "fileId" field ...';
+  var res = reqSync({
+      url: 'https://www.googleapis.com/drive/v2/files',
+      qs:{
+        q:  '"'+options.fileId + '" in parents'
+      },
+      headers: {
+        'Authorization' : 'Bearer ' + secrets.access_token
+      }
+    });
+  console.log('folder.listAsync', options.fileId, '-->',res.statusCode);
+  return JSON.parse(res.body);
+};
+
+
 
 exports.utils = utils;
 exports.folder = folder;

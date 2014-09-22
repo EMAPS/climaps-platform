@@ -1,56 +1,34 @@
-[
-  {
-    "title": "map 44a.png",
-    "slug": "map-44apng",
-    "sort": "map 44a.png",
-    "id": "0B62v418roMdaVDdWMmt3ejZHdjQ",
-    "type": "PNG Image",
-    "src": "https://lh4.googleusercontent.com/eu6ORL_Y9xdLX_M7bql1aPz_30EIng48om_aJZ-7qNBPbDZH6b1sqK1iLnXf01Puiaq4jg",
-    "sections": []
-  },
-  {
-    "title": "map 44b.png",
-    "slug": "map-44bpng",
-    "sort": "map 44b.png",
-    "id": "0B62v418roMdacko5ZWJVRC1EeDg",
-    "type": "PNG Image",
-    "src": "https://lh6.googleusercontent.com/CGSQbF52AQWfNf3oLcNqpjrk40FrLt91Je4VExKWYt8CYdW8oGux1dfp9RK1g-qg7zq12A",
-    "sections": []
-  },
-  {
-    "title": "map 44c.png",
-    "slug": "map-44cpng",
-    "sort": "map 44c.png",
-    "id": "0B62v418roMdaSjUtUTQ0VUZzTHM",
-    "type": "PNG Image",
-    "src": "https://lh6.googleusercontent.com/wQENAiquHZMVd6OHPStmZa1BUny67z4RBtVJvHnQSN9ugEuBf_TJ9ZnJaQ2ea93vjr2j7w",
-    "sections": []
-  },
-  {
-    "title": "map 44d.png",
-    "slug": "map-44dpng",
-    "sort": "map 44d.png",
-    "id": "0B62v418roMdacmxQQ1JVZncxdDQ",
-    "type": "PNG Image",
-    "src": "https://lh6.googleusercontent.com/YLDrD6Xfvo80VZS1-nRtrvmfZcg9jQV3Bww4pszgekWgUVvh-U17On26JkNed1ZWlpPcOw",
-    "sections": []
-  },
-  {
-    "title": "map 44e.png",
-    "slug": "map-44epng",
-    "sort": "map 44e.png",
-    "id": "0B62v418roMdaLXR6MG5RYXROUDA",
-    "type": "PNG Image",
-    "src": "https://lh5.googleusercontent.com/IPpDUNG9WWWEwd8DwKTul6jbrNjlV9CAau3Miwho8vHf7k0toLY9KY3qAX5uhpyK5wgJPw",
-    "sections": []
-  },
-  {
-    "title": "map 44f.png",
-    "slug": "map-44fpng",
-    "sort": "map 44f.png",
-    "id": "0B62v418roMdaSHRwMjdIVk81Wm8",
-    "type": "PNG Image",
-    "src": "https://lh4.googleusercontent.com/acYW1fBEdovFtEjKEBSxRRpcUgNkm40nO32Ut_cpZXvo1owsQF1gZ85SllHDgSpLuBkXTA",
-    "sections": []
-  }
-]
+{
+  "title": "",
+  "subtitle": "",
+  "authors": "Locating adaptation in the U.N climate change agendaHow the map is built",
+  "introduction": "",
+  "sections": [],
+  "metadata": [
+    {
+      "type": "text",
+      "html": "<h4 class=\"c1 c3\"><a name=\"h.b75bocbkoxm3\"></a><span class=\"c7\">Richard Rogers, Sophie Waterloo, and Liliana Bounegru (University of Amsterdam)</span></h4><p class=\"c0\"><span></span></p>",
+      "title": "Authors"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c4\"><span>Digital Methods Initiative Fall Data Sprint, 21-25 October 2013</span></p>",
+      "title": "Data time-stamp"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c4 c2\"><span class=\"c9\">un.org/climatechange</span></p><p class=\"c0 c2\"><span class=\"c5\"></span></p><p class=\"c2 c4\"><span class=\"c5\">Data files</span></p><p class=\"c4 c2\"><span>https://drive.google.com/?tab=oo&amp;authuser=0#folders/0BwNYLsvOal3xYjRUQ0F5V3ZWR3c</span></p><p class=\"c0 c2\"><span></span></p><p class=\"c4 c2\"><span class=\"c5\">Code</span></p><p class=\"c4 c2\"><span>No additional code associated with this map</span></p>",
+      "title": "Data source"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c0 c2\"><span></span></p>",
+      "title": "Related narratives"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p>",
+      "title": "Related maps"
+    }
+  ]
+}
