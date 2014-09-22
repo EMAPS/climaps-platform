@@ -1,7 +1,7 @@
 /*General*/
 .navbar-inverse{
 	background-color: #fff;
-	border-color: #f0ecec;
+	border-color: transparent;
 	opacity: 0.6;
 	filter: alpha(opacity=60); /* For IE8 and earlier */
 }
@@ -227,7 +227,6 @@ a:hover{
 	font-size: 1.8em;
 	font-weight: 400;
 	margin-top: 60px;
-	margin-bottom: 30px;
 }
 
 .references p{
@@ -241,6 +240,7 @@ a:hover{
 
 .aside{
 	padding-left: 30px;
+	padding-top: 50px;
 }
 
 .aside p{
@@ -275,6 +275,10 @@ a:hover{
 	color: #ff5a52;
 }
 
+.text-narrative{
+ 	padding-top: 50px;
+}
+
 .text-narrative h3{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 600;
@@ -282,30 +286,28 @@ a:hover{
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	color: #000;
-	padding-top: 50px;
 }
 
 .container-viz {
-	height:700px;
+	height:100%;
 	border-top: 1px #f0ecec solid;
 	border-bottom: 1px #f0ecec solid;
 	margin-top: 50px;
-	margin-bottom: 50px;
 	background-color: #FCFAFA;
 	position: relative;
+	width:100%;
+	min-height: 600px;
 }
 
 .container-viz h1{
 	font-family: 'Crimson Text', serif;	
-	font-size: 2em;
-	padding-top: 30px;
+	font-size: 1.7em;
 	text-transform:capitalize;
 }
 
 .container-viz.map-page h1{
 	font-family: 'Crimson Text', serif;	
-	font-size: 3em;
-	padding-top: 30px;
+	font-size: 2em;
 }
 
 .container-viz p{
@@ -315,6 +317,7 @@ a:hover{
 .text-map-page{
 	border-right:1px #f0ecec solid;
 	padding-right: 25px;
+	padding-top: 50px;
 }
 
 
@@ -471,7 +474,6 @@ nav a {
 	color: #ff5a52;
 }
 
-
 .title{
 	font-family: 'Crimson Text', serif;
 	font-size: 2.5em;
@@ -479,9 +481,110 @@ nav a {
 	padding-bottom: 30px;
 }
 
-
-
 .main-map h1{
 	padding-top: 30px;
 }
 
+/* network details controls*/
+
+.network-container{
+	min-height: 80px;
+	border-bottom: 1px solid #f0ecec;
+	padding-top: 20px;
+}
+
+.network-controls{
+	border-bottom: 1px solid #f0ecec;
+	padding-bottom: 15px;
+}
+
+.node-details{
+	padding-top: 10px;
+	border-right: 1px solid #f0ecec;
+}
+
+.node-details{
+	padding-bottom: 15px;
+}
+
+
+
+/*search*/
+.input-group .icon-addon .form-control {
+    border-radius: 0;
+}
+
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+
+.icon-addon.addon-lg .form-control {
+    line-height: 1.33;
+    height: 46px;
+    font-size: 18px;
+    padding: 10px 16px 10px 40px;
+}
+
+.icon-addon.addon-sm .form-control {
+    height: 30px;
+    padding: 5px 10px 5px 28px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.icon-addon.addon-lg .fa,
+.icon-addon.addon-lg .glyphicon {
+    font-size: 18px;
+    margin-left: 0;
+    left: 11px;
+    top: 4px;
+}
+
+.icon-addon.addon-md .form-control,
+.icon-addon .form-control {
+    padding-left: 30px;
+    float: left;
+    font-weight: normal;
+}
+
+.icon-addon.addon-sm .fa,
+.icon-addon.addon-sm .glyphicon {
+    margin-left: 0;
+    font-size: 12px;
+    left: 5px;
+    top: -1px
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #2580db;
+}

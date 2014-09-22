@@ -1,23 +1,63 @@
 <div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+  <div class="container">
+    <div class="logo"><img src="images/logo.png"></div>
+  </div>
 </div>
 
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 intro">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam cursus sit amet lectus non pretium. Mauris consequat justo sapien, a pharetra tortor gravida ut. Etiam luctus lacus at felis maximus, id malesuada tortor interdum. Etiam id pharetra purus. Vestibulum facilisis massa sed ligula blandit, eget varius quam malesuada. Aenean dictum finibus est, non euismod neque fermentum eget. Donec eget ex et eros tristique pellentesque sed ut nibh.</p>
+    </div>  
+  </div>
+  <div class="row"> 
+    <div class="col-md-6">
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin fermentum magna et orci vulputate auctor. Aenean volutpat odio dolor, vitae malesuada lacus semper rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec condimentum, sem a pellentesque luctus, risus tortor pulvinar neque, ut facilisis elit orci nec massa. Nunc placerat enim mi, a vulputate tortor sagittis a. Nullam nibh nisi, luctus et orci vel, euismod lacinia massa. Nam aliquam sem ut odio lobortis, et suscipit arcu aliquet. Nullam dignissim dui risus. Nunc eleifend, magna vitae malesuada congue, ipsum erat efficitur metus, eu convallis est leo non velit. Donec sed tellus nec lectus eleifend placerat nec id enim. Sed condimentum neque dui, ac dictum dui congue quis. Donec luctus id magna bibendum iaculis. Nam eu urna massa. Quisque ullamcorper aliquam dui a rutrum. Aenean tempor neque a erat commodo egestas.
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
+      </p>
+    </div>
+    <div class="col-md-6">
+      <p>Nam ac ornare lacus. Etiam et hendrerit tellus, sed posuere libero. Quisque a nulla mi. Morbi elementum luctus maximus. Nullam imperdiet sit amet nulla et maximus. Morbi dignissim, nisi vitae suscipit placerat, est odio egestas est, et bibendum dolor tortor nec arcu. Nullam et lorem mattis, luctus sapien quis, sodales urna. Morbi porttitor quis sapien a tincidunt.
+        Nullam elementum sagittis lorem porttitor porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut id vestibulum enim. Etiam fringilla pretium enim, non elementum felis ultricies non. Sed at nisl et eros venenatis porta. Duis non leo aliquam, efficitur metus in, dapibus libero. Mauris ullamcorper neque quis augue pellentesque imperdiet. Sed in molestie mauris. Donec sit amet purus a lectus ullamcorper consequat. Nam vel magna quis eros consequat gravida. In eu mi ornare, tempor quam sit amet, malesuada eros. Suspendisse pellentesque quis dui a semper.</p>
+      </div>
+    </div>
+    <p>
+      <a ng-href="#">More about this project</a>
+    </p>
+    <hr>
+</div>
+<div class="container switch">
+  <div class="row">
+    <div class="col-md-12">
+      <tabset>
+        <tab heading="Narratives">
+          <div class="container-fluid">
+            <div ng-repeat="narrative in narratives" class="row narrative-thumb" ng-style="overclass" ng-mouseover="overclass = { 'background-image': 'url(images/thumb_narrative.jpg)'}" ng-mouseout="overclass = { 'background-image': 'none'}">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-10">
+                    <h1>
+                      <a ng-href="#/narrative/{{narrative.slug}}">{{narrative.title}}</a>
+                    </h1>
+                    <h2>
+                      {{narrative.subtitle}}
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </tab>
+        <tab heading="Maps">
+          <div class="container-fluid">
+            <div class="row">
+              <div ng-repeat="map in maps" class="col-md-3 map-thumb" ng-style="overclass" ng-mouseover="overclass = { 'background-image': 'url(images/thumb_narrative.jpg)'}" ng-mouseout="overclass = { 'background-image': 'none'}">
+                <a ng-href="#/map/{{map.slug}}"><h1>{{map.title}}</h1></a>
+              </div>
+            </div>
+          </div>
+        </tab>
+      </tabset>
+    </div>
+  </div>
 </div>

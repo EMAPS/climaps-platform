@@ -16,15 +16,27 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'angular-loading-bar'
   ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        controller: 'MainCtrl',
+        resolve: {
+          narratives : function (fileService) {
+            return fileService.getFile('contents/narratives.json')
+          },
+          maps : function (fileService) {
+            return fileService.getFile('contents/maps.json')
+          },
+          content : function (fileService) {
+            return fileService.getFile('contents/pages/home.json')
+          }
+        }
       })
-      .when('/narratives/:narrative', {
+      .when('/narrative/:narrative', {
         templateUrl: 'views/narrative.html', 
         controller: 'NarrativeCtrl',
         // resolve: {
@@ -34,7 +46,7 @@ angular
         //   }
         // }
       })
-      .when('/maps/:map', {
+      .when('/map/:map', {
         templateUrl: 'views/map.html', 
         controller: 'MapCtrl',
         // resolve: {
