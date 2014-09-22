@@ -1,5 +1,15 @@
 [
   {
+    "id": "0B62v418roMdaUXF3eXFLYUIxdGc",
+    "original": "Map_41b",
+    "slug": "mapping-cli-fi-scenarios-book-covers-with-landscapes-issues-and-personal-narratives",
+    "createdDate": "2014-09-11T08:38:21.643Z",
+    "type": "folder",
+    "title": "Mapping cli-fi scenarios: Book covers with landscapes, issues, and personal narratives",
+    "subtitle": "",
+    "authors": ""
+  },
+  {
     "id": "0B8TmR5AwOSwiQWo4NFBtdmZINjQ",
     "original": "Map_45a",
     "slug": "map-45a",
@@ -40,7 +50,8 @@
     "type": "folder",
     "title": "Stream graph of the absolute and relative visibility of countries in the UNFCCC negotiations, 1995-2013",
     "subtitle": "",
-    "authors": ""
+    "authors": "",
+    "cover": "/data/map-cover-stream-graph-of-the-absolute-and-relative-visibility-of-countries-in-the-unfccc-negotiations-1995-2013.jpg"
   },
   {
     "id": "0B0Qm7RJqWbEobjBrVGhhWXhsVlE",
@@ -61,7 +72,8 @@
     "type": "folder",
     "title": "18 years of UNFCCC negotiations on mitigation and adaptation, 1995-2013, overall, topical stream graph",
     "subtitle": "",
-    "authors": ""
+    "authors": "",
+    "cover": "/data/map-cover-18-years-of-unfccc-negotiations-on-mitigation-and-adaptation-1995-2013-overall-topical-stream-graph.jpg"
   },
   {
     "id": "0B_CpGym5Ms7qLWlXTFdDakFtak0",
@@ -112,16 +124,6 @@
     "type": "folder"
   },
   {
-    "id": "0B62v418roMdaUXF3eXFLYUIxdGc",
-    "original": "Map_41b",
-    "slug": "mapping-cli-fi-scenarios-book-covers-with-landscapes-issues-and-personal-narratives",
-    "createdDate": "2014-09-11T08:38:21.643Z",
-    "type": "folder",
-    "title": "Mapping cli-fi scenarios: Book covers with landscapes, issues, and personal narratives",
-    "subtitle": "",
-    "authors": ""
-  },
-  {
     "id": "0B_CpGym5Ms7qcEpmLUE2c1ZsODA",
     "original": "Map_33",
     "slug": "comparison-of-climate-talk-in-february-2014-and-september-2013-in-france",
@@ -149,7 +151,7 @@
     "createdDate": "2014-09-18T17:01:13.010Z",
     "type": "folder",
     "title": "Adaptation funding and vulnerability indexes",
-    "subtitle": "",
+    "subtitle": "Subtitle of the map max 100 characters - if needed, otherwise delete this (subtitle style)",
     "authors": ""
   },
   {
@@ -202,7 +204,7 @@
     "type": "folder",
     "title": "Mentions of vulnerability and development indices in the UNFCCC national communications",
     "subtitle": "",
-    "authors": "Figure 1. Mentions of indices over time in the UNFCCC national communications. In the period from 2000-2014 there were 83 mentions of 15 different indices in 492 national communications. Over half of these (49 mentions) were of the Human Development Index (HDI) with the Human Poverty Index (HPI) and the Coastal Vulnerability Index (CVI) being the second most mentioned (6 each). "
+    "authors": ""
   },
   {
     "id": "0B8TmR5AwOSwidWJ5MV9xeHhOV2s",
@@ -304,7 +306,7 @@
     "type": "folder",
     "title": "Concentration and fragmentation of OECD member countries’ bilateral adaptation aid.",
     "subtitle": "",
-    "authors": "Figure 1. Concentration and fragmentation of OECD member countries’ bilateral adaptation aid. Scatterplot of donor countries according to their number of recipient countries and their number of areas to be fostered by their action. Source : OECD StatExtracts. Date : Jan 6 2014"
+    "authors": ""
   },
   {
     "id": "1iocuTlOJgeo6d80lJNMGdQlO5ZW4-0Stry62sht5SyM",
@@ -376,7 +378,7 @@
     "createdDate": "2014-09-08T09:13:54.434Z",
     "type": "folder",
     "title": "Different indices, different issues",
-    "subtitle": "",
+    "subtitle": "In what contexts are vulnerability indices being talked about on the Web?",
     "authors": ""
   },
   {
@@ -387,7 +389,7 @@
     "type": "folder",
     "title": "Bilateral Funds and vulnerability indexes",
     "subtitle": "",
-    "authors": "Figure 1. "
+    "authors": ""
   },
   {
     "id": "0B_CpGym5Ms7qVEJWemg3dnNpRTA",

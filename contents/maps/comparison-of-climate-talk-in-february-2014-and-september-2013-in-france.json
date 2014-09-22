@@ -34,7 +34,7 @@
     },
     {
       "type": "text",
-      "html": "<p class=\"c1 c2\"><span></span></p><p class=\"c1 c2\"><span class=\"c3\"></span></p><p class=\"c1\"><span class=\"c3\">Data files</span></p><p class=\"c1 c2\"><span></span></p><p class=\"c1 c2\"><span></span></p><p class=\"c1\"><span class=\"c3\">Code</span></p><p class=\"c1 c2\"><span></span></p>",
+      "html": "<p class=\"c1 c2\"><span></span></p><p class=\"c1 c2\"><span class=\"c0\"></span></p><p class=\"c1\"><span class=\"c0\">Data files</span></p><p class=\"c1 c2\"><span></span></p><p class=\"c1 c2\"><span></span></p><p class=\"c1\"><span class=\"c0\">Code</span></p><p class=\"c1 c2\"><span></span></p>",
       "title": "Data source"
     },
     {

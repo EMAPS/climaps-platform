@@ -7,44 +7,44 @@
   "sections": [
     {
       "type": "text",
-      "html": "<p class=\"c5 c18\"><span>A first broad exploration of the network graph shows a number of aspects that have long been a subject of discussion in the climate debate among scientists and the public. The network displays clusters focused on the two main approaches to dealing with the impacts of climate change, which are adaptation and mitigation. The visualization further reveals a number of dense clusters and some smaller more dispersed clusters. The particularly dense clusters reflect a localized take on the issue of climate change, centered on political events. Different metrics of vulnerability also find their way as important topics in the network, including international clusters, driven by instances of extreme weather as well as intergovernmental climate change conferences and similar events. </span></p><p class=\"c8\"><span class=\"c6\"></span></p>",
+      "html": "<p class=\"c9 c8 c17\"><span>A first broad exploration of the network graph shows a number of aspects that have long been a subject of discussion in the climate debate among scientists and the public. The network displays clusters focused on the two main approaches to dealing with the impacts of climate change, which are adaptation and mitigation. The visualization further reveals a number of dense clusters and some smaller more dispersed clusters. The particularly dense clusters reflect a localized take on the issue of climate change, centered on political events. Different metrics of vulnerability also find their way as important topics in the network, including international clusters, driven by instances of extreme weather as well as intergovernmental climate change conferences and similar events. </span></p><p class=\"c8 c12\"><span class=\"c10\"></span></p>",
       "title": "How to read the map"
     },
     {
       "type": "text",
-      "html": "<p class=\"c5\"><span>Using the Twitter Capture and Analysis Toolset (TCAT), developed by the Digital Methods Initiative at the University of Amsterdam (Rieder &amp; Borra, 2014), a dataset of tweets between 23 November 2012 and 23 November 2013 containing the query [climate change or global warming] was obtained, consisting of 4,771,135 tweets from 1,780,225 distinct users. We identified hashtag clusters in the climate change Twitter space through a co-hashtag network analysis performed in Gephi using the modularity class algorithm and OpenOrd layout, and further manually annotated the clusters along with a close reading of the actual tweets to verify the different themes. The result is an annotated map of clusters which shows the top issues in the climate change space on Twitter.</span></p><p class=\"c8\"><span></span></p><p class=\"c8\"><span></span></p>",
+      "html": "<p class=\"c8 c9\"><span>Using the Twitter Capture and Analysis Toolset (TCAT), developed by the Digital Methods Initiative at the University of Amsterdam (Rieder &amp; Borra, 2014), a dataset of tweets between 23 November 2012 and 23 November 2013 containing the query [climate change or global warming] was obtained, consisting of 4,771,135 tweets from 1,780,225 distinct users. We identified hashtag clusters in the climate change Twitter space through a co-hashtag network analysis performed in Gephi using the modularity class algorithm and OpenOrd layout, and further manually annotated the clusters along with a close reading of the actual tweets to verify the different themes. The result is an annotated map of clusters which shows the top issues in the climate change space on Twitter.</span></p><p class=\"c8 c12\"><span></span></p><p class=\"c8 c12\"><span></span></p>",
       "title": "How the map is built "
     },
     {
       "type": "text",
-      "html": "<p class=\"c14 c10 c17\"><span class=\"c3\">E.K. Borra &amp; B. Rieder (2014). </span><span class=\"c9 c16\"><a class=\"c12\" href=\"http://www.google.com/url?q=http%3A%2F%2Fwww.emeraldinsight.com%2Fjournals.htm%3Fissn%3D2050-3806%26volume%3D66%26issue%3D3%26articleid%3D17109516%26show%3Dabstract&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEvtXpZZEDG6AwKEzxsh9DD8ofSQw\">Programmed Method: Developing a Toolset for Capturing and Analyzing Tweets.</a></span><span class=\"c3\">&nbsp;</span><span class=\"c3 c4\">Aslib Journal of Information Management, 66</span><span class=\"c3\">(3).</span></p><p class=\"c8 c14\"><span></span></p><p class=\"c5 c7\"><span></span></p><p class=\"c8 c14\"><span></span></p><p class=\"c8 c14\"><span></span></p><div class=\"c2\"><p class=\"c13 c10\"><a href=\"#cmnt_ref1\" name=\"cmnt1\">[a]</a><span class=\"c11\">Colour-coding the hashtags is not that relevant so we might want to remove that.</span></p></div><div class=\"c2\"><p class=\"c10 c13\"><a href=\"#cmnt_ref2\" name=\"cmnt2\">[b]</a><span class=\"c11\">Shall we keep the nodes grey? It would be nice to know the hashtags to keep the colors in the visualization</span></p></div>",
+      "html": "<p class=\"c15 c8 c16\"><span class=\"c3\">E.K. Borra &amp; B. Rieder (2014). </span><span class=\"c7 c18\"><a class=\"c13\" href=\"http://www.google.com/url?q=http%3A%2F%2Fwww.emeraldinsight.com%2Fjournals.htm%3Fissn%3D2050-3806%26volume%3D66%26issue%3D3%26articleid%3D17109516%26show%3Dabstract&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEvtXpZZEDG6AwKEzxsh9DD8ofSQw\">Programmed Method: Developing a Toolset for Capturing and Analyzing Tweets.</a></span><span class=\"c3\">&nbsp;</span><span class=\"c3 c14\">Aslib Journal of Information Management, 66</span><span class=\"c3\">(3).</span></p><p class=\"c6\"><span></span></p><p class=\"c1\"><span></span></p><p class=\"c6\"><span></span></p><p class=\"c6\"><span></span></p><div class=\"c2\"><p class=\"c0\"><a href=\"#cmnt_ref1\" name=\"cmnt1\">[a]</a><span class=\"c4\">Colour-coding the hashtags is not that relevant so we might want to remove that.</span></p></div><div class=\"c2\"><p class=\"c0\"><a href=\"#cmnt_ref2\" name=\"cmnt2\">[b]</a><span class=\"c4\">Shall we keep the nodes grey? It would be nice to know the hashtags to keep the colors in the visualization</span></p></div>",
       "title": "References"
     }
   ],
   "metadata": [
     {
       "type": "text",
-      "html": "<p class=\"c1\"><span>Sabine Niederer, Sophie Waterloo (University of Amsterdam), Gabriele Colombo (Density Design)</span></p>",
+      "html": "<p class=\"c5\"><span>Sabine Niederer, Sophie Waterloo (University of Amsterdam), Gabriele Colombo (Density Design)</span></p>",
       "title": "Authors"
     },
     {
       "type": "text",
-      "html": "<p class=\"c1\"><span>Digital Methods Initiative Fall Data Sprint, </span><span class=\"c3\">21-25 October 2013</span></p>",
+      "html": "<p class=\"c5\"><span>Digital Methods Initiative Fall Data Sprint, </span><span class=\"c3\">21-25 October 2013</span></p>",
       "title": "Data time-stamp"
     },
     {
       "type": "text",
-      "html": "<p class=\"c1\"><span>Twitter, TCAT </span><span>(</span><span class=\"c3\">Twitter Capture and Analysis Toolset): </span><span class=\"c4 c3\"><a class=\"c8\" href=\"https://www.google.com/url?q=https%3A%2F%2Fwiki.digitalmethods.net%2FDmi%2FToolDmiTcat&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNErYXEg8NEMGhjYMOzMmHqyYU5ydg\">https://wiki.digitalmethods.net/Dmi/ToolDmiTcat</a></span><span class=\"c3\">&nbsp;</span></p><p class=\"c1 c9\"><span class=\"c2\"></span></p><p class=\"c1\"><span class=\"c2\">Data files</span></p><p class=\"c1\"><span class=\"c4\"><a class=\"c8\" href=\"https://drive.google.com/?tab=mo&amp;authuser=0#folders/0B62v418roMdaSVJ2ZGp4ZW1nTGc\">https://drive.google.com/?tab=mo&amp;authuser=0#folders/0B62v418roMdaSVJ2ZGp4ZW1nTGc</a></span><span>&nbsp;</span></p><p class=\"c1 c9\"><span></span></p><p class=\"c1\"><span class=\"c2\">Code</span></p><p class=\"c1\"><span>No additional code associated with this map</span></p>",
+      "html": "<p class=\"c5\"><span>Twitter, TCAT </span><span>(</span><span class=\"c3\">Twitter Capture and Analysis Toolset): </span><span class=\"c3 c4\"><a class=\"c1\" href=\"https://www.google.com/url?q=https%3A%2F%2Fwiki.digitalmethods.net%2FDmi%2FToolDmiTcat&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNErYXEg8NEMGhjYMOzMmHqyYU5ydg\">https://wiki.digitalmethods.net/Dmi/ToolDmiTcat</a></span><span class=\"c3\">&nbsp;</span></p><p class=\"c5 c7\"><span class=\"c2\"></span></p><p class=\"c5\"><span class=\"c2\">Data files</span></p><p class=\"c5\"><span class=\"c4\"><a class=\"c1\" href=\"https://drive.google.com/?tab=mo&amp;authuser=0#folders/0B62v418roMdaSVJ2ZGp4ZW1nTGc\">https://drive.google.com/?tab=mo&amp;authuser=0#folders/0B62v418roMdaSVJ2ZGp4ZW1nTGc</a></span><span>&nbsp;</span></p><p class=\"c5 c7\"><span></span></p><p class=\"c5\"><span class=\"c2\">Code</span></p><p class=\"c5\"><span>No additional code associated with this map</span></p>",
       "title": "Data source"
     },
     {
       "type": "text",
-      "html": "<p class=\"c7\"><span>Narrative 4 - What is the substance of adaptation projects?</span></p><p class=\"c7\"><span>Narrative 6 - The status of mitigation and adaptation in the UNFCCC debates over time</span></p>",
+      "html": "<p class=\"c9\"><span>Narrative 4 - What is the substance of adaptation projects?</span></p><p class=\"c9\"><span>Narrative 6 - The status of mitigation and adaptation in the UNFCCC debates over time</span></p>",
       "title": "Related narratives"
     },
     {
       "type": "text",
-      "html": "<p class=\"c7\"><span>Map_29</span></p><p class=\"c7\"><span>Map_8, Map_2</span></p><p class=\"c6\"><span class=\"c2\"></span></p><p class=\"c6\"><span></span></p>",
+      "html": "<p class=\"c9\"><span>Map_29</span></p><p class=\"c9\"><span>Map_8, Map_2</span></p><p class=\"c9 c7\"><span class=\"c2\"></span></p><p class=\"c7 c9\"><span></span></p>",
       "title": "Related maps"
     }
   ]

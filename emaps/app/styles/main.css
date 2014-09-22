@@ -400,8 +400,8 @@ a:hover{
   transform: translateX(0);
 }
 
-nav a {
-  position: absolute;
+navmap a {
+  /*position: absolute;*/
   display: block;
   outline: none;
   text-align: left;
