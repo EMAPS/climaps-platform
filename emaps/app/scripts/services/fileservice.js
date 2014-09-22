@@ -9,15 +9,17 @@
  */
 angular.module('emapsApp')
   .factory('fileService', function () {
-    // Service logic
-    // ...
+     return {
 
-    var meaningOfLife = 42;
+       getFile : function(url){
+         var deferred = $q.defer();
+         $http.get(url).success(function(data){
+           deferred.resolve(data);
+         }).error(function(){
+           deferred.reject("An error occured while fetching file");
+         });
 
-    // Public API here
-    return {
-      someMethod: function () {
-        return meaningOfLife;
-      }
-    };
+         return deferred.promise;
+       }
+     }
   });
