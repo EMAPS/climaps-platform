@@ -58,20 +58,18 @@ utils.write = function(filepath, contents) {
   @return Promise
 */
 file.downloadAsync = function(downloadUrl, filepath) {
-  //console.log(secrets);
-
-  try{
+  console.log('downloading to', filepath);
+  var ws = fs.createWriteStream(filepath);
+  ws.on('error', function(err) { console.log(err); throw 'aaaaa'});
+  
     request({
       url: downloadUrl,
       headers: {
         'Authorization' : 'Bearer ' + secrets.access_token
       }
-    }).pipe(fs.createWriteStream(filepath)) // save image
-  } catch(e) {
-    console.log(e);
-    console.log(filepath,downloadUrl);
-    throw 'file not downloaded!!!!'
-  }
+    }).pipe(ws) // save image
+  
+  
 };
 
 
