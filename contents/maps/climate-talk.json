@@ -7,34 +7,34 @@
   "sections": [
     {
       "type": "text",
-      "html": "<p class=\"c3\"><span>Shared words are shown connected by the black line between 2013 and 2014. The length of the line indicates the number of times the word occurred; the longer the line the more frequently it appeared. &nbsp; </span></p>",
+      "html": "<p >Shared words are shown connected by the black line between 2013 and 2014. The length of the line indicates the number of times the word occurred; the longer the line the more frequently it appeared. &nbsp; </p>",
       "title": "How to read the map"
     },
     {
       "type": "text",
-      "html": "<p class=\"c2\"><span></span></p><p class=\"c3\"><span>We looked at user comments on Facebook posts by 9 national French newspapers (Le Monde, Le Figaro, Liberation, Le point, L&rsquo;express, Le nouvel Observateur, La Croix, 20 Minutes and Rue89).</span></p><p class=\"c2\"><span></span></p><p class=\"c3\"><span>These Facebook pages were scraped using the Netvizz application. </span><span class=\"c1\">Subsequently, using the Comment Analysis tool, we were able to analyse the content of the comments. To be able to make several different comparisons, the files were put through the tool individually, as well as grouped by year as a total, and grouped by year and reach (national or local). After manually reading through comments and testing queries for their effectiveness, we decided on the following queries as the basis of our research:</span></p><ul class=\"c0 lst-kix_hdk6jjm4qj7f-0 start\"><li class=\"c3 c7\"><span class=\"c1\">[tempete]</span></li><li class=\"c3 c7\"><span class=\"c1\">[climat OR rechauffement]</span></li></ul><p class=\"c3\"><span class=\"c1\">While the French terms temp&ecirc;te and r&eacute;chauffement use accents, the tool was programmed to recognise the spelling with and without accents. </span></p><p class=\"c2\"><span class=\"c1\"></span></p><p class=\"c3\"><span class=\"c1\">For this map, the words and their frequency were gathered using the Comment Analysis tool, this time only querying &lsquo;climatique&rsquo; or &lsquo;rechauffement&rsquo;. The query was slightly changed from &lsquo;climat&rsquo; to &lsquo;climatique&rsquo; to lose the overrepresentation of the Ukraine in the earlier dataset. </span></p><p class=\"c2\"><span class=\"c1\"></span></p><p class=\"c3\"><span>The Netvizz tool has a functionality that returns words that are used in close proximity to the query. After looking at the lists of words that the tool created with this functionality, we decided on four categories to group the words into: Weather, Climate, (Inter)national/Politics, and Personal/Local.</span></p>",
+      "html": "<p ></p><p >We looked at user comments on Facebook posts by 9 national French newspapers (Le Monde, Le Figaro, Liberation, Le point, L&rsquo;express, Le nouvel Observateur, La Croix, 20 Minutes and Rue89).</p><p ></p><p >These Facebook pages were scraped using the Netvizz application. Subsequently, using the Comment Analysis tool, we were able to analyse the content of the comments. To be able to make several different comparisons, the files were put through the tool individually, as well as grouped by year as a total, and grouped by year and reach (national or local). After manually reading through comments and testing queries for their effectiveness, we decided on the following queries as the basis of our research:</p><ul ><li >[tempete]</li><li >[climat OR rechauffement]</li></ul><p >While the French terms temp&ecirc;te and r&eacute;chauffement use accents, the tool was programmed to recognise the spelling with and without accents. </p><p ></p><p >For this map, the words and their frequency were gathered using the Comment Analysis tool, this time only querying &lsquo;climatique&rsquo; or &lsquo;rechauffement&rsquo;. The query was slightly changed from &lsquo;climat&rsquo; to &lsquo;climatique&rsquo; to lose the overrepresentation of the Ukraine in the earlier dataset. </p><p ></p><p >The Netvizz tool has a functionality that returns words that are used in close proximity to the query. After looking at the lists of words that the tool created with this functionality, we decided on four categories to group the words into: Weather, Climate, (Inter)national/Politics, and Personal/Local.</p>",
       "title": "How the map is built (map building protocol)"
     },
     {
       "type": "text",
-      "html": "<p class=\"c2\"><span></span></p><p class=\"c2\"><span></span></p><p class=\"c2\"><span></span></p><p class=\"c2\"><span></span></p><p class=\"c2\"><span></span></p><p class=\"c2\"><span></span></p>",
+      "html": "<p ></p><p ></p><p ></p><p ></p><p ></p><p ></p>",
       "title": "References"
     }
   ],
   "metadata": [
     {
       "type": "text",
-      "html": "<p class=\"c2\"><span>Axel Meunier (M&eacute;dialab, Sciences Po, Paris); Giovanni Magni and Giulia de Amicis (Density Design); Bernhard Rieder (University of Amsterdam) and Ezgi Akdag, Inte Gloerich and Andreas Birkbak (institution?)</span></p>",
+      "html": "<p >Axel Meunier (M&eacute;dialab, Sciences Po, Paris); Giovanni Magni and Giulia de Amicis (Density Design); Bernhard Rieder (University of Amsterdam) and Ezgi Akdag, Inte Gloerich and Andreas Birkbak (institution?)</p>",
       "title": "Authors"
     },
     {
       "type": "text",
-      "html": "<p class=\"c2\"><span>EMAPS Amsterdam Sprint, 24-28 March 2014</span></p>",
+      "html": "<p >EMAPS Amsterdam Sprint, 24-28 March 2014</p>",
       "title": "Data time-stamp"
     },
     {
       "type": "text",
-      "html": "<p class=\"c2 c3\"><span></span></p><p class=\"c2 c3\"><span class=\"c0\"></span></p><p class=\"c2\"><span class=\"c0\">Data files</span></p><p class=\"c2 c3\"><span></span></p><p class=\"c2 c3\"><span></span></p><p class=\"c2\"><span class=\"c0\">Code</span></p><p class=\"c2 c3\"><span></span></p>",
+      "html": "<p ></p><p ></p><p >Data files</p><p ></p><p ></p><p >Code</p><p ></p>",
       "title": "Data source"
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "type": "text",
-      "html": "<p class=\"c2 c3\"><span></span></p>",
+      "html": "<p ></p>",
       "title": "Related maps"
     }
   ]

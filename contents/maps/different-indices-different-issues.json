@@ -7,7 +7,7 @@
   "sections": [
     {
       "type": "text",
-      "html": "<p class=\"c2\"><span>This is a cross count that shows you how often a range of climate adaptation issue terms (vertical axis) are mentioned together with the names of different indices (horizontal axis) in the EMAPS webcorpus. </span></p>",
+      "html": "<p >This is a cross count that shows you how often a range of climate adaptation issue terms (vertical axis) are mentioned together with the names of different indices (horizontal axis) in the EMAPS climate adaptation web corpus. We define togetherness as being mentioned on the same page of a website. In the top row you can read the total number of pages where a given index is mentioned. In the column furthest to the left you can read the total number of pages where a given climate adaptation issue term is mentioned. </p>",
       "title": "How to use the map/tool and read its results"
     },
     {
@@ -22,39 +22,39 @@
     },
     {
       "type": "text",
-      "html": "<p class=\"c2\"><span>Text about findings. (normal text). If more than one finding, please merge them in a single text.</span></p>",
+      "html": "<p >Text about findings. (normal text). If more than one finding, please merge them in a single text.</p>",
       "title": "Findings"
     },
     {
       "type": "text",
-      "html": "<p class=\"c2 c3\"><span></span></p><p class=\"c2 c3\"><span></span></p><p class=\"c2 c3\"><span></span></p><p class=\"c2 c3\"><span></span></p><p class=\"c2 c3\"><span></span></p><p class=\"c2 c3\"><span></span></p><p class=\"c2 c3\"><span></span></p>",
+      "html": "<p ></p><p ></p><p ></p><p ></p><p ></p><p ></p><p ></p>",
       "title": "References"
     }
   ],
   "metadata": [
     {
       "type": "text",
-      "html": "<p class=\"c1 c4\"><span class=\"c8\">Esther Weltevrede, Rebecca Cachia, Fernando van der Vlist, Susan Clandillon, Pascal Janssens, Stefania Guerra, Simone Pirini, Marieke van Dijk (University of Amsterdam), Mathieu Jacomy, Anders Munk, Marina Boechat (SciencesPo m&eacute;dialab, Paris), Peter Gerry (Young Foundation), S&ouml;nke Kreft (Germanwatch), Matthew</span><span>&nbsp;McKinnon (UNDP)</span></p>",
+      "html": "<p >Esther Weltevrede, Rebecca Cachia, Fernando van der Vlist, Susan Clandillon, Pascal Janssens, Stefania Guerra, Simone Pirini, Marieke van Dijk (University of Amsterdam), Mathieu Jacomy, Anders Munk, Marina Boechat (SciencesPo m&eacute;dialab, Paris), Peter Gerry (Young Foundation), S&ouml;nke Kreft (Germanwatch), Matthew&nbsp;McKinnon (UNDP)</p>",
       "title": "Authors"
     },
     {
       "type": "text",
-      "html": "<p class=\"c1\"><span>EMAPS Amsterdam Sprint, 24-28 March 2014</span></p>",
+      "html": "<p >EMAPS Amsterdam Sprint, 24-28 March 2014</p>",
       "title": "Data time-stamp"
     },
     {
       "type": "text",
-      "html": "<p class=\"c1\"><span>The EMAPS climate adaptation web corpus</span></p><p class=\"c1 c3\"><span></span></p><p class=\"c1\"><span class=\"c6\">Data files</span></p><p class=\"c1\"><span class=\"c5\"><a class=\"c7\" href=\"https://docs.google.com/spreadsheets/d/1slLk6LprNgqW-4y5HXDk6jQKMxWV__mxKoNsdOjKQ1o/edit?usp=sharing\">https://docs.google.com/spreadsheets/d/1slLk6LprNgqW-4y5HXDk6jQKMxWV__mxKoNsdOjKQ1o/edit?usp=sharing</a></span></p><p class=\"c1 c3\"><span></span></p><p class=\"c1\"><span class=\"c6\">Code</span></p><p class=\"c1\"><span>There is no particular code associated with this project</span></p><p class=\"c1 c3\"><span></span></p>",
+      "html": "<p >The EMAPS climate adaptation web corpus</p><p ></p><p >Data files</p><p ></p><p ></p><p >Code</p><p >There is no particular code associated with this project</p><p ></p>",
       "title": "Data source"
     },
     {
       "type": "text",
-      "html": "<p class=\"c1 c3\"><span></span></p>",
+      "html": "<p ></p>",
       "title": "Related narratives"
     },
     {
       "type": "text",
-      "html": "<p class=\"c1 c3\"><span></span></p><p class=\"c1 c3\"><span></span></p><p class=\"c1 c3\"><span class=\"c6\"></span></p><p class=\"c1 c3\"><span></span></p><p class=\"c1 c3\"><span></span></p>",
+      "html": "<p ></p><p ></p><p ></p><p ></p><p ></p>",
       "title": "Related maps"
     }
   ]

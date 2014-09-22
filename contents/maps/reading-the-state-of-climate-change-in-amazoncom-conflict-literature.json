@@ -7,44 +7,44 @@
   "sections": [
     {
       "type": "text",
-      "html": "<p class=\"c9 c7\"><span>Amazon is approached first as a collection-making device. </span><span class=\"c5\">Similarly to headline analysis and scientometrics, we analyze books through their titles, and groups of titles through their components (words) and search for relations amongst them (co-word analysis). As</span><span>&nbsp;</span><span class=\"c5\">titles synthesize the main ideas and orientation of a text, and signal the importance of the particular topics, they are an appropriate object to study. The inclusion of the Best Sellers Rank on the analysis adds, to what would otherwise be an analysis of media production, the element of consumption, and locates the formating of a debate as taking place within a &lsquo;marketplace for issues&rsquo; where some are more popular and therefore rank higher.</span><span class=\"c4\">&nbsp;</span><span>Being ranked as a best-selling product is used as metric or indication of the uptake and positive resonance of a topic with a specific public.</span></p><p class=\"c6\"><span></span></p><p class=\"c9\"><span>In the network graph nodes are the words captured in book titles and an edge appears between words when they have been mentioned together at least once. Words (nodes) that are frequent are larger, and those that are central to the network colored darker. </span></p>",
+      "html": "<p >Amazon is approached first as a collection-making device. Similarly to headline analysis and scientometrics, we analyze books through their titles, and groups of titles through their components (words) and search for relations amongst them (co-word analysis). As&nbsp;titles synthesize the main ideas and orientation of a text, and signal the importance of the particular topics, they are an appropriate object to study. The inclusion of the Best Sellers Rank on the analysis adds, to what would otherwise be an analysis of media production, the element of consumption, and locates the formating of a debate as taking place within a &lsquo;marketplace for issues&rsquo; where some are more popular and therefore rank higher.&nbsp;Being ranked as a best-selling product is used as metric or indication of the uptake and positive resonance of a topic with a specific public.</p><p ></p><p >In the network graph nodes are the words captured in book titles and an edge appears between words when they have been mentioned together at least once. Words (nodes) that are frequent are larger, and those that are central to the network colored darker. </p>",
       "title": "How to read the map"
     },
     {
       "type": "text",
-      "html": "<p class=\"c3\"><span>Using the tool, the &ldquo;</span><span>Ama</span><span>zon&rsquo;s Format Finder,&rdquo; the platform is queried for [climate change and conflict] with the following settings: sort by sales (best selling), language english, books per page 10, number of pages 10. The result is a spreadsheet with a list of 100 best selling titles and metadata. </span></p><p class=\"c3 c12\"><span></span></p><p class=\"c3\"><span>Book titles are inputted into https://tools.digitalmethods.net/beta/coword/ with the following settings: min threshold of associations 0.2, constant words 90, min co-word freq 1, min word freq 1, use stop word list all, remove urls checked, remove stop words checked. Gexf files are downloaded and visualized in gephi with following settings: force atlas 2: linlog mode, prevent overlap, edge weight influence 0.01, scaling 50, stronger gravity checked, gravity 0.01 removed nodes with a degree &lt;10 (except for climate change hoax which is unfiltered). Nodes are sized by degree and coloured nodes represent indegree centrality. Outputs are saved in pdf format.</span></p>",
+      "html": "<p >Using the tool, the &ldquo;Amazon&rsquo;s Format Finder,&rdquo; the platform is queried for [climate change and conflict] with the following settings: sort by sales (best selling), language english, books per page 10, number of pages 10. The result is a spreadsheet with a list of 100 best selling titles and metadata. </p><p ></p><p >Book titles are inputted into https://tools.digitalmethods.net/beta/coword/ with the following settings: min threshold of associations 0.2, constant words 90, min co-word freq 1, min word freq 1, use stop word list all, remove urls checked, remove stop words checked. Gexf files are downloaded and visualized in gephi with following settings: force atlas 2: linlog mode, prevent overlap, edge weight influence 0.01, scaling 50, stronger gravity checked, gravity 0.01 removed nodes with a degree &lt;10 (except for climate change hoax which is unfiltered). Nodes are sized by degree and coloured nodes represent indegree centrality. Outputs are saved in pdf format.</p>",
       "title": "How the map is built (map building protocol)"
     },
     {
       "type": "text",
-      "html": "<p class=\"c2\"><span></span></p><p class=\"c2\"><span></span></p><p class=\"c2\"><span></span></p><p class=\"c2\"><span></span></p><p class=\"c2\"><span></span></p>",
+      "html": "<p ></p><p ></p><p ></p><p ></p><p ></p>",
       "title": "References"
     }
   ],
   "metadata": [
     {
       "type": "text",
-      "html": "<p class=\"c1\"><span>Erik Borra, Natalia </span><span>S</span><span class=\"c7\">&aacute;</span><span>nchez-Querub</span><span class=\"c2\">&iacute;</span><span>n, Sophie Waterloo (University of Amsterdam)</span></p>",
+      "html": "<p >Erik Borra, Natalia S&aacute;nchez-Querub&iacute;n, Sophie Waterloo (University of Amsterdam)</p>",
       "title": "Authors"
     },
     {
       "type": "text",
-      "html": "<p class=\"c1\"><span>Amsterdam Sprint, 24-28 March 2014</span></p>",
+      "html": "<p >Amsterdam Sprint, 24-28 March 2014</p>",
       "title": "Data time-stamp"
     },
     {
       "type": "text",
-      "html": "<p class=\"c1\"><span>Amazon.com</span></p><p class=\"c4 c8\"><span class=\"c5\"></span></p><p class=\"c1\"><span class=\"c5\">Data files</span></p><p class=\"c1\"><span>https://drive.google.com/#folders/0B3e-HpGNh9BwTldnVEtmZFpvZVk</span></p><p class=\"c4 c8\"><span></span></p><p class=\"c1\"><span class=\"c5\">Code</span></p><p class=\"c1\"><span>No additional code associated with this map</span></p>",
+      "html": "<p >Amazon.com</p><p ></p><p >Data files</p><p >https://drive.google.com/#folders/0B3e-HpGNh9BwTldnVEtmZFpvZVk</p><p ></p><p >Code</p><p >No additional code associated with this map</p>",
       "title": "Data source"
     },
     {
       "type": "text",
-      "html": "<p class=\"c4 c8\"><span></span></p>",
+      "html": "<p ></p>",
       "title": "Related narratives"
     },
     {
       "type": "text",
-      "html": "<p class=\"c4\"><span></span></p><p class=\"c6\"><span>38</span></p>",
+      "html": "<p ></p><p >38</p>",
       "title": "Related maps"
     }
   ]
