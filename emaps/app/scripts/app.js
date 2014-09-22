@@ -39,12 +39,12 @@ angular
       .when('/narrative/:narrative', {
         templateUrl: 'views/narrative.html', 
         controller: 'NarrativeCtrl',
-        // resolve: {
-        //   venues : function ($route, fileService) {
-        //     var district = $route.current.params.district;
-        //     return fileService.getFile('data/' + district + '/venues.json')
-        //   }
-        // }
+        resolve: {
+          content : function ($route, fileService) {
+            var narrative = $route.current.params.narrative;
+            return fileService.getFile('contents/narratives/' + narrative + '.json')
+          }
+        }
       })
       .when('/map/:map', {
         templateUrl: 'views/map.html', 
