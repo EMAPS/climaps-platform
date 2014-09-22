@@ -1,0 +1,62 @@
+{
+  "title": "Stream graph of the absolute and relative visibility of countries in the UNFCCC negotiations, 1995-2013",
+  "slug": "stream-graph-of-the-absolute-and-relative-visibility-of-countries-in-the-unfccc-negotiations-1995-2013",
+  "subtitle": "",
+  "authors": "",
+  "introduction": "",
+  "sections": [
+    {
+      "type": "image",
+      "html": "<p class=\"c0\"><span>The map shows the number of paragraphs in which the name of the country appears in the UNFCCC negotiations, 1995-2013, using data from the Earth Negotiations Bulletin (volume 12). The appearances are visualized as a topical stream graph.</span></p><p class=\"c0\"><span style=\"overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 356.00px;\"><img alt=\"\" src=\"https://lh6.googleusercontent.com/k2ZvGmVoq6GnvtwrsG2uO6KvmqMWrsiyKPO4-6PuWb0_0yiSetCtp3HS9vk1jfiezkq3pdM9J9WAEsnOYYc8PXgttsij9Ga290jtEVE3SWwA_3BFgExrbwIVedQ\" style=\"width: 624.00px; height: 356.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);\" title=\"\"></span></p><p class=\"c0\"><span>Figure 3. Stream graph of the absolute and relative visibility of countries in the UNFCCC negotiations, 1995-2013.</span></p>",
+      "title": "Short-caption",
+      "src": "https://lh6.googleusercontent.com/k2ZvGmVoq6GnvtwrsG2uO6KvmqMWrsiyKPO4-6PuWb0_0yiSetCtp3HS9vk1jfiezkq3pdM9J9WAEsnOYYc8PXgttsij9Ga290jtEVE3SWwA_3BFgExrbwIVedQ"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c0\"><span>The size of each country flow is proportional to the number of paragraphs in which the name of the country appears. Then, flows are sorted according to the number of occurrences: for each COP, the highest flow corresponds to the most visible theme while the lowest corresponds to the least visible.</span></p>",
+      "title": "How to read the map"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c0\"><span class=\"c1 c7\">[Red sections have to be checked and/or adapted/re-written by the authors of the map] </span><span class=\"c1\">- </span><span class=\"c5\">Our corpus is built from the 594 issues contained in the Volume 12 of the Earth Negotiations Bulletin, containing the reports on the UNFCCC conferences from 1995 in New York to 2013 in Warsaw. From all these issues, we retained only the daily issues related to the COPs (Conference of the Parties). To hew close to the diplomatic dimension of the negotiations, we put aside the issues related to other UNFCCC bodies such as the SBSTA (Subsidiary Body for Scientific and Technological Advice) and the SBI (Subsidiary Body for Implementation).</span></p><p class=\"c0\"><span class=\"c5\">&nbsp;</span></p><p class=\"c0\"><span class=\"c5\">The second step is dedicated to analysis. Ours relies on paragraphs &ndash; each paragraph corresponding to a natural thematic unit, according to the production and format of these reports. The corpus analysis platform Cortext (http://www.cortext.net/) by IFRIS (Institut Francilien Recherche, Innovation, Soci&eacute;t&eacute;) was used to (1) analyze the lexical content of the collection of bulletins, (2) identify the main clusters emerging from the negotiations thanks to the network analysis applied to a matrix of co-occurrences between extracted words, and (3) analyze the profiles of different actors by qualifying which frame of words were mobilized by which countries during difference COPs.</span></p><p class=\"c0\"><span class=\"c5\">&nbsp;</span></p><p class=\"c0\"><span class=\"c5\">The analysis starts by the lexical extraction (using a mixed algorithm constructed around linguistic and statistical approaches) of the most relevant nominal groups (which for the sake of convenience will be referred to simply as &lsquo;terms&rsquo;) in the entire set of corpus paragraphs (5663). Since the algorithms used to sort the terms according to their frequency and &ldquo;specificity&rdquo;, by force, pick up a range of uninteresting or irrelevant terms (as well as mis-categorize relevant terms), we cleaned and corrected the term lists manually, which allowed us to keep only the terms referring to well identified themes (&ldquo;issues&rdquo;) that could be qualified as actual topics under discussion in the negotiations. This process involved a great deal of iteration, requiring us to go back and forth between the texts of the corpus itself, the data, the statistics connected to the lexical extraction, and the network of co-occurrences.</span></p><p class=\"c0\"><span class=\"c5\">&nbsp;</span></p><p class=\"c0\"><span class=\"c5\">Finally, we have kept terms characterized by their frequency (at least 7 occurrences in the corpus) and their relevance (the tendency to be used in specific linguistic contexts of the negotiations, e.g., &lsquo;historical responsibility&rsquo;). We rejected terms that were not specific enough or could be ambiguous (e.g.: &lsquo;increased efforts&rsquo;). We also merged the declensions of terms (&lsquo;social cost&rsquo; and &lsquo;social costs&rsquo;), equivalent forms (e.g. &lsquo;technological transfer&rsquo; and &lsquo;transfer of technologies&rsquo;) and terms that were clearly synonymous (e.g. GHGs and greenhouse gases). Out of a list of 1178 terms extracted, we thus have compiled a dictionary of terms of about 300 nominal groups. (Both lists are available here http://medialab.sciences-po.fr/publications/misunderstandings/.)</span></p><p class=\"c0\"><span class=\"c5\">&nbsp;</span></p><p class=\"c0\"><span class=\"c5\">We have &ldquo;mapped&rdquo; the topics of the negotiations and created, from this map, thematic profiles. The operations we carried out to render the results of our analysis visually (networks and, separately, stream graphs) are detailed below and are crucial as they distinguish our investigation from more conventional approaches of computer-assisted discourse analysis. The count of term co-occurrences within one paragraph of the corpus allowed us to calculate a semantic network. In this network, terms are linked with strength proportional to a co-occurrence-based measure of similarity introduced by Weeds and Weir, 2005. In brief, two terms are all the more close when they co-occur with the same terms. This distributional measure builds a semantic weighted network featuring a very large number of edges that should be filtered before being mapped. We rely on the topological properties of the network to eliminate those links which intensity is below a threshold. We simply find the critical parameter for which the network is still made of one giant connected component. The rationale behind this choice begins with the fact that we want to preserve the &quot;macroscopic structure&quot; of the network (how different parts of the network are relatively positioned) while selecting only the most salient edges that contribute to the mesoscopic structures. A clustering algorithm (Louvain et al., 2008) then allowed us to identify 12 cohesive subsets of the network corresponding to the main themes discussed in the negotiations. Each paragraph in the corpus has been labeled subsequently with one or several topics from this list, according to the terms it contains. Paragraphs also have been labeled according to the &lsquo;players&rsquo; referred to in the text (at least one occurrence of the name or demonym of the country involved).</span></p><p class=\"c0 c2\"><span class=\"c5\"></span></p>",
+      "title": "How the map is built (map building protocol)"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c0\"><span>Looking at the stream graph the diagram shows the number of interventions in the negotiations of the 21 most active countries of the UNFCCC debate (as reported in the Earth Negotiation Bulletin). The size of the flow is proportional to the number of paragraphs of the ENB reports in which the name of each of the top 21 countries is mentioned. The data are calculated COP by COP. The flows are ranked by the number of mentions (the highest flow for each COP correspond to the country most active in that COP, the lowest the least active country). The diagram shows a remarkable stability. Most countries tend to maintain their relative rank throughout the 19 COPs. However, the diagram does not reveal the topics each country is mainly involved in.</span></p><p class=\"c0\"><span>Reading the two maps (figures 3, stream graph of the visibility of countries and 4, countries&rsquo; issues contingency matrix) together, no clear pattern exists that could support the hypothesis that certain states or groups of states mainly supported adaptation related themes. Another observation, however, can be confirmed: Discussions about adaptation funding and equity on the one hand and vulnerability and adaptation action on the other seem to happen separately from each other (almost no matching of countries with relatively high numbers of interventions between the two adaptation themes).</span></p><p class=\"c0 c2\"><span class=\"c4\"></span></p>",
+      "title": "Findings"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c0\"><span class=\"c7 c5\">[References have to be added/corrected]</span></p><p class=\"c0\"><span class=\"c5\">??? Jacomy et al., forthcoming</span></p><p class=\"c0\"><span class=\"c5\">??? Louvain et al., 2008</span></p><p class=\"c0\"><span class=\"c5\">??? Weeds and Weir, 2005</span></p>",
+      "title": "References"
+    }
+  ],
+  "metadata": [
+    {
+      "type": "text",
+      "html": "<p class=\"c1\"><span>Tommaso Venturini, Nicolas Baya-Laffite, Benjamin Ooghe-Tabanou, Kari De Pryck (M&eacute;dialab, Sciences Po, Paris); Martina Elisa Cecchi and Paolo Ciuccarelli (Density Design); Richard Rogers (University of Amsterdam) and Farhana Yamin (Chatham House)</span></p>",
+      "title": "Authors"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c1 c5\"><span>EMAPS Paris Sprint, 6-10 January 2014</span></p>",
+      "title": "Data time-stamp"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c1\"><span>Earth Negotiations Bulletin, Volume 12, http://www.iisd.ca/vol12/.</span></p><p class=\"c1 c3\"><span></span></p><p class=\"c1\"><span class=\"c0\">Data files</span></p><p class=\"c1\"><span class=\"c2\"><a class=\"c8\" href=\"https://drive.google.com/#folders/0B3e-HpGNh9BwTldnVEtmZFpvZVk\">https://drive.google.com/#folders/0B3e-HpGNh9BwTldnVEtmZFpvZVk</a></span></p><p class=\"c1 c3\"><span></span></p><p class=\"c1\"><span class=\"c0\">Code</span></p><p class=\"c1\"><span>No additional code associated with this map.</span></p>",
+      "title": "Data source"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c1\"><span>The Status of Mitigation and Adaptation in the UNFCCC Debates over time</span></p>",
+      "title": "Related narratives"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c1\"><span>Figure 4. Countries&rsquo; issues contingency matrix, 1995-2013. Data source: IISD, Earth Negotiations Bulletin, volume 12.</span></p><p class=\"c1 c3\"><span></span></p><p class=\"c1 c3\"><span></span></p>",
+      "title": "Related maps"
+    }
+  ]
+}

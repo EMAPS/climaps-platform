@@ -1,0 +1,51 @@
+{
+  "title": "The rise of adaptation funding",
+  "slug": "the-rise-of-adaptation-funding",
+  "subtitle": "",
+  "authors": "Figure 1. Adaptation funding over the last 18 years ",
+  "introduction": "",
+  "sections": [
+    {
+      "type": "text",
+      "html": "<p class=\"c2\"><span>The map is a stacked bar chart showing the level of adaptation aid commited or pledged at each Conference of Parties UNFCCC negotiation (note 1995 and 2001 had two negotiations). Against each COP we can see the amount pledged to each part of the world divided into regions. (Sub-Saharan Africa, Middle East and North Africa, Latin America and the Caribbean, Europe and Central Asia, &nbsp;Asia and Pacific, as well as Global and Unknown). By looking at each stack (bar on the chart) we can see how much is givent to each area by the colour coding as well as the total amount.</span></p><p class=\"c0\"><span></span></p><p class=\"c2\"><span>Along the bottom of the map key events are given, corresponding to when they happened. This provides context to why funding may have risen or fallen.</span></p>",
+      "title": "How to read the map"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c2\"><span>The map is based on data from the Climate Funds Update website which is plotted against the COP it is from. This is tagged with information on the region it is targetting allowing the bar charts to be stacked. </span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p>",
+      "title": "How the map is built (map building protocol)"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p><p class=\"c0\"><span></span></p>",
+      "title": "References"
+    }
+  ],
+  "metadata": [
+    {
+      "type": "text",
+      "html": "<p class=\"c1\"><span>Axel Meunier (M&eacute;dialab, Sciences Po, Paris); Giovanni Magni and Giulia de Amicis (Density Design); Bernhard Rieder (University of Amsterdam) and Ezgi Akdag, Inte Gloerich and Andreas Birkbak (institution?)</span></p>",
+      "title": "Authors"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c1\"><span>EMAPS Paris Sprint, 6-10 January 2014</span></p>",
+      "title": "Data time-stamp"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c1\"><span>Climate Funds Update</span></p><p class=\"c1\"><span>UNFCCC Website</span></p><p class=\"c0\"><span class=\"c3\"></span></p><p class=\"c1\"><span class=\"c3\">Data files</span></p><p class=\"c1\"><span class=\"c6\"><a class=\"c2\" href=\"https://drive.google.com/file/d/0BxqL8KlS3Yihdmkxa2pRWnQ0Sjg/edit?usp=sharing\">https://drive.google.com/file/d/0BxqL8KlS3Yihdmkxa2pRWnQ0Sjg/edit?usp=sharing</a></span><span>&nbsp;</span></p><p class=\"c0\"><span></span></p><p class=\"c1\"><span class=\"c3\">Code</span></p><p class=\"c0\"><span></span></p>",
+      "title": "Data source"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c1\"><span>Narrative 1</span></p><p class=\"c1\"><span>Narrative 5</span></p>",
+      "title": "Related narratives"
+    },
+    {
+      "type": "text",
+      "html": "<p class=\"c0\"><span></span></p>",
+      "title": "Related maps"
+    }
+  ]
+}
