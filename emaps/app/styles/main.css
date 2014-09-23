@@ -367,10 +367,11 @@ a:hover{
   min-height: 600px;
 }
 
-.container-viz h1{
+.narrative-viz h1{
   font-family: 'Crimson Text', serif; 
   font-size: 1.7em;
   text-transform:capitalize;
+  padding-bottom: 20px;
 }
 
 .container-viz.map-page h1{

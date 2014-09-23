@@ -8,10 +8,10 @@
  * Controller of the emapsApp
  */
 angular.module('emapsApp')
-  .controller('MainCtrl', function ($scope, narratives, maps, content) {
+  .controller('MainCtrl', function ($scope, narratives, maps) {
   	
     $scope.narratives = narratives;
     $scope.maps = maps;
-    $scope.content = content;
+    //$scope.content = content;
 
   });
