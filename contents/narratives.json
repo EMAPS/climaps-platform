@@ -16,25 +16,15 @@
     "authors": "Authors"
   },
   {
-    "id": "0B_CpGym5Ms7qLVFkb1JvRFp3ODg",
-    "original": "Narrative_04",
-    "slug": "what-is-the-substance-of-adaptation-projects",
-    "createdDate": "2014-09-08T09:36:50.359Z",
-    "type": "folder",
-    "title": "What is the substance of adaptation projects?",
-    "subtitle": "Subtitle",
-    "authors": "Authors"
-  },
-  {
     "id": "0B_CpGym5Ms7qSWZ0QnlOR3ZIUUE",
     "original": "Narrative_01",
     "slug": "who-should-receive-adaptation-funding",
     "createdDate": "2014-09-08T09:36:36.763Z",
     "type": "folder",
+    "cover": "/data/cover-narrative-01.png",
     "title": "Who should receive adaptation funding?",
     "subtitle": "Who is funded? Who deserves it? And why? ",
-    "authors": "Authors",
-    "cover": "/data/cover-who-should-receive-adaptation-funding.png"
+    "authors": "Authors"
   },
   {
     "id": "0B0Qm7RJqWbEoWExrbGdUbXNCamM",
@@ -44,26 +34,6 @@
     "type": "folder",
     "title": "Reading the State of Climate Change from Digital Media",
     "subtitle": "Situating Adaptation in Climate Change Discourse in Digital Media",
-    "authors": ""
-  },
-  {
-    "id": "0B_CpGym5Ms7qYnVmeExJcVJDOVE",
-    "original": "Narrative_08",
-    "slug": "responding-to-the-occurrence-of-natural-disasters-in-facebook-comments",
-    "createdDate": "2014-09-08T09:37:08.340Z",
-    "type": "folder",
-    "title": "Responding to the occurrence of natural disasters in facebook comments",
-    "subtitle": "Subtitle",
-    "authors": "Authors"
-  },
-  {
-    "id": "0B_CpGym5Ms7qS09Rc2lJSkc5QkE",
-    "original": "Narrative_07",
-    "slug": "narrative-7-monitoring-evaluation-frameworks",
-    "createdDate": "2014-09-08T09:37:04.411Z",
-    "type": "folder",
-    "title": "Narrative 7: Monitoring & Evaluation Frameworks",
-    "subtitle": "Subtitle",
     "authors": "Authors"
   },
   {
@@ -82,7 +52,7 @@
     "slug": "oecd-member-countries-funding-styles",
     "createdDate": "2014-09-08T09:36:58.343Z",
     "type": "folder",
-    "title": "OECD Member Countries’ Funding Styles",
+    "title": "OECD Member Countries Funding Styles",
     "subtitle": "The Geopolitics of Adaptation Expenditure",
     "authors": "Axel Meunier[a][b]"
   }

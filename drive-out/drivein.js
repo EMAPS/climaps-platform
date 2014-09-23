@@ -88,15 +88,17 @@ file.get = function(options){
 
 
 
-file.download = function(downloadUrl, filepath) {
-  var res = reqSync({
-      url: downloadUrl,
-      headers: {
-        'Authorization' : 'Bearer ' + secrets.access_token
-      }
-    });
-  console.log('downloading ... ', res.statusCode, filepath);
-  res.statusCode == 200 && utils.write(filepath, res.body)
+file.download = function(downloadUrl, filepath, options) {
+  var options = options || {},
+      res = reqSync({
+        url: downloadUrl,
+        headers: {
+          'Authorization' : 'Bearer ' + secrets.access_token
+        },
+        encoding: options.encoding || null
+      });
+  console.log('downloading ... ', res.statusCode, filepath, res);
+  res.statusCode == 200 && utils.write(filepath, res.body);
   
   return res.statusCode;
 };
