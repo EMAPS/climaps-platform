@@ -9,6 +9,7 @@
  */
 angular.module('emapsApp')
   .controller('NarrativeCtrl', function ($scope, content) {
-  	console.log(content)
+
   	$scope.content = content;
+  	
   });

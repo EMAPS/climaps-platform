@@ -329,7 +329,7 @@
     "type": "folder",
     "title": "Sectorial Specialisation of OECD member countries.",
     "subtitle": "",
-    "authors": "Figure 1. Sectorial Specialisation of OECD member countries. General view of the Sankey diagram. Donor countries are shown on the left, and sectors funded on the right. The streams represent the flow of bilateral adaptation aid from the countries to the sectors. Source : OECD StatExtracts. Date : Jan 6 2014"
+    "authors": ""
   },
   {
     "id": "0B_CpGym5Ms7qcjhheC1pblhuRmc",
@@ -339,17 +339,14 @@
     "type": "folder",
     "title": "Localization of “climate talk” and “storm talk” in Feb 2014, France.",
     "subtitle": "",
-    "authors": "Figure 1. A geographical illustration of the percentage of total Facebook comments made on national and local French newspaper pages in Feb 2014 which refer to ‘stormtalk’ and ‘climatetalk’. SOURCE: DATE: 28 March 2014Table 1: the selected newspapers and their respective reach. Newspapers in the first column are distributed nationally."
+    "authors": "Table 1: the selected newspapers and their respective reach. Newspapers in the first column are distributed nationally."
   },
   {
     "id": "0B_CpGym5Ms7qYnNBZlZnVFlNemM",
     "original": "Map_27",
-    "slug": "two-decades-of-unfccc-negotiations-on-mitigation-and-adaptation-1995-2013",
+    "slug": "map-27",
     "createdDate": "2014-09-08T09:14:22.131Z",
-    "type": "folder",
-    "title": "Two decades of UNFCCC negotiations on mitigation and adaptation, 1995-2013.",
-    "subtitle": "",
-    "authors": "Figure 1. Network of terms co-occurring in the same paragraphs of the ENB, Volume 12. Node position is determined by a force vector algorithm (Jacomy et al., forthcoming) bringing together terms directly or indirectly linked, and keeping away terms with fewer co-occurrences. Node size is proportional to their frequency in the corpus. Node color follows the clusters identified by the clustering algorithm. The names of the clusters have been attributed manually. SOURCE_DATE"
+    "type": "folder"
   },
   {
     "id": "0B_CpGym5Ms7qSC1HMmV3RXVSWHM",
@@ -359,7 +356,7 @@
     "type": "folder",
     "title": "The specialization of OECD donor countries by negotiating groups in the United Nations Framework Convention on Climate Change (UNFCCC).",
     "subtitle": "",
-    "authors": "Figure 1. Bipartite network of OECD donor countries and recipient countries of bilateral adaptation aid, assembled by UNFCCC groupings. SOURCE_DATE"
+    "authors": ""
   },
   {
     "id": "0B_CpGym5Ms7qM21VLTBqa2lDSHM",

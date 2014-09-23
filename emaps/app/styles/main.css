@@ -42,6 +42,11 @@ a:hover{
   background: #ffb7b7; /* Gecko Browsers */
 }
 
+/*loading bar*/
+#loading-bar .bar {
+  background: #ff5a52;
+}
+
 /*Home*/
 .jumbotron {
   background-color:#ff5a52;
@@ -80,15 +85,72 @@ a:hover{
   text-transform:capitalize;
 }
 
+.home-column{
+    -webkit-column-count: 2;
+    -moz-column-count: 2; 
+    column-count: 2;
+    -webkit-column-gap: 30px; 
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+}
 
-.switch {
+.switch .nav-tabs{
+  border-bottom: none;
+}
+
+.switch .nav-tabs > li{
+  margin-bottom: 0px;
+}
+
+.switch .nav-tabs > li a{
   font-family: 'Crimson Text', serif;
   font-size: 3.5em;
   padding-bottom: 30px;
   padding-top: 50px;
+  text-decoration: none;
+  border: none;
 }
 
-.switch .active{
+.switch .nav-tabs li a:hover{
+  background-color: transparent;
+}
+
+.switch .nav-tabs > li.active, .switch .nav-tabs > li.active a:hover{
+  border: none;
+  text-decoration: underline;
+}
+
+.switch .nav-tabs > li a{
+  color: #ccc;
+  cursor: pointer;
+}
+
+.switch .nav-tabs > li.active a {
+  color: #000;
+}
+
+.switch .nav-tabs{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .switch .nav-tabs {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .switch .nav-tabs {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .switch .nav-tabs {
+    width: 1170px;
+  }
+}
+/*.switch .active{
   text-decoration: underline;
   padding-right: 20px;
 }
@@ -97,12 +159,12 @@ a:hover{
   color:#ccc;
   text-decoration: none;
   padding-right: 20px;
-}
+}*/
 
 .narrative-thumb{
   border-top: 1px solid #f0ecec;
   min-height: 200px;
-  margin-left: -15px;
+  /*margin-left: -15px;*/
   background: #fff;
   cursor: pointer;
   background-size:cover;
@@ -111,25 +173,29 @@ a:hover{
 .narrative-thumb h1{
   font-family: 'Crimson Text', serif;
   font-size: 3.5em;
-
 }
 
-.narrative-thumb h2{
+.narrative-thumb h2, .map-thumb h1{
   font-family: 'Crimson Text', serif;
   font-size: 1.5em;
+}
+
+.narrative-thumb h1 a, .map-thumb h1 a{
+  text-decoration: none;
+  color: #000;
 }
 
 .map-thumb {
   height: 200px;
   background-color:  #f0ecec;
-  border: 1px solid #f0ecec;
+  border: 1px solid #fff;
   background-size:cover;
 }
 
-.map-thumb h1{
+/*.map-thumb h1{
   font-family: 'Crimson Text', serif;
   font-size: 1.5em;
-}
+}*/
 
 /*Sprint*/
 .sprint h1{
@@ -293,7 +359,7 @@ a:hover{
   min-height: 600px;
 }*/
 
-.narrative-viz {
+.narrative-viz, .map-viz {
   border-top: 1px #f0ecec solid;
   border-bottom: 1px #f0ecec solid;
   margin-top: 50px;
@@ -308,6 +374,11 @@ a:hover{
 }
 
 .container-viz.map-page h1{
+  font-family: 'Crimson Text', serif; 
+  font-size: 2em;
+}
+
+.map-viz h1{
   font-family: 'Crimson Text', serif; 
   font-size: 2em;
 }
@@ -398,6 +469,10 @@ a:hover{
   transition-delay: 0.1s;
   -webkit-transform: translateX(0);
   transform: translateX(0);
+}
+
+navmap{
+  float: right;
 }
 
 navmap a {

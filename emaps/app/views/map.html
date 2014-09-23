@@ -1,1 +1,48 @@
-<p>This is the map view.</p>
+<!-- Viz container -->
+<div class="container-fluid map-viz">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1>
+					{{content.title}}
+				</h1>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /.Viz container -->
+
+<!-- Map-page texts container -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 text-map-page">
+			<p ng-if="content.description">
+				{{content.description}}
+			</p>
+
+			<section ng-repeat="section in content.sections">
+				<h4>{{section.title}}</h4>
+				<span ng-bind-html="section.html"></span>
+			</section>
+
+		</div>
+		<div class="col-md-4 aside">
+			<div class="caption">
+				<p>   
+					Cosa ci va qui? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit, nibh id faucibus sodales, augue turpis scelerisque ex, at egestas metus leo nec mi. Donec ac convallis tortor.
+				</p>
+			</div>
+			<div class="metadata">
+				<section ng-repeat="section in content.metadata">
+					<h4>{{section.title}}</h4>
+ 					<span ng-bind-html="section.html"></span>
+				</section>
+<!-- 				<h4>Data Files</h4>
+				<p>
+					<a href="#"><i class="fa fa-arrow-circle-o-down"></i> Download (5Mb)</a>
+				</p> -->
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /.Map-page texts container -->

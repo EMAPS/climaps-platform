@@ -26,13 +26,13 @@ angular
         controller: 'MainCtrl',
         resolve: {
           narratives : function (fileService) {
-            return fileService.getFile('contents/narratives.json')
+            return fileService.getFile('contents/narratives.json');
           },
           maps : function (fileService) {
-            return fileService.getFile('contents/maps.json')
+            return fileService.getFile('contents/maps.json');
           },
           content : function (fileService) {
-            return fileService.getFile('contents/pages/home.json')
+            return fileService.getFile('contents/pages/home.json');
           }
         }
       })
@@ -42,19 +42,19 @@ angular
         resolve: {
           content : function ($route, fileService) {
             var narrative = $route.current.params.narrative;
-            return fileService.getFile('contents/narratives/' + narrative + '.json')
+            return fileService.getFile('contents/narratives/' + narrative + '.json');
           }
         }
       })
       .when('/map/:map', {
         templateUrl: 'views/map.html', 
         controller: 'MapCtrl',
-        // resolve: {
-        //   venues : function ($route, fileService) {
-        //     var district = $route.current.params.district;
-        //     return fileService.getFile('data/' + district + '/venues.json')
-        //   }
-        // }
+        resolve: {
+          content : function ($route, fileService) {
+            var map = $route.current.params.map;
+            return fileService.getFile('contents/maps/' + map + '.json');
+          }
+        }
       })
       .when('/theory', {
         templateUrl: 'views/theory.html',
@@ -71,4 +71,7 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-  });
+  })
+  .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
+    cfpLoadingBarProvider.includeSpinner = false;
+  }]);
