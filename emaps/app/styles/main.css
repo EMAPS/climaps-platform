@@ -25,6 +25,12 @@ h4{
   color:#ff5a52;
 }
 
+h1{
+  font-family: 'Crimson Text', serif;
+  font-size: 2em;
+  text-transform:capitalize;
+}
+
 a{
   color:#ff5a52;
   text-decoration: underline;
@@ -57,10 +63,20 @@ a:hover{
 
 .jumbotron.sprint {
   background-color:#ff5a52;
-  background-size:   cover;           
+  background-size: contain;          
   background-repeat: no-repeat;
   height: 600px;
   background-image:  url(../images/foto_cover.jpg);
+  background-attachment: fixed;
+}
+
+.jumbotron.about {
+  background-color:#ff5a52;
+  background-size: contain;          
+  background-repeat: no-repeat;
+  height: 600px;
+  background-image:  url(../images/foto_cover2.jpg);
+  background-attachment: fixed;
 }
 
 .jumbotron .logo{
@@ -69,20 +85,21 @@ a:hover{
   text-align: center;
 }
 
-.jumbotron.sprint .logo img{
+.jumbotron.sprint .logo img, .jumbotron.about .logo img{
   z-index: 1000px;
   margin: 25px auto;
   text-align: center;
-  height: 50px;
+  height: 80px;
 }
 
-.jumbotron.sprint h1{
+.jumbotron.sprint h1, .jumbotron.about h1{
   z-index: 1000px;
   margin: 100px auto;
   text-align: center;
   font-size: 5.5em;
   color:#fff;
   text-transform:capitalize;
+  font-family: 'Crimson Text', serif;
 }
 
 .home-column{
@@ -227,6 +244,7 @@ a:hover{
   background-color: #ff5a52;
   margin-left:0;
 }
+
 .sprint p{
   font-family: 'Crimson Text', serif;
   font-size: 1.8em;
@@ -241,6 +259,23 @@ a:hover{
   font-size: 1em;
   letter-spacing: 1px;
   padding-bottom: 0;
+}
+
+/*institution*/
+.institution hr{
+  border: 0;
+  height: 5px;
+  width: 50px;
+  background-color: #ff5a52;
+  margin-left:0;
+}
+
+.institution h4{
+  padding-top: 0;
+}
+
+.institution img{
+  width:100%;
 }
 
 /*Narrative Template*/
@@ -367,10 +402,11 @@ a:hover{
   min-height: 600px;
 }
 
-.container-viz h1{
+.narrative-viz h1{
   font-family: 'Crimson Text', serif; 
   font-size: 1.7em;
   text-transform:capitalize;
+  padding-bottom: 20px;
 }
 
 .container-viz.map-page h1{

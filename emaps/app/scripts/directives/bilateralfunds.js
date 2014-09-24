@@ -46,7 +46,7 @@ angular.module('emapsApp')
 				})
 			})
             },
-            function(error){
+        function(error){
               var txt = error
               element.html(txt)
             }
