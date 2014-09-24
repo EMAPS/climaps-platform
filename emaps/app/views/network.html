@@ -1,0 +1,63 @@
+<div id="sigma-container">
+    <!--Insert here canvas-->
+</div>
+<div class="container">
+    <div class="row network-controls">
+        <div class="col-md-4">
+            <div class="form-group">
+                <div class="icon-addon addon-md">
+                     <input type="text" ng-model="selected" typeahead="node.label for node in nodes | filter:$viewValue | limitTo:10" typeahead-on-select="updateNetwork($item)" class="form-control">
+                    <label for="email" class="glyphicon glyphicon-search" rel="tooltip" title="email"></label>
+                </input>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-md-offset-6">
+            <div class="btn-group">
+            <button id="out" class="btn btn-default"><i class="fa fa-minus"></i></button>
+            <button id="in" class="btn btn-default"><i class="fa fa-plus"></i></button>
+            </div>
+            <button id="reset" class="btn btn-default"><i class="fa fa-refresh"></i></button>
+        </div>
+    </div>
+    <div class="row network-details" collapse="isCollapsed">
+        <div class="col-md-4 node-details">
+            <h5>Selected node</h5>
+            <h1 id="nodeID">{{selectedNode.label}}</h1>
+            <h5>details about the node</h5>
+            <p ng-repeat="attr in attrs">{{attr.key}}: {{attr.value}}</p>
+
+        </div>
+        <div class="col-md-8 node-linked">
+            <h5>Linked nodes</h5>
+            <div id="node-list">
+            	<div ng-if="bipartite">
+	            	<span class="badge" ng-repeat="linkedNode in linkedNodes" ng-click="updateNetwork(linkedNode)">		{{linkedNode.label}}
+	            	</span>
+            	</div>
+            	<div ng-if="!bipartite">
+            		<div class="row">
+            			<div class="col-md-4">
+            				<h3>incoming</h3>
+			            	<span class="badge" ng-repeat="linkedNode in edges.incoming" ng-click="updateNetwork(linkedNode)">		
+			            		{{linkedNode.source}}
+			            	</span>
+		            	</div>
+		            	<div class="col-md-4">
+		            		<h3>outgoing</h3>
+			            	<span class="badge" ng-repeat="linkedNode in edges.outgoing" ng-click="updateNetwork(linkedNode)">		
+			            		{{linkedNode.target}}
+			            	</span>
+		            	</div>
+		            	<div class="col-md-4">
+		            		<h3>mutual</h3>
+			            	<span class="badge" ng-repeat="linkedNode in edges.mutual" ng-click="updateNetwork(linkedNode)">		
+			            		{{linkedNode.source}}
+			            	</span>
+		            	</div>
+	            	</div>
+            	</div>
+            </div>
+        </div>
+    </div>
+</div>

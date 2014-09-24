@@ -103,22 +103,28 @@
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <script src="bower_components/angular-loading-bar/build/loading-bar.js"></script>
     <script src="bower_components/d3/d3.js"></script>
+    <script src="bower_components/sigma/dist/sigma.min.js"></script>
+    <script src="bower_components/sigma/dist/plugins/sigma.plugins.neighborhoods.min.js"></script>
+    <script src="bower_components/sigma/dist/plugins/sigma.plugins.filter.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
-        <script src="scripts/controllers/narrative.js"></script>
-        <script src="scripts/controllers/map.js"></script>
-        <script src="scripts/controllers/theory.js"></script>
-        <script src="scripts/controllers/sprints.js"></script>
-        <script src="scripts/services/fileservice.js"></script>
-        <script src="scripts/directives/scatterplot.js"></script>
-        <script src="scripts/directives/bilateralfunds.js"></script>
-        <script src="scripts/directives/directivemanager.js"></script>
-        <script src="scripts/directives/static.js"></script>
-        <!-- endbuild -->
+    <script src="libs/graph.js"></script>
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/controllers/narrative.js"></script>
+    <script src="scripts/controllers/map.js"></script>
+    <script src="scripts/controllers/theory.js"></script>
+    <script src="scripts/controllers/sprints.js"></script>
+    <script src="scripts/services/fileservice.js"></script>
+    <script src="scripts/directives/scatterplot.js"></script>
+    <script src="scripts/directives/bilateralfunds.js"></script>
+    <script src="scripts/directives/directivemanager.js"></script>
+    <script src="scripts/directives/static.js"></script>
+    <script src="scripts/directives/network.js"></script>
+    <!-- endbuild -->
 </body>
 </html>

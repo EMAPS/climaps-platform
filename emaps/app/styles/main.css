@@ -600,6 +600,10 @@ navmap a {
 
 /* network details controls*/
 
+#sigma-container{
+  min-height: 500px;
+}
+
 .network-container{
   min-height: 80px;
   border-bottom: 1px solid #f0ecec;
