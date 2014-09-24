@@ -69,7 +69,7 @@ file.downloadAsync = function(downloadUrl, filepath) {
       }
     }).pipe(ws) // save image
   
-  
+  console.log('sent', filepath);
 };
 
 
@@ -289,6 +289,8 @@ folder.listAsync = function(options){
       }
     });
   console.log('folder.listAsync', options.fileId, '-->',res.statusCode);
+  if(res.statusCode!= 200)
+    console.log(res.body)
   return JSON.parse(res.body);
 };
 

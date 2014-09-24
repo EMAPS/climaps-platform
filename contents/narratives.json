@@ -1,11 +1,5 @@
 [
   {
-    "id": "1GHTFjES3uxr8nubpCOuh6IOtUIVfK38HHnAldiD9V9Q",
-    "original": "Narrative template",
-    "slug": "narrative-template",
-    "createdDate": "2014-09-18T17:58:22.916Z"
-  },
-  {
     "id": "0B_CpGym5Ms7qejU2cG5FN1ZNNjA",
     "original": "Narrative_03",
     "slug": "climate-adaptation-in-bangladesh",
@@ -21,10 +15,10 @@
     "slug": "who-should-receive-adaptation-funding",
     "createdDate": "2014-09-08T09:36:36.763Z",
     "type": "folder",
-    "cover": "/data/cover-narrative-01.png",
     "title": "Who should receive adaptation funding?",
     "subtitle": "Who is funded? Who deserves it? And why? ",
-    "authors": "Authors"
+    "authors": "Authors",
+    "cover": "/data/cover-who-should-receive-adaptation-funding.png"
   },
   {
     "id": "0B0Qm7RJqWbEoWExrbGdUbXNCamM",

@@ -2,12 +2,9 @@
   {
     "id": "0B8TmR5AwOSwidW5JZ25QRXktT2M",
     "original": "Map_10c ",
-    "slug": "adaptation-funding-in-bangladesh-distribution-of-funds-and-projects",
+    "slug": "map-10c",
     "createdDate": "2014-09-11T12:47:06.438Z",
-    "type": "folder",
-    "title": "Adaptation Funding in Bangladesh - Distribution of funds and projects",
-    "subtitle": "",
-    "authors": ""
+    "type": "folder"
   },
   {
     "id": "0B_CpGym5Ms7qWVUxZTBIaUpqcWs",
@@ -54,7 +51,7 @@
     "slug": "reading-the-state-of-climate-change-in-amazoncom",
     "createdDate": "2014-09-10T16:15:54.545Z",
     "type": "folder",
-    "title": "Reading the state of climate change in Amazon.com.",
+    "title": "Reading the state of climate change in Amazon.com",
     "subtitle": "",
     "authors": ""
   },
@@ -74,7 +71,7 @@
     "slug": "what-is-an-adaption-project-1",
     "createdDate": "2014-09-08T09:13:40.054Z",
     "type": "folder",
-    "title": "What is an adaption project 1",
+    "title": "What is an adaption project (1)",
     "subtitle": "Comparing adaptation project databases",
     "authors": ""
   },
@@ -155,26 +152,6 @@
     "cover": "contents/data/map-cover-climate-talk.jpg"
   },
   {
-    "id": "0B_CpGym5Ms7qcEpmLUE2c1ZsODA",
-    "original": "Map_33",
-    "slug": "comparison-of-climate-talk-in-february-2014-and-september-2013-in-france",
-    "createdDate": "2014-09-08T09:18:46.615Z",
-    "type": "folder",
-    "title": "Comparison of “climate talk” in February 2014 and September 2013, in France.",
-    "subtitle": "",
-    "authors": ""
-  },
-  {
-    "id": "0B_CpGym5Ms7qcjhheC1pblhuRmc",
-    "original": "Map_31",
-    "slug": "localization-of-climate-talk-and-storm-talk-in-feb-2014-france",
-    "createdDate": "2014-09-08T09:14:32.493Z",
-    "type": "folder",
-    "title": "Localization of “climate talk” and “storm talk” in Feb 2014, France.",
-    "subtitle": "",
-    "authors": ""
-  },
-  {
     "id": "0B62v418roMdaUXF3eXFLYUIxdGc",
     "original": "Map_41b",
     "slug": "mapping-cli-fi-scenarios-book-covers-with-landscapes-issues-and-personal-narratives",
@@ -209,13 +186,13 @@
   {
     "id": "0B3_Z30yM93jgU1VoSU9ObjJUMlU",
     "original": "Map_11c",
-    "slug": "adaptation-projects-in-germany-per-natural-area",
+    "slug": "do-adaptation-projects-take-place-in-the-most-vulnerable-areas-of-germay",
     "createdDate": "2014-09-11T16:20:11.172Z",
     "type": "folder",
-    "title": "Adaptation projects in Germany per natural area ",
-    "subtitle": "Distribution of adaptation research projects per natural area of Germany. ",
+    "title": "Do adaptation projects take place in the most vulnerable areas of Germay?",
+    "subtitle": "Distribution of adaptation research projects per natural area of Germany compared to their assessed vulnerability.",
     "authors": "",
-    "cover": "contents/data/map-cover-adaptation-projects-in-germany-per-natural-area.jpg"
+    "cover": "contents/data/map-cover-do-adaptation-projects-take-place-in-the-most-vulnerable-areas-of-germay.jpg"
   },
   {
     "id": "0B0Qm7RJqWbEoX012aUJRLW4xeE0",
@@ -223,7 +200,7 @@
     "slug": "absolute-and-relative-visibility-of-countries-in-the-unfccc-negotiations-1995-2013",
     "createdDate": "2014-09-11T16:09:33.618Z",
     "type": "folder",
-    "title": "Absolute and relative visibility of countries in the UNFCCC negotiations - 1995-2013",
+    "title": "Absolute and relative visibility of countries in the UNFCCC negotiations, 1995-2013",
     "subtitle": "",
     "authors": "",
     "cover": "contents/data/map-cover-absolute-and-relative-visibility-of-countries-in-the-unfccc-negotiations-1995-2013.jpg"
@@ -253,10 +230,10 @@
   {
     "id": "0B_CpGym5Ms7qLWlXTFdDakFtak0",
     "original": "Map_29",
-    "slug": "two-decades-of-unfccc-negotiations-on-mitigation-and-adaptation-1995-2013",
+    "slug": "two-decades-of-unfccc-negotiations-on-mitigation-and-adaptatio-1995-2013",
     "createdDate": "2014-09-08T09:14:27.229Z",
     "type": "folder",
-    "title": "Two decades of UNFCCC negotiations on mitigation and adaptation - 1995-2013",
+    "title": "Two decades of UNFCCC negotiations on mitigation and adaptatio, 1995-2013",
     "subtitle": "",
     "authors": ""
   },
@@ -281,34 +258,6 @@
     "authors": ""
   },
   {
-    "id": "0B8TmR5AwOSwiaFVBLXhqX3RHM1k",
-    "original": "DROPPED",
-    "slug": "dropped",
-    "createdDate": "2014-09-11T12:44:42.647Z",
-    "type": "folder"
-  },
-  {
-    "id": "0B7TgENsGObg3RlQ5ZmJ4LURMNE0",
-    "original": "Template Maps",
-    "slug": "adaptation-funding-and-vulnerability-indexes",
-    "createdDate": "2014-09-18T17:01:13.010Z",
-    "type": "folder",
-    "title": "Adaptation funding and vulnerability indexes",
-    "subtitle": "Subtitle of the map max 100 characters - if needed, otherwise delete this (subtitle style)",
-    "authors": ""
-  },
-  {
-    "id": "0B_CpGym5Ms7qU3loWjI4RDFtSEk",
-    "original": "Map_01",
-    "slug": "insurance-projects",
-    "createdDate": "2014-09-08T09:04:18.451Z",
-    "type": "folder",
-    "title": "Insurance projects",
-    "subtitle": "In what contexts are vulnerability indices being talked about on the Web?",
-    "authors": "",
-    "cover": "contents/data/map-cover-insurance-projects.png"
-  },
-  {
     "id": "0B_CpGym5Ms7qbG9QTjNETW1JMFE",
     "original": "Map_18",
     "slug": "mentions-of-vulnerability-and-development-indexes-in-the-news-media",
@@ -329,13 +278,6 @@
     "authors": ""
   },
   {
-    "id": "0B62v418roMdaWUMzVHRhRTJBZmM",
-    "original": "Map_45c",
-    "slug": "map-45c",
-    "createdDate": "2014-09-11T09:10:01.044Z",
-    "type": "folder"
-  },
-  {
     "id": "0B8cFcLTApf45dG5BSUk1XzJlUFE",
     "original": "Map_25a",
     "slug": "concentration-and-fragmentation-of-oecd-member-countries-bilateral-adaptation-aid",
@@ -344,12 +286,6 @@
     "title": "Concentration and fragmentation of OECD member countries bilateral adaptation aid",
     "subtitle": "",
     "authors": ""
-  },
-  {
-    "id": "1iocuTlOJgeo6d80lJNMGdQlO5ZW4-0Stry62sht5SyM",
-    "original": "Maps (for each group)",
-    "slug": "maps-for-each-group",
-    "createdDate": "2014-09-08T09:20:46.927Z"
   },
   {
     "id": "0BxqL8KlS3YihcWNQQU9vR3RQNE0",
@@ -374,9 +310,12 @@
   {
     "id": "0B_CpGym5Ms7qYnNBZlZnVFlNemM",
     "original": "Map_27",
-    "slug": "map-27",
+    "slug": "adaptation-funding-and-vulnerability-indexes",
     "createdDate": "2014-09-08T09:14:22.131Z",
-    "type": "folder"
+    "type": "folder",
+    "title": "Adaptation funding and vulnerability indexes",
+    "subtitle": "Subtitle of the map max 100 characters - if needed, otherwise delete this (subtitle style)",
+    "authors": ""
   },
   {
     "id": "0B_CpGym5Ms7qSC1HMmV3RXVSWHM",
@@ -424,7 +363,7 @@
     "slug": "adaptation-funding-and-vulnerability-indexes",
     "createdDate": "2014-09-08T09:13:51.186Z",
     "type": "folder",
-    "title": "Adaptation funding and vulnerability indexes.",
+    "title": "Adaptation funding and vulnerability indexes",
     "subtitle": "",
     "authors": ""
   }
