@@ -32,27 +32,27 @@
             <h5>Linked nodes</h5>
             <div id="node-list">
             	<div ng-if="bipartite">
-	            	<span class="badge" ng-repeat="linkedNode in linkedNodes" ng-click="updateNetwork(linkedNode)">		{{linkedNode.label}}
+	            	<span class="badge" ng-repeat="linkedNode in linkedNodes" ng-click="updateNetwork(linkedNode)">{{linkedNode.label}}
 	            	</span>
             	</div>
             	<div ng-if="!bipartite">
             		<div class="row">
             			<div class="col-md-4">
             				<h3>incoming</h3>
-			            	<span class="badge" ng-repeat="linkedNode in edges.incoming" ng-click="updateNetwork(linkedNode)">		
+			            	<span class="badge" ng-repeat="linkedNode in edges.incoming" ng-click="updateNetwork({id:linkedNode.source})">		
 			            		{{linkedNode.source}}
 			            	</span>
 		            	</div>
 		            	<div class="col-md-4">
 		            		<h3>outgoing</h3>
-			            	<span class="badge" ng-repeat="linkedNode in edges.outgoing" ng-click="updateNetwork(linkedNode)">		
+			            	<span class="badge" ng-repeat="linkedNode in edges.outgoing" ng-click="updateNetwork({id:linkedNode.target})">		
 			            		{{linkedNode.target}}
 			            	</span>
 		            	</div>
 		            	<div class="col-md-4">
 		            		<h3>mutual</h3>
-			            	<span class="badge" ng-repeat="linkedNode in edges.mutual" ng-click="updateNetwork(linkedNode)">		
-			            		{{linkedNode.source}}
+			            	<span class="badge" ng-repeat="linkedNode in edges.mutual" ng-click="updateNetwork({id:linkedNode.target})">		
+			            		{{linkedNode.target}}
 			            	</span>
 		            	</div>
 	            	</div>

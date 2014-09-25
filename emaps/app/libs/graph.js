@@ -339,7 +339,6 @@
     }
 
     vis.setSelectedNode = function(x){
-      console.log(x)
       setSelectedNode = x;
       return vis;
     }
@@ -371,6 +370,17 @@
         ratio: 1 ,
         x: 0,
         y: 0,
+        angle: 0
+      }, {
+        duration: 200
+      });
+    }
+
+    vis.centerView = function(x){
+      sigma.misc.animation.camera(_c, {
+        ratio: _c.ratio ,
+        x: x["read_cam0:x"],
+        y: x["read_cam0:y"],
         angle: 0
       }, {
         duration: 200
