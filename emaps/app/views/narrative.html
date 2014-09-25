@@ -41,8 +41,13 @@
           <h1>
             {{section.title}}
           </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
           <div ng-if="section.directive">
-            <div directive-data="{{section.datasrc[0]}}" directive-name="{{section.directive}}" directive-manager></div>
+              <div directive-data="{{section.datasrc[0]}}" directive-name="{{section.directive}}" directive-manager>
+              </div>
           </div>
         </div>
       </div>

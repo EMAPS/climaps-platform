@@ -29,8 +29,8 @@
     function scatterplot(selection){
       selection.each(function(data){
         var chart,
-        w = width-100,
-        h = height-120;
+        w = width-50,
+        h = height-20;
 
         data = data.filter(function(d){return (yField in d && d[yField]!== "") && (xField in d && d[xField] !== "")})
 

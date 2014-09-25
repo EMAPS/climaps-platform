@@ -20,7 +20,7 @@ angular.module('emapsApp')
   			chart = d3.select(scatterfundContainer),
   			scatterfund = emaps.scatterplot()
                  .width(1170)
-                 .height(600)
+                 .height(700)
                  .sizeField("Total")
                  .xField("Germanwatch_inverse")
                  .yField("Total")
@@ -31,8 +31,13 @@ angular.module('emapsApp')
 
         scope.indexes = ["Germanwatch_inverse","Dara_inverse","Gain_inverse","Human_Development_Index"],
        	scope.index = scope.indexes[0];
-        	//scope.funds = ["Adaptation_Fund","LDC_Fund","Pilot_programme","Special_Climate_Change_Fund"]
 
+       	scope.fundModel = {
+		    "Adaptation_Fund": true,
+		    "LDC_Fund": true,
+		    "Pilot_programme": true,
+		    "Special_Climate_Change_Fund": true
+  			};
         
         fileService.getFile(attrs.directiveData).then(
 
