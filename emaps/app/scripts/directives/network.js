@@ -34,6 +34,8 @@ angular.module('emapsApp')
 	                    	return d.selected
 	                  	})[0];
 
+	                  	network.centerView(scope.selectedNode)
+
 	                  	scope.attrs = d3.entries(scope.selectedNode.attributes)
 
 	                  	scope.linkedNodes = d.nodes.filter(function(d){
@@ -41,6 +43,7 @@ angular.module('emapsApp')
 	                  	});
 
 	                  	scope.edges = edgesDirection(d["nodeID"], d["edges"])
+
 
 	                	scope.isCollapsed = false;
 
