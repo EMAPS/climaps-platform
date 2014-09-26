@@ -1,14 +1,14 @@
 <div class="row">
 	<div class="col-md-4">
-		<label>Indexes:</label> <select class="form-control" ng-model="index" ng-options="index.split('_').join(' ') for index in indexes"></select>
+		<label>Indexes</label> <select class="form-control " ng-model="index" ng-options="index.split('_').join(' ') for index in indexes"></select>
 	</div>
 	<div class="col-md-8">
-		<label>Funds:</label> <br>
+		<label>Funds</label> <br>
 		<div class="btn-group">
-        <label class="btn btn-primary" ng-model="fundModel['Adaptation_Fund']" btn-checkbox>Adaptation Fund</label>
-        <label class="btn btn-primary" ng-model="fundModel['LDC_Fund']" btn-checkbox>LDC Fund</label>
-        <label class="btn btn-primary" ng-model="fundModel['Pilot_programme']" btn-checkbox>Pilot programme</label>
-        <label class="btn btn-primary" ng-model="fundModel['Special_Climate_Change_Fund']" btn-checkbox>Special Climate Change Fund</label>
+        <label class="btn btn-round" ng-model="fundModel['Adaptation_Fund']" btn-checkbox>Adaptation Fund</label>
+        <label class="btn btn-round" ng-model="fundModel['LDC_Fund']" btn-checkbox>LDC Fund</label>
+        <label class="btn btn-round" ng-model="fundModel['Pilot_programme']" btn-checkbox>Pilot programme</label>
+        <label class="btn btn-round" ng-model="fundModel['Special_Climate_Change_Fund']" btn-checkbox>Special Climate Change Fund</label>
     </div>
 	</div>
 </div>
