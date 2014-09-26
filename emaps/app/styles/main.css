@@ -21,7 +21,7 @@ h4{
   font-size: 1em;
   letter-spacing: 1px;
   text-transform: uppercase;
-  padding-top: 50px;
+  padding-top: 0px;
   color:#ff5a52;
 }
 
@@ -327,6 +327,7 @@ border-color: #f0ecec;
 
 /*Narrative Template*/
 .narrative {
+  padding-top:0;
 }
 
 .narrative .intro {
@@ -339,9 +340,9 @@ border-color: #f0ecec;
   text-transform:capitalize;
 }
 
-.intro h2{
+.intro h3{
   font-family: 'Crimson Text', serif;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 400;
   font-style:italic;
   color: #7f7e7e;
