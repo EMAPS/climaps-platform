@@ -12,6 +12,7 @@ angular.module('emapsApp')
       replace: false,
       restrict: 'A',
       link: function postLink(scope, element, attrs) {
+
         fileService.getFile(attrs.directiveData).then(
             function(data){
               element.html(data)

@@ -51,6 +51,31 @@ angular.module('emapsApp')
         		element.text(txt)
         	}
         );
+
+        scope.$watch('index', function(newValue, oldValue){
+          if(newValue !== oldValue){
+                    
+            scatterfund.xField(newValue)
+                .colorField(newValue)
+            
+            chart.call(scatterfund)
+
+            }
+        })
+
+        scope.$watchCollection('fundModel', function(newValue, oldValue){
+         var check = angular.equals(newValue, oldValue)
+          if(!check){
+            var funds = d3.entries(newValue).filter(function(d){
+                return d.value == true;
+              }).map(function(d){return d.key})
+
+            scatterfund.frogeggs(funds)
+            chart.call(scatterfund)
+                    
+            }
+        })
+
       }
     };
   });
