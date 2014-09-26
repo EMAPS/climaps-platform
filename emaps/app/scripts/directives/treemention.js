@@ -7,7 +7,7 @@
  * # treemention
  */
 angular.module('emapsApp')
-  .directive('treemention', function (fileService) {
+  .directive('treemention', function (fileService, $compile) {
     return {
       replace: false,
       restrict: 'A',
@@ -18,10 +18,15 @@ angular.module('emapsApp')
 
               var rects = d3.select(element[0]).select("#interactive").selectAll("rect")
 
-              rects.each(function(){
-             		var title = d3.select(this).select("title").text()
-             		$(this).tooltip({title:title, placement:"left", container: 'body'})
-          		})
+              rects
+                .attr("tooltip", function(){
+                  var title = d3.select(this).select("title").text()
+                  return  title
+                })
+                .attr("tooltip-append-to-body", "true")
+                .attr("tooltip-placement", "left")
+
+              $compile(angular.element(element.find("svg")))(scope);
             },
             function(error){
             	var txt = error

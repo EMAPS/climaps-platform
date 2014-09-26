@@ -9,9 +9,16 @@
 			</div>
 		</div>
 	</div>
-    <div ng-if="content.directive">
-    	<div directive-data="{{content.datasrc[0]}}" directive-name="{{content.directive}}" directive-manager></div>
-  	</div>
+	<!-- container should be removed w/ network!!! to be fixed -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			    <div ng-if="content.directive">
+			    	<div directive-data="{{content.datasrc[0]}}" directive-name="{{content.directive}}" directive-manager></div>
+			  	</div>
+			</div>
+		</div>
+	 </div>
 </div>
 <!-- /.Viz container -->
 
