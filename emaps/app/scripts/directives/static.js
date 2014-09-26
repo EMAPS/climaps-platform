@@ -13,6 +13,16 @@ angular.module('emapsApp')
       restrict: 'A',
       link: function postLink(scope, element, attrs) {
 
+          var ext = attrs.directiveData.split(".")
+
+          ext = ext[ext.length - 1].toLowerCase()
+
+          if(ext == "jpg" || ext == "png"){
+            d3.select(element[0]).append("img")
+              .attr("src", attrs.directiveData)
+            return;
+          }
+
           fileService.getFile(attrs.directiveData).then(
 	          function(data){
 	              element.html(data)
