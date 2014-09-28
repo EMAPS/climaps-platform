@@ -14,14 +14,14 @@ angular.module('emapsApp')
       link: function postLink(scope, element, attrs) {
            fileService.getFile(attrs.directiveData).then(
             function(data){
-              element.html(data)
+              element.html(data);
 
-              var rects = d3.select(element[0]).select("#interactive").selectAll("rect")
+              var rects = d3.select(element[0]).select("#interactive").selectAll("rect");
 
               rects
                 .attr("tooltip", function(){
-                  var title = d3.select(this).select("title").text()
-                  return  title
+                  var title = d3.select(this).select("title").text();
+                  return  title;
                 })
                 .attr("tooltip-append-to-body", "true")
                 .attr("tooltip-placement", "left")
@@ -29,10 +29,10 @@ angular.module('emapsApp')
               $compile(angular.element(element.find("svg")))(scope);
             },
             function(error){
-            	var txt = error
-            	element.html(txt)
+            	var txt = error;
+            	element.html(txt);
             }
-            )
+            );
       }
     };
   });

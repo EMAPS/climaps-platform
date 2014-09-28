@@ -13,25 +13,26 @@ angular.module('emapsApp')
       restrict: 'A',
       link: function postLink(scope, element, attrs) {
 
-          var ext = attrs.directiveData.split(".")
+          var ext = attrs.directiveData.split('.');
 
-          ext = ext[ext.length - 1].toLowerCase()
+          ext = ext[ext.length - 1].toLowerCase();
 
-          if(ext == "jpg" || ext == "png"){
-            d3.select(element[0]).append("img")
-              .attr("src", attrs.directiveData)
+          //find a better way to find imgs
+          if(ext === 'jpg' || ext === 'png'){
+            d3.select(element[0]).append('img')
+              .attr('src', attrs.directiveData);
             return;
           }
 
           fileService.getFile(attrs.directiveData).then(
 	          function(data){
-	              element.html(data)
+	              element.html(data);
 	          	},
 	          function(error){
-	              var txt = error
-	              element.html(txt)
+	              var txt = error;
+	              element.html(txt);
 	          	}
           );
         }
-    }
+    };
   });

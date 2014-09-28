@@ -16,46 +16,46 @@ angular.module('emapsApp')
       	
       	scope.isCollapsed = true;
 
-      	var sigmaContainer = element.find("#sigma-container")[0],
+      	var sigmaContainer = element.find('#sigma-container')[0],
       		container = d3.select(element[0]),
       		chart = d3.select(sigmaContainer),
       		network = emaps.graph()
-                .on("filtered", function(d){
+                .on('filtered', function(d){
 
                 	if(!d.nodeID){
                 		scope.selected = undefined;
                 		scope.isCollapsed = true;
                 		if(!scope.$$phase) {
-              				scope.$apply()
+              				scope.$apply();
             			}
                 	}else{
 
 	                	scope.selectedNode = d.nodes.filter(function(d){
-	                    	return d.selected
+	                    	return d.selected;
 	                  	})[0];
 
-	                  	network.centerView(scope.selectedNode)
+	                  	network.centerView(scope.selectedNode);
 
-	                  	scope.attrs = d3.entries(scope.selectedNode.attributes)
+	                  	scope.attrs = d3.entries(scope.selectedNode.attributes);
 
 	                  	scope.linkedNodes = d.nodes.filter(function(d){
-	                    	return !d.selected
+	                    	return !d.selected;
 	                  	});
 
-	                  	scope.edges = edgesDirection(d["nodeID"], d["edges"])
+	                  	scope.edges = edgesDirection(d['nodeID'], d['edges']);
 
 
 	                	scope.isCollapsed = false;
 
 	                  	if(!scope.$$phase) {
-              				scope.$apply()
+              				scope.$apply();
             			}
                 	}
 
                 });
 
         scope.updateNetwork = function(d) {
-  			chart.call(network.setSelectedNode(d.id))
+  			chart.call(network.setSelectedNode(d.id));
   		};
 
 		var edgesDirection = function(nodeID, edges){
@@ -63,12 +63,12 @@ angular.module('emapsApp')
 		    var outgoing={},incoming={},mutual={};
 
 		    edges.forEach(function(d){
-		      if(nodeID == d.source){
-		        outgoing[d.id] = d
-		      }else if(nodeID == d.target){
-		        incoming[d.id] = d
+		      if(nodeID === d.source){
+		        outgoing[d.id] = d;
+		      }else if(nodeID === d.target){
+		        incoming[d.id] = d;
 		      }
-		    })
+		    });
 
 		    for (var e in outgoing) {
 		      if (e in incoming) {
@@ -78,7 +78,7 @@ angular.module('emapsApp')
 		      }
 		    }
 
-		    return {outgoing: d3.values(outgoing),incoming: d3.values(incoming), mutual: d3.values(mutual)}
+		    return {outgoing: d3.values(outgoing),incoming: d3.values(incoming), mutual: d3.values(mutual)};
 
 		}
 
@@ -90,24 +90,24 @@ angular.module('emapsApp')
 	            	scope.nodes = data.nodes;
 	            	scope.selected = undefined;
 
-	            	chart.datum(data).call(network)
+	            	chart.datum(data).call(network);
 
-	            	container.select("#in").on("click", function(){
-					    network.zoomIn()
-					  })
+	            	container.select('#in').on('click', function(){
+					    network.zoomIn();
+					  });
 					  
-					container.select("#out").on("click", function(){
-					    network.zoomOut()
-					  })
+					container.select('#out').on('click', function(){
+					    network.zoomOut();
+					  });
 
-					container.select("#reset").on("click", function(){
-					    network.zoomReset()
-					  })
+					container.select('#reset').on('click', function(){
+					    network.zoomReset();
+					  });
 
 	            },
 	            function(error){
-		            var txt = error
-		            element.html(txt)
+		            var txt = error;
+		            element.html(txt);
 	            }
             );
       }
