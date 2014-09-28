@@ -16,17 +16,17 @@ angular.module('emapsApp')
             function(data){
               element.html(data);
 
-              var rects = d3.select(element[0]).select("#interactive").selectAll("rect");
+              var rects = d3.select(element[0]).select('#interactive').selectAll('rect');
 
               rects
-                .attr("tooltip", function(){
-                  var title = d3.select(this).select("title").text();
+                .attr('tooltip', function(){
+                  var title = d3.select(this).select('title').text();
                   return  title;
                 })
-                .attr("tooltip-append-to-body", "true")
-                .attr("tooltip-placement", "left")
+                .attr('tooltip-append-to-body', 'true')
+                .attr('tooltip-placement', 'left');
 
-              $compile(angular.element(element.find("svg")))(scope);
+              $compile(angular.element(element.find('svg')))(scope);
             },
             function(error){
             	var txt = error;

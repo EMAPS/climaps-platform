@@ -20,8 +20,8 @@ angular.module('emapsApp')
               var rects = d3.select(element[0]).select('#Layer_2').selectAll('rect');
 
               rects.each(function(){
-             		var title = d3.select(this).select('title').text()
-             		$(this).tooltip({title:title, placement:'left', container: 'body'})
+             		var title = d3.select(this).select('title').text();
+             		$(this).tooltip({title:title, placement:'left', container: 'body'});
           		});
 
               rects.on('mouseover', function(){

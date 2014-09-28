@@ -20,18 +20,18 @@ angular.module('emapsApp')
 					var st = d3.select(this).attr('fill');
 					if (st === undefined) {return 0;}
 					else {return st;}
-				})
+				});
 
 				rects.each(function(){
              		var title = d3.select(this).select('title').text();
              		$(this).tooltip({title:title, placement:'left', container: 'body'});
-          		})
+          		});
 
 				rects.on('mouseover', function(){
 					var title = d3.select(this).select('title').text();
 
 					rects.transition().duration(200).style('fill', function(){
-						var title2 = d3.select(this).select('title').text()
+						var title2 = d3.select(this).select('title').text();
 						if(title !== title2){
 							return d3.select(this).attr('col-val');
 						}

@@ -42,7 +42,8 @@ angular.module('emapsApp')
 	                    	return !d.selected;
 	                  	});
 
-	                  	scope.edges = edgesDirection(d['nodeID'], d['edges']);
+	                  	//scope.edges = edgesDirection(d['nodeID'], d['edges']);
+	                  	scope.edges = edgesDirection(d.nodeID, d.edges);
 
 
 	                	scope.isCollapsed = false;
@@ -80,7 +81,7 @@ angular.module('emapsApp')
 
 		    return {outgoing: d3.values(outgoing),incoming: d3.values(incoming), mutual: d3.values(mutual)};
 
-		}
+		};
 
         fileService.getFile(attrs.directiveData).then(
 

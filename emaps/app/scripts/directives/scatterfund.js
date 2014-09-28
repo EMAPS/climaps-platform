@@ -16,7 +16,7 @@ angular.module('emapsApp')
 
 
   	    var scatterfundContainer = element.find('#scatterfund-container')[0],
-  			container = d3.select(element[0]),
+  			//container = d3.select(element[0]),
   			chart = d3.select(scatterfundContainer),
   			scatterfund = emaps.scatterplot()
                  .width(1170)
@@ -27,7 +27,7 @@ angular.module('emapsApp')
                  .frogeggs(['Adaptation_Fund','LDC_Fund','Pilot_programme','Special_Climate_Change_Fund'])
                  .labelField('Country')
                  .colorField('Germanwatch_inverse')
-                 .colorArray(['#62a34e','#fbbe1a','#C03B4C'])
+                 .colorArray(['#62a34e','#fbbe1a','#C03B4C']);
 
         scope.indexes = ['Germanwatch_inverse','Dara_inverse','Gain_inverse','Human_Development_Index'];
        	scope.index = scope.indexes[0];
@@ -56,7 +56,7 @@ angular.module('emapsApp')
           if(newValue !== oldValue){
                     
             scatterfund.xField(newValue)
-                .colorField(newValue)
+                .colorField(newValue);
             
             chart.call(scatterfund);
 
@@ -67,8 +67,8 @@ angular.module('emapsApp')
          var check = angular.equals(newValue, oldValue);
           if(!check){
             var funds = d3.entries(newValue).filter(function(d){
-                return d.value == true;
-              }).map(function(d){return d.key});
+                return d.value === true;
+              }).map(function(d){return d.key;});
 
             scatterfund.frogeggs(funds);
             chart.call(scatterfund);
