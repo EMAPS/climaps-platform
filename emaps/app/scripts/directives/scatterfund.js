@@ -27,7 +27,7 @@ angular.module('emapsApp')
                  .frogeggs(['Adaptation_Fund','LDC_Fund','Pilot_programme','Special_Climate_Change_Fund'])
                  .labelField('Country')
                  .colorField('Germanwatch_inverse')
-                 .colorArray(['#62a34e','#fbbe1a','#C03B4C']);
+                 .colorArray(["#95A565","#EFC164","#FF5A52"]);
 
         scope.indexes = ['Germanwatch_inverse','Dara_inverse','Gain_inverse','Human_Development_Index'];
        	scope.index = scope.indexes[0];
@@ -38,7 +38,7 @@ angular.module('emapsApp')
 		    'Pilot_programme': true,
 		    'Special_Climate_Change_Fund': true
   			};
-        
+
         fileService.getFile(attrs.directiveData).then(
 
         	function(rows){
@@ -54,10 +54,10 @@ angular.module('emapsApp')
 
         scope.$watch('index', function(newValue, oldValue){
           if(newValue !== oldValue){
-                    
+
             scatterfund.xField(newValue)
                 .colorField(newValue);
-            
+
             chart.call(scatterfund);
 
             }
@@ -72,7 +72,7 @@ angular.module('emapsApp')
 
             scatterfund.frogeggs(funds);
             chart.call(scatterfund);
-                    
+
             }
         });
 
