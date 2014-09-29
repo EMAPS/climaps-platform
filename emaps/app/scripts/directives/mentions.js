@@ -7,7 +7,7 @@
  * # mentions
  */
 angular.module('emapsApp')
-  .directive('mentions', function (fileService) {
+  .directive('mentions', function (fileService, $compile) {
     return {
       replace: false,
       restrict: 'A',
@@ -17,10 +17,16 @@ angular.module('emapsApp')
               		element.html(data);
               		var circles = d3.select(element[0]).select('#interactive').selectAll('g');
 
-              		circles.each(function(){
-             			var title = d3.select(this).select('title').text();
-             			$(this).tooltip({title:title, container: 'body'});
-          			});
+              		circles.attr('tooltip', function(){
+                  var title = d3.select(this).select('title').text();
+                  return  title;
+                })
+                .attr('tooltip-append-to-body', 'true')
+                .attr('tooltip-placement', 'top');
+
+
+              $compile(angular.element(element.find('svg')))(scope);
+
           		},
         		function(error){
               		var txt = error;

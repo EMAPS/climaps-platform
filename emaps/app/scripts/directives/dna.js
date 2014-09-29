@@ -7,7 +7,7 @@
  * # dna
  */
 angular.module('emapsApp')
-  .directive('dna', function (fileService) {
+  .directive('dna', function (fileService, $compile) {
     return {
       replace: false,
       restrict: 'A',
@@ -22,10 +22,12 @@ angular.module('emapsApp')
 					else {return st;}
 				});
 
-				rects.each(function(){
-             		var title = d3.select(this).select('title').text();
-             		$(this).tooltip({title:title, placement:'left', container: 'body'});
-          		});
+				rects.attr('tooltip', function(){
+                  var title = d3.select(this).select('title').text();
+                  return  title;
+                })
+                .attr('tooltip-append-to-body', 'true')
+                .attr('tooltip-placement', 'top');
 
 				rects.on('mouseover', function(){
 					var title = d3.select(this).select('title').text();
@@ -54,6 +56,8 @@ angular.module('emapsApp')
 						return 'none';
 					});
 				});
+
+				$compile(angular.element(element.find('svg')))(scope);
             },
         	function(error){
               var txt = error;
