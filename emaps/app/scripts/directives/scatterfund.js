@@ -16,7 +16,6 @@ angular.module('emapsApp')
 
 
   	    var scatterfundContainer = element.find('#scatterfund-container')[0],
-  			//container = d3.select(element[0]),
   			chart = d3.select(scatterfundContainer),
   			scatterfund = emaps.scatterplot()
                  .width(1170)

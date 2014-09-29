@@ -7,25 +7,38 @@
  * # dna
  */
 angular.module('emapsApp')
-  .directive('dna', function (fileService) {
+  .directive('dna', function (fileService, $compile) {
     return {
       replace: false,
       restrict: 'A',
       link: function postLink(scope, element, attrs) {
+
+	        var container = d3.select(element[0])
+                  .append("div")
+                  .attr("class", "container")
+                  .append("div")
+                  .attr("class", "row")
+                  .append("div")
+                  .attr("class", "col-md-12");
+
         fileService.getFile(attrs.directiveData).then(
             function(data){
-              	element.html(data);
-				var rects = d3.select(element[0]).select('#interactive').selectAll('rect')
+
+              	container.html(data);
+              	
+				var rects = container.select('#interactive').selectAll('rect')
 				.attr('col-val',function(){
 					var st = d3.select(this).attr('fill');
 					if (st === undefined) {return 0;}
 					else {return st;}
 				});
 
-				rects.each(function(){
-             		var title = d3.select(this).select('title').text();
-             		$(this).tooltip({title:title, placement:'left', container: 'body'});
-          		});
+				rects.attr('tooltip', function(){
+                  var title = d3.select(this).select('title').text();
+                  return  title;
+                })
+                .attr('tooltip-append-to-body', 'true')
+                .attr('tooltip-placement', 'top');
 
 				rects.on('mouseover', function(){
 					var title = d3.select(this).select('title').text();
@@ -54,6 +67,8 @@ angular.module('emapsApp')
 						return 'none';
 					});
 				});
+
+				$compile(angular.element(element.find('svg')))(scope);
             },
         	function(error){
               var txt = error;

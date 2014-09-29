@@ -50,7 +50,7 @@
           <!-- <div class="container-fluid"> -->
           <!-- era map-thumb -->
             <div class="row">
-              <div ng-repeat="map in maps" class="col-md-3 map-thumb" ng-style="overclass" ng-mouseover="overclass = { 'background-image': 'url(' + map.cover + ')'}" ng-mouseout="overclass = { 'background-image': 'none'}">
+              <div ng-repeat="map in maps" class="col-md-3 map-thumb" ng-style="{ 'background-image': 'url(' + map.cover + ')'}" >
                 <h1><a ng-href="#/map/{{map.slug}}">{{map.title || "Map title"}}</a></h1>
               </div>
             </div>

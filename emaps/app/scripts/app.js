@@ -63,11 +63,24 @@ angular
       })
       .when('/sprints', {
         templateUrl: 'views/sprints.html',
-        controller: 'SprintsCtrl'
+        controller: 'SprintsCtrl',
+        resolve: {
+          content : function (fileService) {
+            return fileService.getFile('contents/pages/sprint.json');
+          }
+        }
       })
       .when('/about', {
         templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+        controller: 'AboutCtrl',
+        resolve: {
+          content : function (fileService) {
+              return fileService.getFile('contents/pages/about-the-project.json');
+            },
+          institutions : function (fileService) {
+              return fileService.getFile('contents/pages/institutions.json');
+          }
+        }
       })
       .otherwise({
         redirectTo: '/'
