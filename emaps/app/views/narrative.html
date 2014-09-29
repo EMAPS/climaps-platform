@@ -1,4 +1,3 @@
-<!-- <div class="tooltip-elm"></div>    -->          
 <div class="svg-wrap">
     <svg width="42" height="42" viewBox="0 0 42 42">
         <path id="arrow-right" d="M48.058 48l-0.003-10.33-47.414 0.003v-11.37h47.418l-0.003-10.304 15.306 16z" />
@@ -43,14 +42,10 @@
           </h1>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div ng-if="section.directive">
-              <div directive-data="{{section.datasrc[0]}}" directive-name="{{section.directive}}" directive-manager>
-              </div>
-          </div>
+    </div>
+    <div ng-if="section.directive">
+        <div directive-data="{{section.datasrc[0]}}" directive-name="{{section.directive}}" directive-manager>
         </div>
-      </div>
     </div>
 
     <navmap class="nav-roundslide">

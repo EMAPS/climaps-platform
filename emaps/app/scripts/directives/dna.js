@@ -12,10 +12,21 @@ angular.module('emapsApp')
       replace: false,
       restrict: 'A',
       link: function postLink(scope, element, attrs) {
+
+	        var container = d3.select(element[0])
+                  .append("div")
+                  .attr("class", "container")
+                  .append("div")
+                  .attr("class", "row")
+                  .append("div")
+                  .attr("class", "col-md-12");
+
         fileService.getFile(attrs.directiveData).then(
             function(data){
-              	element.html(data);
-				var rects = d3.select(element[0]).select('#interactive').selectAll('rect')
+
+              	container.html(data);
+              	
+				var rects = container.select('#interactive').selectAll('rect')
 				.attr('col-val',function(){
 					var st = d3.select(this).attr('fill');
 					if (st === undefined) {return 0;}
