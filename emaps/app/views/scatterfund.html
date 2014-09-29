@@ -1,9 +1,11 @@
+<div class="container">
+
 <div class="row">
 	<div class="col-md-4">
-		<label>Indexes</label> <select class="form-control " ng-model="index" ng-options="index.split('_').join(' ') for index in indexes"></select>
+		<label>Choose Index</label> <select class="form-control " ng-model="index" ng-options="index.split('_').join(' ') for index in indexes"></select>
 	</div>
 	<div class="col-md-8">
-		<label>Funds</label> <br>
+		<label>Select Funds</label> <br>
 		<div class="btn-group">
         <label class="btn btn-round" ng-model="fundModel['Adaptation_Fund']" btn-checkbox>Adaptation Fund</label>
         <label class="btn btn-round" ng-model="fundModel['LDC_Fund']" btn-checkbox>LDC Fund</label>
@@ -17,3 +19,4 @@
 	</div>
 </div>
 
+</div>

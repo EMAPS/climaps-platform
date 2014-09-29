@@ -13,11 +13,19 @@ angular.module('emapsApp')
       restrict: 'A',
       link: function postLink(scope, element, attrs) {
 
+        var container = d3.select(element[0])
+                  .append("div")
+                  .attr("class", "container")
+                  .append("div")
+                  .attr("class", "row")
+                  .append("div")
+                  .attr("class", "col-md-12");
+
         fileService.getFile(attrs.directiveData).then(
             function(data){
-              element.html(data);
+              container.html(data);
 
-              var rects = d3.select(element[0]).select('#Layer_2').selectAll('rect');
+              var rects = container.select('#Layer_2').selectAll('rect');
 
 
               rects
@@ -26,7 +34,7 @@ angular.module('emapsApp')
                   return  title;
                 })
                 .attr('tooltip-append-to-body', 'true')
-                .attr('tooltip-placement', 'top');
+                .attr('tooltip-placement', 'left');
 
 
               rects.on('mouseover', function(){

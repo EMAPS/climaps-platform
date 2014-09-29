@@ -12,9 +12,20 @@ angular.module('emapsApp')
       replace: false,
       restrict: 'A',
       link: function postLink(scope, element, attrs) {
+
+            var container = d3.select(element[0])
+                      .append("div")
+                      .attr("class", "container")
+                      .append("div")
+                      .attr("class", "row")
+                      .append("div")
+                      .attr("class", "col-md-12");
+
             fileService.getFile(attrs.directiveData).then(
             	function(data){
-              		element.html(data);
+
+              		container.html(data);
+                  
               		var circles = d3.select(element[0]).select('#interactive').selectAll('g');
 
               		circles.attr('tooltip', function(){
