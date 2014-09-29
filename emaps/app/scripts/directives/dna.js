@@ -21,11 +21,11 @@ angular.module('emapsApp')
                   .append("div")
                   .attr("class", "col-md-12");
 
-        fileService.getFile(attrs.directiveData).then(
+        fileService.getFile(JSON.parse(attrs.directiveData)[0]).then(
             function(data){
 
               	container.html(data);
-              	
+
 				var rects = container.select('#interactive').selectAll('rect')
 				.attr('col-val',function(){
 					var st = d3.select(this).attr('fill');

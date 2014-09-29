@@ -21,11 +21,11 @@ angular.module('emapsApp')
                       .append("div")
                       .attr("class", "col-md-12");
 
-            fileService.getFile(attrs.directiveData).then(
+            fileService.getFile(JSON.parse(attrs.directiveData)[0]).then(
             	function(data){
 
               		container.html(data);
-                  
+
               		var circles = d3.select(element[0]).select('#interactive').selectAll('g');
 
               		circles.attr('tooltip', function(){
