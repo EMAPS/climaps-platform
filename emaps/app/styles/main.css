@@ -964,6 +964,7 @@ navmap a {
     position: fixed;
     font-size: 15px;
     top: 0;
+    left:0;
     width: 20em;
     z-index: 2000;
     color:#fff;
@@ -992,21 +993,29 @@ navmap a {
     border-bottom: 1px solid #fff;
     padding: 10px 0;
 }
-
+.hidden-menu.out{
+    left:-20em;
+}
+.hidden-menu{
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+}
 #menu-ico {
 
     display: block;
     font-size: 36px; /* change this */
     width: 0.6em;
     height: 0.8em;
-    position: absolute;
+    position: fixed;
     top:30px;
     left:40px;
     z-index:3000;
 }
 
 #menu-ico span {
-    background: #eeeeee;
+    background: #ddd;
     display: block;
     -webkit-transform: translate3d(0,0,0);
 }
@@ -1025,7 +1034,7 @@ navmap a {
 
 #menu-ico span:before,
 #menu-ico span:after {
-    background: #fff;
+    background: #ddd;
     content: " ";
     margin-top: -.2em;
     position: absolute;
@@ -1054,6 +1063,7 @@ navmap a {
     -webkit-transform: rotate(-45deg) translate(.1em, -.2em);
     transform: rotate(-45deg) translate(.1em, -.2em);
 }
-
-
-
+#matrix-container text{
+    font-family: "Source Sans Pro";
+    font-size:11px;
+}
