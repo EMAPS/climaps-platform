@@ -955,4 +955,105 @@ navmap a {
   background-color: #7e7d7d;
 }
 
+/*menu*/
+.hidden-menu{
+    background: #2d2f33;
+    display: block;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    font-size: 15px;
+    top: 0;
+    width: 20em;
+    z-index: 2000;
+    color:#fff;
+}
+
+.hidden-menu a{
+    text-decoration: none;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5em;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.hidden-menu a:hover{
+    color: #ff5a52;
+}
+
+
+.hidden-menu ul{
+    list-style: none;
+    margin-right: 40px;
+    padding-top: 50px;
+}
+
+.hidden-menu li{
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+}
+
+#menu-ico {
+
+    display: block;
+    font-size: 36px; /* change this */
+    width: 0.6em;
+    height: 0.8em;
+    position: absolute;
+    top:30px;
+    left:40px;
+    z-index:3000;
+}
+
+#menu-ico span {
+    background: #eeeeee;
+    display: block;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+#menu-ico span,
+#menu-ico span:before,
+#menu-ico span:after {
+    width: 100%;
+    height: .11em;
+    -moz-transition:       all 0.4s;
+    -o-transition:         all 0.4s;
+    -webkit-transition:    all 0.4s;
+    transition:            all 0.4s;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+#menu-ico span:before,
+#menu-ico span:after {
+    background: #fff;
+    content: " ";
+    margin-top: -.2em;
+    position: absolute;
+}
+
+#menu-ico span:after {
+    margin-top: .2em;
+}
+
+#menu-ico.on span {
+    background: transparent;
+}
+
+#menu-ico.on span:before {
+    -moz-transform: rotate(45deg) translate(.09em, .19em);
+    -ms-transform: rotate(45deg) translate(.09em, .19em);
+    -o-transform: rotate(45deg) translate(.09em, .19em);
+    -webkit-transform: rotate(45deg) translate(.09em, .19em);
+    transform: rotate(45deg) translate(.09em, .19em);
+}
+
+#menu-ico.on span:after {
+    -moz-transform: rotate(-45deg) translate(.1em, -.2em);
+    -ms-transform: rotate(-45deg) translate(.1em, -.2em);
+    -o-transform: rotate(-45deg) translate(.1em, -.2em);
+    -webkit-transform: rotate(-45deg) translate(.1em, -.2em);
+    transform: rotate(-45deg) translate(.1em, -.2em);
+}
+
+
 
