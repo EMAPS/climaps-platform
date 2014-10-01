@@ -7,7 +7,7 @@
  * # multiplestatic
  */
 angular.module('emapsApp')
-  .directive('multiplestatic', function () {
+  .directive('multiplestatic', function (fileService) {
     return {
       //template: '<div></div>',
       restrict: 'A',
@@ -19,30 +19,33 @@ angular.module('emapsApp')
 
           scope.indexes = JSON.parse(attrs.directiveData);
            scope.index = scope.indexes[0];
+           scope.container = element.find("#multiple-container");
 
 
         scope.$watch('index', function(newValue, oldValue){
-          if(newValue !== oldValue){
-
+          //if(newValue !== oldValue){
+          var ext = newValue.split('.');
+              ext = ext[ext.length - 1].toLowerCase();
             if(ext === 'jpg' || ext === 'png'){
-             container.append('img')
+             scope.container.append('img')
                 .attr('src', newValue);
               return;
             }
 
             fileService.getFile(newValue).then(
               function(data){
-                  container.html(data);
+                  console.log(data);
+                  scope.container.html(data);
                 },
               function(error){
                   var txt = error;
-                  container.html(txt);
+                  scope.container.html(txt);
                 }
             );
 
               //<img src=+"'"+newValue"'"/>
 
-            }
+           // }
         });
 
 

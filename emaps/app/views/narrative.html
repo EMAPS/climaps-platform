@@ -48,7 +48,14 @@
         </div>
     </div>
 
-    <navmap class="nav-roundslide">
+      <div ng-if='section.type=="image"'>
+          <div class = "img-container"><img src ="{{section.src}}"/></div>
+          <div directive-data="{{section.datasrc}}" directive-name="{{section.directive}}" directive-manager>
+          </div>
+      </div>
+
+
+    <navmap ng-if="section.type == 'directive'" class="nav-roundslide">
       <a class="next" ng-href="#/map/{{section.map}}">
         <span class="icon-wrap"><svg class="icon" width="21" height="21" viewBox="0 0 64 64"><use xlink:href="#arrow-right"></svg></span>
         <h3>View map page</h3>
