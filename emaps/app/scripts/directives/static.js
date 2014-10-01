@@ -21,18 +21,17 @@ angular.module('emapsApp')
                           .append("div")
                           .attr("class", "col-md-12");
 
-          var ext = attrs.directiveData.split('.');
-
+          var ext = JSON.parse(attrs.directiveData)[0].split('.');
           ext = ext[ext.length - 1].toLowerCase();
 
           //find a better way to find imgs
           if(ext === 'jpg' || ext === 'png'){
            container.append('img')
-              .attr('src', attrs.directiveData);
+              .attr('src', JSON.parse(attrs.directiveData)[0]);
             return;
           }
 
-          fileService.getFile(attrs.directiveData).then(
+          fileService.getFile(JSON.parse(attrs.directiveData)[0]).then(
 	          function(data){
 	              container.html(data);
 	          	},

@@ -13,7 +13,7 @@ angular.module('emapsApp')
       replace: false,
       templateUrl: 'views/network.html',
       link: function postLink(scope, element, attrs) {
-      	
+
       	scope.isCollapsed = true;
 
       	var sigmaContainer = element.find('#sigma-container')[0],
@@ -83,7 +83,7 @@ angular.module('emapsApp')
 
 		};
 
-        fileService.getFile(attrs.directiveData).then(
+        fileService.getFile(JSON.parse(attrs.directiveData)[0]).then(
 
 	            function(data){
 
@@ -96,7 +96,7 @@ angular.module('emapsApp')
 	            	container.select('#in').on('click', function(){
 					    network.zoomIn();
 					  });
-					  
+
 					container.select('#out').on('click', function(){
 					    network.zoomOut();
 					  });
