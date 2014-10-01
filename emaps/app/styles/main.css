@@ -1,4 +1,8 @@
 /*General*/
+body{
+  color: #333;;
+}
+
 .navbar-inverse{
   background-color: #fff;
   border-color: transparent;
@@ -484,38 +488,19 @@ padding-right: 20px;
   background-color: #f9f7f7;
 }
 
-.narrative-thumb{
-  border-top: 1px solid #f0ecec;
-  min-height: 200px;
-  /*margin-left: -15px;*/
-  background: #fff;
-  cursor: pointer;
-  background-size:cover;
+.gallery-home a{
+  text-decoration: none!important;
 }
 
-.narrative-thumb h1{
-  font-family: 'Crimson Text', serif;
-  font-size: 3.5em;
-}
-
-.narrative-thumb h2, .map-thumb h1{
-  font-family: 'Crimson Text', serif;
-  font-size: 1.5em;
-}
-
-.narrative-thumb h1 a, .map-thumb h1 a{
-  text-decoration: none;
-  color: #000;
+.gallery-home a:hover{
+  color:#ccc;
 }
 
 .map-thumb {
   border-color: #ebedef !important;
   margin-bottom: 30px;
-}
+  text-decoration: none!important;
 
-.map-thumb-text h1{
-  font-family: 'Crimson Text', serif;
-  font-size: 1.5em;
 }
 
 .map-thumb-pic{
@@ -546,14 +531,82 @@ padding-right: 20px;
   margin: 0 !important; 
   padding: 0 !important;
   color: #000;
+  text-decoration: none!important;
+  padding-left: 50px;
   }
 
  .map-thumb-text a{ 
   text-decoration: none!important;
+
   }
 
-   .map-thumb-text a{ 
+.narrative-thumb {
+  border-color: #ebedef !important;
   text-decoration: none!important;
+  height: 300px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+
+.narrative-thumb-pic{
+  background-size:cover;
+  height: 300px;
+  width:30%;
+  -webkit-filter: none; /*Returns to default state*/
+  -webkit-transition: all 0.5s;
+  background-color: #ff5a52;
+  float: left;
+}
+
+.narrative-thumb-pic:hover{
+    -webkit-filter: opacity(50%);
+}
+
+.narrative-thumb-text { 
+  padding: 20px !important; 
+  background-color: #fff !important;
+  height:100%;
+  max-width: 70%;
+  float: left;
+}  
+
+.narrative-thumb-text hr{ 
+  border: 0;
+  height: 5px;
+  width: 50px;
+  background-color: #ff5a52;
+  margin-left:0;
+}  
+
+.narrative-thumb-text h1 { 
+  display: inline; 
+  font-family: 'Crimson Text', serif;
+  font-size: 2.5em;
+  text-transform:capitalize;
+  margin-top: 0px;
+  font-weight: 400;
+  text-transform: none; 
+  margin: 0 !important; 
+  padding: 0 !important;
+  color: #000;
+  text-decoration: none!important;
+  }
+
+  .narrative-thumb-text h2 { 
+  font-family: 'Crimson Text', serif;
+  font-size: 1.8em;
+  font-weight: 400;
+  font-style:italic;
+  color: #7f7e7e;
+  }
+
+ .narrative-thumb-text a{ 
+  text-decoration: none!important;
+  }
+
+  .narrative-thumb-text a{ 
+  color:#ccc;
   }
 
 /*.map-thumb h1{
@@ -892,10 +945,6 @@ navmap a {
   font-size: 1em;
   line-height: 150%;
 }
-
-
-
-
 
 .main-map{
   padding-left: 100px;

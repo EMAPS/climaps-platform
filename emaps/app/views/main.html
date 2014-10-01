@@ -21,19 +21,19 @@
         <tab heading="Narratives">
           <!-- <div class="container-fluid"> -->
           <!-- era narrative-thumb -->
-          <div ng-repeat="narrative in narratives" class="row narrative-thumb" ng-style="overclass" ng-mouseover="overclass = { 'background-image': 'url(' + narrative.cover + ')'}" ng-mouseout="overclass = { 'background-image': 'none'}">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-10">
-                  <h1>
-                    <a ng-href="#/narrative/{{narrative.slug}}">{{narrative.title}}</a>
-                  </h1>
-                  <h2>
-                    {{narrative.subtitle}}
-                  </h2>
-                </div>
+          <div class="row gallery-home">
+            <div ng-repeat="narrative in narratives" class="col-md-12">
+              <a ng-href="#/narrative/{{narrative.slug}}">
+                <div class="narrative-thumb">
+                  <div ng-style="{ 'background-image': 'url(' + map.cover + ')'}" class="narrative-thumb-pic"></div>
+                 <div class="narrative-thumb-text">
+                  <h1>{{narrative.title || "Narrative title"}}</h1>
+                  <h2>{{narrative.subtitle || "Narrative subtitle"}}</h2>
+                  <hr>
+                 </div> 
+
+                </div> </a>
               </div>
-            </div>
           </div>
           <!-- </div> -->
         </tab>
@@ -42,12 +42,13 @@
           <!-- era map-thumb -->
           <div class="row gallery-home">
             <div ng-repeat="map in maps" class="col-md-3">
-              <div class="map-thumb">
+              <a ng-href="#/map/{{map.slug}}">
+                <div class="map-thumb">
                  <div class="map-thumb-text">
-                  <h1>{{map.title || "Map title"}}</h1></a>
-                </div> 
-              <a ng-href="#/map/{{map.slug}}"><div ng-style="{ 'background-image': 'url(' + map.cover + ')'}" class="map-thumb-pic"></div>
-                </div> 
+                  <h1>{{map.title || "Map title"}}</h1>
+                 </div> 
+                <div ng-style="{ 'background-image': 'url(' + map.cover + ')'}" class="map-thumb-pic"></div>
+                </div> </a>
               </div>
           </div>
           <!-- </div> -->
