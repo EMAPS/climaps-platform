@@ -18,6 +18,7 @@ angular.module('emapsApp')
 	      var e = angular.element(html);
 	      element.append(e);
 	      $compile(e)(scope);
+
       }
     };
   });

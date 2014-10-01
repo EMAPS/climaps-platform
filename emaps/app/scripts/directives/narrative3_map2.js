@@ -32,7 +32,7 @@ angular.module('emapsApp')
           scope.target = scope.yindex.value;
           scope.whichdata = "indiabangladesh";
           scope.data=[];
-          scope.el="#matrix-container";
+          scope.el=d3.select(element[0]).select("#matrix-container");
           scope.filter="";
 
           scope.sort="alphabet"
@@ -89,7 +89,7 @@ angular.module('emapsApp')
 
           scope.drawChart = function(orderby,source,target,filter) {
 
-              d3.select(scope.el+" svg").remove();
+              scope.el.select("svg").remove();
               var margin = {
                       top: 140,
                       right: 140,
@@ -251,7 +251,7 @@ angular.module('emapsApp')
 
                   height = ntargets*11+20;
 
-                  var svg = d3.select(scope.el).append("svg")
+                  var svg = scope.el.append("svg")
                       .attr("width", width + margin.left + margin.right)
                       .attr("height", height + margin.top + margin.bottom)
                       .style("margin-left", -margin.left + "px")
