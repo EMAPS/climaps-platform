@@ -73,9 +73,9 @@
               for (var i = 0; i<intermediate; i++) {
                 newExt.push((ext[1]*(i+1))/colorArray.length-1)
               }
-              newExt.push(ext[1])
-              newExt.splice(0,0,ext[0])
-              colorScale.domain(newExt)
+              newExt.push(ext[1]);
+              newExt.splice(0,0,ext[0]);
+              colorScale.domain(newExt);
             }
             else {
               colorScale.domain(ext)
@@ -96,16 +96,16 @@
         if (selection.select('svg').empty()){
           chart = selection.append('svg')
           .attr('width', width)
-          .attr('height', height)
+          .attr('height', height);
 
           chart.append("g")
-          .attr("class","lins")
+          .attr("class","lins");
 
           chart.append("g")
-          .attr("class","circles")
+          .attr("class","circles");
 
           chart.append("g")
-          .attr("class","labels")
+          .attr("class","labels");
 
 
         }
@@ -113,14 +113,14 @@
         {
           chart = selection.select('svg')
           .attr('width', width)
-          .attr('height', height)
+          .attr('height', height);
         }
 
 
 
 
         //bind data
-        var gees = d3.select(".circles").selectAll("g").data(data, function(d){return d[labelField]})
+        var gees = selection.select(".circles").selectAll("g").data(data, function(d){return d[labelField]});
 
 
         gees.exit().remove();
@@ -131,15 +131,15 @@
         .on("mouseover", function(d){
 
           d3.select(this).selectAll("circle")
-          .style("opacity",1)
+          .style("opacity",1);
 
           texts.filter(function(e){return e == d})
           .style("opacity",1)
           .attr("x",function(d){return xScale(parseFloat(d[xField]))})
-          .attr("y",function(d){return yScale(parseFloat(d[yField])) + sizeScale(Math.sqrt(parseFloat(d[sizeField])/Math.PI)) + 10})
+          .attr("y",function(d){return yScale(parseFloat(d[yField])) + sizeScale(Math.sqrt(parseFloat(d[sizeField])/Math.PI)) + 10});
 
           //plot lines
-          var lins = d3.select(".lins")
+          var lins = selection.select(".lins");
 
           var linx = lins.append("line")
           .attr("class","pointer")
@@ -154,7 +154,7 @@
           .transition()
           .duration(300)
           .attr("x2",xScale(parseFloat(d[xField])))
-          .attr("y2",yScale(yext[0]))
+          .attr("y2",yScale(yext[0]));
 
           var liny = lins.append("line")
           .attr("class","pointer")
@@ -169,19 +169,19 @@
           .transition()
           .duration(300)
           .attr("x2",xScale(xext[0]))
-          .attr("y2",yScale(parseFloat(d[yField])))
+          .attr("y2",yScale(parseFloat(d[yField])));
 
         })
         .on("mouseout", function(d){
           d3.select(this).selectAll("circle")
-          .style("opacity",0.7)
+          .style("opacity",0.7);
 
           texts.style("opacity",0)
-          .attr("x",0)
-          .attr("y",0)
+          .attr("x",-10)
+          .attr("y",-10);
 
           //remove lines
-          d3.selectAll(".pointer").remove();
+          selection.selectAll(".pointer").remove();
         })
 
         if (frogeggs!==null && frogeggs instanceof Array) {
@@ -189,16 +189,16 @@
           .attr("class","eggout")
           .style("stroke","none")
           .style("opacity",0.7)
-          .style("fill","#fff")
+          .style("fill","#fff");
 
           //transition on circles
           d3.selectAll(".eggout").transition().duration(300)
           .attr("cx",function(d){return xScale(parseFloat(d[xField]))})
           .attr("cy",function(d){return yScale(parseFloat(d[yField]))})
           .attr("r",function(d){
-              return sizeScale(Math.sqrt(parseFloat(d[sizeField])/Math.PI))
+              return sizeScale(Math.sqrt(parseFloat(d[sizeField])/Math.PI));
           })
-          .style("fill", "#eee")
+          .style("fill", "#eee");
         }
 
         //add circles to groups
@@ -206,24 +206,24 @@
         .style("stroke","none")
         .style("opacity",0.7)
         .style("fill","#fff")
-        .attr("class","circle")
+        .attr("class","circle");
 
 
 
         //transition on circles
-        d3.selectAll(".circle").transition().duration(300)
+        selection.selectAll(".circle").transition().duration(300)
         .attr("cx",function(d){return xScale(parseFloat(d[xField]))})
         .attr("cy",function(d){return yScale(parseFloat(d[yField]))})
         .attr("r",function(d){
           if (frogeggs === null || ! frogeggs instanceof Array) {
-            return sizeScale(Math.sqrt(parseFloat(d[sizeField])/Math.PI))
+            return sizeScale(Math.sqrt(parseFloat(d[sizeField])/Math.PI));
           }
           else {
             var tot = 0;
             for(var i = 0; i < frogeggs.length; i++){
               tot += parseFloat(d[frogeggs[i]])
             }
-            return sizeScale(Math.sqrt(tot/Math.PI))
+            return sizeScale(Math.sqrt(tot/Math.PI));
           }
         })
         .style("fill", function(d){
@@ -231,16 +231,16 @@
               return colorArray;
             }
             else {
-              return colorScale(parseFloat(d[colorField]))
+              return colorScale(parseFloat(d[colorField]));
             }
-        })
+        });
 
 
         //bind data
-        var tees = d3.select(".labels").selectAll("g").data(data, function(d){return d[labelField]})
+        var tees = selection.select(".labels").selectAll("g").data(data, function(d){return d[labelField]});
 
         //add new groups
-        var newtees = tees.enter().append("g")
+        var newtees = tees.enter().append("g");
 
         //remove old groups
         tees.exit().remove();
@@ -255,16 +255,13 @@
         .text(function(d){return d[labelField]});
 
         //transition on texts
-        d3.selectAll(".label")
-        .attr("x",0)
-        .attr("y",0)
-
-
-
+        selection.selectAll(".label")
+        .attr("x",-10)
+        .attr("y",-10);
 
         //Axes
 
-        d3.selectAll(".axis").remove();
+        selection.selectAll(".axis").remove();
 
         chart.append("g")
         .attr("class", "x axis")
@@ -282,10 +279,10 @@
         .attr("transform", "translate(" + 100 + "," + 0 + ")")
         .call(yAxis);
 
-        d3.selectAll(".y.axis line, .x.axis line, .y.axis path, .x.axis path")
+        selection.selectAll(".y.axis line, .x.axis line, .y.axis path, .x.axis path")
          	.style("shape-rendering","crispEdges")
          	.style("fill","none")
-         	.style("stroke","#ccc")
+         	.style("stroke","#ccc");
 
       }); //end selection
     } // end district

@@ -1197,3 +1197,11 @@ transition: all 0.4s ease-in-out;
 .multiple-controls select{
     margin-bottom:30px;
 }
+
+#scatter-container .scat-sel{
+    fill:#FF5A52 !important;
+    opacity:1 !important;
+}
+.top5 h2 {
+    font-size:1.4em;
+}
