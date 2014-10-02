@@ -9,20 +9,6 @@
         filter,
         settings = {
           labelThreshold: 3,
-          // edgeColor: 'default',
-          // defaultEdgeColor: 'rgba(17, 17, 17, 0.1)',
-          // rescaleIgnoreSize: true,
-          // enableHovering: false,
-          // mouseEnabled : false,
-          // touchEnabled : false,
-          // sideMargin: 50,
-          // clone: false,
-          // immutable: false,
-          // minNodeSize: 0,
-          // maxNodeSize: 0,
-          // borderColor: "#fff",
-          //zoomMin: 0.2,
-          //zoomMax: 2,
           font: 'Source Sans Pro'
         },
         selectedNodes = [],
@@ -275,7 +261,7 @@
         data.nodes.forEach(function(d){
             d.file_color = d.color;
             d.file_label = d.label;
-            d.type = "outline";
+            //d.type = "outline";
         })
 
         _s.graph.read(data);

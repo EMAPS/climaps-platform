@@ -42,7 +42,6 @@ angular.module('emapsApp')
 	                    	return !d.selected;
 	                  	});
 
-	                  	//scope.edges = edgesDirection(d['nodeID'], d['edges']);
 	                  	scope.edges = edgesDirection(d.nodeID, d.edges);
 
 
@@ -54,6 +53,11 @@ angular.module('emapsApp')
                 	}
 
                 });
+
+
+        scope.indexes = JSON.parse(attrs.directiveData);
+        scope.index = scope.indexes[0];
+
 
         scope.updateNetwork = function(d) {
   			chart.call(network.setSelectedNode(d.id));
@@ -83,34 +87,52 @@ angular.module('emapsApp')
 
 		};
 
-        fileService.getFile(JSON.parse(attrs.directiveData)[0].url).then(
+    	container.select('#in').on('click', function(){
+		    network.zoomIn();
+		  });
 
-	            function(data){
+		container.select('#out').on('click', function(){
+		    network.zoomOut();
+		  });
 
-	            	scope.bipartite = data.bipartite || true; //to be removed when added to source json
-	            	scope.nodes = data.nodes;
-	            	scope.selected = undefined;
+		container.select('#reset').on('click', function(){
+		    network.zoomReset();
+		  });
 
-	            	chart.datum(data).call(network);
+        var update = function(data){
 
-	            	container.select('#in').on('click', function(){
-					    network.zoomIn();
-					  });
+	        fileService.getFile(data.url).then(
 
-					container.select('#out').on('click', function(){
-					    network.zoomOut();
-					  });
+		            function(data){
 
-					container.select('#reset').on('click', function(){
-					    network.zoomReset();
-					  });
+		            	scope.bipartite = data.bipartite || true; //to be removed when added to source json
+		            	scope.nodes = data.nodes;
+		            	scope.selected = undefined;
+		            	scope.isCollapsed = true;
 
-	            },
-	            function(error){
-		            var txt = error;
-		            element.html(txt);
-	            }
-            );
+		            	chart.datum(data).call(network);
+
+		            	network.zoomReset()
+
+		            },
+		            function(error){
+			            var txt = error;
+			            element.html(txt);
+		            }
+	            );
+	    }
+
+	    update(scope.index);
+
+        scope.$watch('index', function(newValue, oldValue){
+          var check = angular.equals(newValue, oldValue);
+          if(!check){
+
+				update(newValue);
+
+            }
+        });
+
       }
     };
   });
