@@ -1079,7 +1079,7 @@ navmap a {
 
 /*menu*/
 .hidden-menu{
-    background: #2d2f33;
+    background-color: #00434c;
     display: block;
     height: 100%;
     overflow: auto;
@@ -1089,7 +1089,8 @@ navmap a {
     left:0;
     width: 20em;
     z-index: 2000;
-    color:#fff;
+    color:#333;
+    border-right:1px #286275 solid; 
 }
 
 .hidden-menu a{
@@ -1101,7 +1102,7 @@ navmap a {
 }
 
 .hidden-menu a:hover{
-    color: #ff5a52;
+    color: #333;
 }
 
 
@@ -1112,7 +1113,7 @@ navmap a {
 }
 
 .hidden-menu li{
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #286275;
     padding: 10px 0;
 }
 .hidden-menu.out{
