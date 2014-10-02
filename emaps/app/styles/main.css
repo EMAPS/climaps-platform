@@ -118,6 +118,14 @@ outline: 0;
 box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
 }
 
+.btn:active:hover, .btn.active:hover {
+background-color: #f4f2f2;
+outline: 0;
+/* -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125); */
+box-shadow: inset 0 3px 3px rgba(0, 0, 0, .1);
+}
+
+
 .btn-round-lg{
   border-radius: 22.5px;
 }
@@ -742,19 +750,16 @@ font-size: 1.5em;
 .aside{
   padding-left: 30px;
   padding-top: 50px;
+  max-width: 100%;
 }
 
 .aside p{
   font-size: 1.1em;
+  max-width: 100%;
 }
 
 .aside h4{
   padding-top: 20px;
-}
-
-.aside a{
-  text-decoration: none;
-  color:#000;
 }
 
 .aside .caption p{
@@ -774,6 +779,10 @@ font-size: 1.5em;
   text-decoration: inherit;
   margin-right: 3px;
   color: #ff5a52;
+}
+
+.metadata{
+  max-width: 100%;
 }
 
 .text-narrative{
