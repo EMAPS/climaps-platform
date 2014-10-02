@@ -38,7 +38,7 @@ angular.module('emapsApp')
 		    'Special_Climate_Change_Fund': true
   			};
 
-        fileService.getFile(JSON.parse(attrs.directiveData)[0]).then(
+        fileService.getFile(JSON.parse(attrs.directiveData)[0].url).then(
 
         	function(rows){
         		var data = d3.csv.parse(rows);

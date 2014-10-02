@@ -25,16 +25,21 @@ angular.module('emapsApp')
 
         scope.$watch('index', function(newValue, oldValue){
           //if(newValue !== oldValue){
-          var ext = newValue.split('.');
+            console.log(newValue.url, newValue.label);
+
+            console.log(newValue);
+
+          var ext = newValue.url.split('.');
               ext = ext[ext.length - 1].toLowerCase();
             if(ext === 'jpg' || ext === 'png'){
              scope.container.append('img')
-                .attr('src', newValue);
+                .attr('src', newValue.url);
               return;
             }
 
-            fileService.getFile(newValue).then(
+            fileService.getFile(newValue.url).then(
               function(data){
+
                   scope.container.html(data);
 
                   var circles = d3.select(scope.container[0]).select("#interactive").selectAll("circle").filter(function(d){

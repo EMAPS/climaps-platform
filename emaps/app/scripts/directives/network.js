@@ -83,7 +83,7 @@ angular.module('emapsApp')
 
 		};
 
-        fileService.getFile(JSON.parse(attrs.directiveData)[0]).then(
+        fileService.getFile(JSON.parse(attrs.directiveData)[0].url).then(
 
 	            function(data){
 

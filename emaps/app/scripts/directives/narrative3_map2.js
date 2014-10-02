@@ -39,7 +39,7 @@ angular.module('emapsApp')
           scope.filt= "indiabangladesh";
 
 
-          fileService.getFile(JSON.parse(attrs.directiveData)[0]).then(
+          fileService.getFile(JSON.parse(attrs.directiveData)[0].url).then(
 
               function(rows){
                   scope.data = rows;

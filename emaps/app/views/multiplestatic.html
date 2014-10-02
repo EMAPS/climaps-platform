@@ -1,8 +1,9 @@
 <div class="container">
 
-  <div class="row">
+  <div ng-if="indexes.length > 1" class="row multiple-controls">
     <div class="col-md-4">
-      <label>Choose Index</label> <select class="form-control " ng-model="index" ng-options="index.split('_').join(' ') for index in indexes"></select>
+
+      <label>Choose Index</label> <select class="form-control " ng-model="$parent.index" ng-options="index.label for index in indexes"></select>
     </div>
   </div>
 

@@ -1194,3 +1194,6 @@ transition: all 0.4s ease-in-out;
     text-align:center;
     margin-bottom:30px;
 }
+.multiple-controls select{
+    margin-bottom:30px;
+}
