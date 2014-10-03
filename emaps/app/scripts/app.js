@@ -54,7 +54,13 @@ angular
           content : function ($route, fileService) {
             var map = $route.current.params.map;
             return fileService.getFile('contents/maps/' + map + '.json');
-          }
+          },
+            narratives : function (fileService) {
+                return fileService.getFile('contents/narratives.json');
+            },
+            maps : function (fileService) {
+                return fileService.getFile('contents/maps.json');
+            }
         }
       })
       .when('/theory', {
