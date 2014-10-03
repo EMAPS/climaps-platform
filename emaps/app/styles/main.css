@@ -670,12 +670,20 @@ font-size: 1.5em;
 }
 
 /*institution*/
+
+.institution{
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px #f0ecec solid;
+}
+
 .institution hr{
   border: 0;
   height: 5px;
   width: 50px;
   background-color: #ff5a52;
   margin-left:0;
+  margin-bottom: 50px;
 }
 
 .institution h4{
