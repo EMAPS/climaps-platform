@@ -1215,3 +1215,8 @@ transition: all 0.4s ease-in-out;
 .top5 h2 {
     font-size:1.4em;
 }
+
+.img-narrative img{
+    width:100%;
+
+}
