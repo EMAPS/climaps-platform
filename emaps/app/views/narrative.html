@@ -33,36 +33,72 @@
       </div>
     </div>
   </div>
-  <div ng-if="section.type != 'text'" class="container-fluid narrative-viz">
+
+
+
+    <div ng-if="section.type == 'directive' && section.directive==='image'" class="container narrative">
+
+        <div class="row">
+            <div class="col-md-8 img-narrative">
+                <h4 ng-bind-html="section.title"></h4>
+                <img src ="{{section.src}}"/>
+            </div>
+            <div class="col-md-4 aside">
+                <div class="caption">
+                    <p ng-bind-html="section.caption">
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-8 text-narrative">
+          <span ng-bind-html="section.html">
+          </span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+  <div ng-if="section.type != 'text' && section.directive && section.directive!=='image'" class="container-fluid narrative-viz">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <h1>
-            {{section.title}}
+          <h1 ng-bind-html="section.title">
           </h1>
         </div>
       </div>
     </div>
-    <div ng-if="section.directive">
+
+
+
+
+    <div ng-if="section.directive && section.directive!=='image'" >
         <div directive-data="{{section.datasrc}}" directive-name="{{section.directive}}" directive-manager>
         </div>
     </div>
 
-      <div ng-if='section.type=="image"'>
+      <div ng-if='section.type=="image" '>
           <div class = "img-container"><img src ="{{section.src}}"/></div>
           <!--<div directive-data="{{section.datasrc}}" directive-name="{{section.directive}}" directive-manager>
           </div>-->
       </div>
 
 
-    <navmap ng-if="section.type == 'directive'" class="nav-roundslide">
+    <navmap ng-if="section.type == 'directive' && section.directive!=='image'" class="nav-roundslide">
       <a class="next" ng-href="#/map/{{section.map}}">
         <span class="icon-wrap"><svg class="icon" width="21" height="21" viewBox="0 0 64 64"><use xlink:href="#arrow-right"></svg></span>
         <h3>View map page</h3>
       </a>
     </navmap>
   </div>
-  <div ng-if="section.type != 'text'" class="container narrative">
+  <div ng-if="section.type == 'directive' && section.directive!=='image'" class="container narrative">
       <div class="row">
           <div class="col-md-8 text-narrative">
               <span ng-bind-html="section.html">
