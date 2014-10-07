@@ -11,5 +11,7 @@ angular.module('emapsApp')
   .controller('NarrativeCtrl', function ($scope, content) {
 
   	$scope.content = content;
+
+
   	
   });

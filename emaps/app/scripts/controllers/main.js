@@ -10,7 +10,6 @@
 angular.module('emapsApp')
   .controller('MainCtrl', function ($routeParams,$anchorScroll,$location,$scope, narratives, maps) {
 
-
     $scope.narratives = narratives;
     $scope.maps = maps;
     $scope.tabs =
@@ -18,7 +17,4 @@ angular.module('emapsApp')
             { name: "narratives", active:false  },
             { name: "maps", active:true }
         ];
-
-    //$scope.content = content;
-
   });
