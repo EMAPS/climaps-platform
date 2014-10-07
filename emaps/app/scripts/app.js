@@ -160,7 +160,12 @@ angular
       })
       .when('/theory', {
         templateUrl: 'views/theory.html',
-        controller: 'TheoryCtrl'
+        controller: 'TheoryCtrl',
+        resolve: {
+          content : function (fileService) {
+            return fileService.getFile('contents/pages/controversy-mapping.json');
+          }
+        }
       })
       .when('/sprints', {
         templateUrl: 'views/sprints.html',
