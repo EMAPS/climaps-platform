@@ -23,10 +23,10 @@
   <div class="row">
     <div class="col-md-12">
       <tabset>
-        <tab heading="Narratives">
+        <tab heading="{{tabs[0].name}}" active=tabs[0].active>
           <!-- <div class="container-fluid"> -->
           <!-- era narrative-thumb -->
-          <div class="row gallery-home">
+          <div class="row gallery-home" id="narratives">
             <div ng-repeat="narrative in narratives" class="col-md-12">
               <a ng-href="#/narrative/{{narrative.slug}}">
                 <div class="narrative-thumb">
@@ -42,10 +42,10 @@
           </div>
           <!-- </div> -->
         </tab>
-        <tab heading="Maps">
+        <tab heading="{{tabs[1].name}}" active=tabs[1].active>
           <!-- <div class="container-fluid"> -->
           <!-- era map-thumb -->
-          <div class="row gallery-home">
+          <div class="row gallery-home" id="maps">
             <div ng-repeat="map in maps" class="col-md-3">
               <a ng-href="#/map/{{map.slug}}">
                 <div class="map-thumb">
