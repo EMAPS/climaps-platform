@@ -37,21 +37,24 @@ angular
           // }
         }
       })
-        .when('/narratives', {
+      .when('/narratives', {
             templateUrl: 'views/main.html',
-            controller: ('narrativesController', function ($route,$location,$anchorScroll, $scope,narratives, maps) {
+            controller: ('narrativesController', function ($location,$anchorScroll, $scope,narratives, maps) {
                 $scope.narratives = narratives;
                 $scope.maps = maps;
+                $scope.tabs =
+                    [
+                        { name: "narratives", active:true  },
+                        { name: "maps", active:false }
+                    ];
 
             var init = function () {
 
-                var old = $location.hash();
                 $location.hash('narratives');
                 $anchorScroll();
-
+                $location.hash('show');
 
                 }
-
             init();
         }),
             resolve: {
@@ -64,40 +67,7 @@ angular
 
             }
         })
-        .when('/narratives', {
-            templateUrl: 'views/main.html',
-            controller: ('narrativesController', function ($location,$anchorScroll,$scope,narratives, maps) {
 
-                $scope.narratives = narratives;
-                $scope.maps = maps;
-                $scope.tabs =
-                    [
-                        { name: "narratives", active:true  },
-                        { name: "maps", active:false }
-                    ];
-
-                var init = function () {
-
-                    var old = $location.hash();
-                    $location.hash('narratives');
-                    $anchorScroll();
-
-
-
-                }
-
-                init();
-            }),
-            resolve: {
-                narratives : function (fileService) {
-                    return fileService.getFile('contents/narratives.json');
-                },
-                maps : function (fileService) {
-                    return fileService.getFile('contents/maps.json');
-                }
-
-            }
-        })
         .when('/maps', {
             templateUrl: 'views/main.html',
             controller: ('narrativesController', function ($route,$location,$anchorScroll, $scope,narratives, maps) {
@@ -114,7 +84,7 @@ angular
 
                     $location.hash('maps');
                     $anchorScroll();
-
+                    $location.hash('show');
 
                 }
 
@@ -130,8 +100,6 @@ angular
 
             }
         })
-
-
       .when('/narrative/:narrative', {
         templateUrl: 'views/narrative.html', 
         controller: 'NarrativeCtrl',
