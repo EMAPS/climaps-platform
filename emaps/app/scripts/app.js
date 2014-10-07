@@ -37,6 +37,101 @@ angular
           // }
         }
       })
+        .when('/narratives', {
+            templateUrl: 'views/main.html',
+            controller: ('narrativesController', function ($route,$location,$anchorScroll, $scope,narratives, maps) {
+                $scope.narratives = narratives;
+                $scope.maps = maps;
+
+            var init = function () {
+
+                var old = $location.hash();
+                $location.hash('narratives');
+                $anchorScroll();
+
+
+                }
+
+            init();
+        }),
+            resolve: {
+                narratives : function (fileService) {
+                    return fileService.getFile('contents/narratives.json');
+                },
+                maps : function (fileService) {
+                    return fileService.getFile('contents/maps.json');
+                }
+
+            }
+        })
+        .when('/narratives', {
+            templateUrl: 'views/main.html',
+            controller: ('narrativesController', function ($location,$anchorScroll,$scope,narratives, maps) {
+
+                $scope.narratives = narratives;
+                $scope.maps = maps;
+                $scope.tabs =
+                    [
+                        { name: "narratives", active:true  },
+                        { name: "maps", active:false }
+                    ];
+
+                var init = function () {
+
+                    var old = $location.hash();
+                    $location.hash('narratives');
+                    $anchorScroll();
+
+
+
+                }
+
+                init();
+            }),
+            resolve: {
+                narratives : function (fileService) {
+                    return fileService.getFile('contents/narratives.json');
+                },
+                maps : function (fileService) {
+                    return fileService.getFile('contents/maps.json');
+                }
+
+            }
+        })
+        .when('/maps', {
+            templateUrl: 'views/main.html',
+            controller: ('narrativesController', function ($route,$location,$anchorScroll, $scope,narratives, maps) {
+                $scope.narratives = narratives;
+                $scope.maps = maps;
+                $scope.tabs =
+                    [
+                        { name: "narratives", active:false  },
+                        { name: "maps", active:true }
+                    ];
+
+                var init = function () {
+
+
+                    $location.hash('maps');
+                    $anchorScroll();
+
+
+                }
+
+                init();
+            }),
+            resolve: {
+                narratives : function (fileService) {
+                    return fileService.getFile('contents/narratives.json');
+                },
+                maps : function (fileService) {
+                    return fileService.getFile('contents/maps.json');
+                }
+
+            }
+        })
+
+
       .when('/narrative/:narrative', {
         templateUrl: 'views/narrative.html', 
         controller: 'NarrativeCtrl',
@@ -54,7 +149,13 @@ angular
           content : function ($route, fileService) {
             var map = $route.current.params.map;
             return fileService.getFile('contents/maps/' + map + '.json');
-          }
+          },
+            narratives : function (fileService) {
+                return fileService.getFile('contents/narratives.json');
+            },
+            maps : function (fileService) {
+                return fileService.getFile('contents/maps.json');
+            }
         }
       })
       .when('/theory', {
