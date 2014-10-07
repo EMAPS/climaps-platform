@@ -12,6 +12,7 @@
           font: 'Source Sans Pro',
           zoomingRatio : 1
         },
+        label,
         selectedNodes = [],
         selectedEdges = [],
         setSelectedNode,
@@ -154,6 +155,8 @@
     function vis(selection){
     	selection.each(function(data){
 
+        //var filter;
+
         //initialize sigma
         if(selection.select("canvas").empty()){
           _s = new sigma({
@@ -174,12 +177,13 @@
           dragged = false;
         });
 
-        // add filter to manage egonet
-        filter = new sigma.plugins.filter(_s);
-
         // add nodes interaction
         _s.bind("clickNode", function(e) {
             
+            // add filter to manage egonet
+            filter = new sigma.plugins.filter(_s)
+
+
             var selected = e.data.node.selected
 
             if(selected){
@@ -236,6 +240,9 @@
         // add reset egonet on stage click
         _s.bind('clickStage', function(e) {
           if(!dragged){
+            
+            filter = new sigma.plugins.filter(_s)
+
             filter.undo()
             
             _s.graph.nodes().forEach(function(d){
@@ -247,6 +254,8 @@
             selectedEdges = []
 
             dispatch.filtered({nodes:selectedNodes, edges: selectedEdges})
+
+            filter = new sigma.plugins.filter(_s)
 
             filter.apply()
           }
@@ -262,7 +271,7 @@
         data.nodes.forEach(function(d){
             d.file_color = d.color;
             d.file_label = d.label;
-            //d.type = "outline";
+            d.type = d.attributes.node_render ? d.attributes.node_render : "def";
         })
 
         _s.graph.read(data);
@@ -272,6 +281,8 @@
 
         // if set filter on graph
         if(setSelectedNode){
+
+          filter = new sigma.plugins.filter(_s);
           
           var node = _s.graph.nodes([setSelectedNode])
 
@@ -287,6 +298,7 @@
           filter.apply()
 
           node[0].selected = true
+
 
           filter.neighborsOf(node[0].id).apply()
 
@@ -314,6 +326,12 @@
 
     	}); //end selection
     } // end vis
+
+    vis.label = function(x){
+      if (!arguments.length) return label;
+      label = x;
+      return vis;
+    }
 
     vis.settings = function(x){
       if (!arguments.length) return settings;
