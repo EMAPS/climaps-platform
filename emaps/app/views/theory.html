@@ -1,1 +1,32 @@
-<p>This is the theory view.</p>
+<div class="jumbotron about">
+    <div class="container">
+        <div class="logo"><img src="images/logo.png"></div>
+        <h1>{{content.title}}</h1>
+    </div>
+</div>
+
+<!-- Container -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 sprint">
+            <p>
+                {{content.subtitle}}
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 text-narrative">
+            <span ng-bind-html="content.html">
+            </span>    
+        </div>
+    </div>
+    <div class="row" ng-repeat="section in content.sections"> 
+        <div class="col-md-12">
+            <h4>{{section.title}}</h4>
+            <div class="home-column">
+            <span ng-bind-html="section.html">
+            </span>
+        </div>
+        </div>
+    </div>
+</div>

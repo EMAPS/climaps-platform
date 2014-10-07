@@ -8,6 +8,6 @@
  * Controller of the emapsApp
  */
 angular.module('emapsApp')
-  .controller('TheoryCtrl', function ($scope) {
-  	$scope.content = undefined;
+  .controller('TheoryCtrl', function ($scope, content) {
+  	$scope.content = content;
   });

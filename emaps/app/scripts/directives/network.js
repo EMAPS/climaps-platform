@@ -101,6 +101,7 @@ angular.module('emapsApp')
 
         var update = function(data){
 
+	        var label = data.label;
 	        fileService.getFile(data.url).then(
 
 		            function(data){
@@ -125,6 +126,9 @@ angular.module('emapsApp')
 		            	
 
 		            	network.settings(settings);
+
+		            	network.label(label)
+
 		            	chart.datum(data).call(network);
 		            	network.zoomReset()
 
