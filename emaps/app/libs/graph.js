@@ -9,7 +9,8 @@
         filter,
         settings = {
           labelThreshold: 3,
-          font: 'Source Sans Pro'
+          font: 'Source Sans Pro',
+          zoomingRatio : 1
         },
         selectedNodes = [],
         selectedEdges = [],

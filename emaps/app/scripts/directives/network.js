@@ -105,13 +105,27 @@ angular.module('emapsApp')
 
 		            function(data){
 
-		            	scope.bipartite = data.bipartite || true; //to be removed when added to source json
+		            	scope.bipartite = true; //to change w/ data.settings.bipartite when added to source json
 		            	scope.nodes = data.nodes;
 		            	scope.selected = undefined;
 		            	scope.isCollapsed = true;
 
-		            	chart.datum(data).call(network);
+		            	if(!scope.bipartite){
+		            		scope.linksLegend = {
+		            			outgoing: data.settings.outgoing,
+							  	incoming: data.settings.incoming,
+							  	mutual: data.settings.mutual
+		            		}
+		            	}
 
+		            	var settings ={
+					        labelThreshold: 3, //to change w/ data.settings.labelThreshold when added to source json
+          					font: 'Source Sans Pro'
+					        }
+		            	
+
+		            	network.settings(settings);
+		            	chart.datum(data).call(network);
 		            	network.zoomReset()
 
 		            },
