@@ -1229,6 +1229,6 @@ transition: all 0.4s ease-in-out;
 
 }
 
-#related-maps a{
+#related-maps a, #related-narratives a{
     display: block;
 }

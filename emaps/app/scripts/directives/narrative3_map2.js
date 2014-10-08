@@ -366,14 +366,6 @@ angular.module('emapsApp')
 
 
           }
-
-
-
-
-
-
-
-
       }
     };
   });

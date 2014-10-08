@@ -71,7 +71,10 @@ angular
           content : function ($route, fileService) {
             var narrative = $route.current.params.narrative;
             return fileService.getFile('contents/narratives/' + narrative + '.json');
-          }
+          },
+            narratives : function (fileService) {
+                return fileService.getFile('contents/narratives.json');
+            }
         }
       })
       .when('/map/:map', {
