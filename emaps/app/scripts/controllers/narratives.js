@@ -13,8 +13,8 @@ angular.module('emapsApp')
         $scope.maps = maps;
         $scope.tabs =
             [
-                { name: "narratives", active:true  },
-                { name: "maps", active:false }
+                { name: "Issue Stories", active:true  },
+                { name: "Issue Maps", active:false }
             ];
 
     var init = function () {

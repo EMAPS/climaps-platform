@@ -35,7 +35,7 @@
             <div ng-repeat="narrative in narratives" class="col-md-12">
               <a ng-href="#/narrative/{{narrative.slug}}">
                 <div class="narrative-thumb">
-                  <div ng-style="{ 'background-image': 'url(' + map.cover + ')'}" class="narrative-thumb-pic"></div>
+                  <div ng-style="{ 'background-image': 'url(' + narrative.cover + ')'}" class="narrative-thumb-pic"></div>
                  <div class="narrative-thumb-text">
                   <h1>{{narrative.title || "Narrative title"}}</h1>
                   <h2>{{narrative.subtitle || "Narrative subtitle"}}</h2>
