@@ -37,25 +37,9 @@ angular
           // }
         }
       })
-        .when('/narratives', {
+      .when('/narratives', {
             templateUrl: 'views/main.html',
-            controller: ('narrativesController', function ($location,$anchorScroll, $scope,narratives, maps) {
-                $scope.narratives = narratives;
-                $scope.maps = maps;
-                $scope.tabs =
-                    [
-                        { name: "narratives", active:true  },
-                        { name: "maps", active:false }
-                    ];
-
-            var init = function () {
-
-                $location.hash('narratives');
-                $anchorScroll();
-
-                }
-            init();
-        }),
+            controller: 'NarrativesCtrl',
             resolve: {
                 narratives : function (fileService) {
                     return fileService.getFile('contents/narratives.json');
@@ -69,26 +53,7 @@ angular
 
         .when('/maps', {
             templateUrl: 'views/main.html',
-            controller: ('narrativesController', function ($route,$location,$anchorScroll, $scope,narratives, maps) {
-                $scope.narratives = narratives;
-                $scope.maps = maps;
-                $scope.tabs =
-                    [
-                        { name: "narratives", active:false  },
-                        { name: "maps", active:true }
-                    ];
-
-                var init = function () {
-
-
-                    $location.hash('maps');
-                    $anchorScroll();
-                    $location.hash('show');
-
-                }
-
-                init();
-            }),
+            controller: 'MapsCtrl',
             resolve: {
                 narratives : function (fileService) {
                     return fileService.getFile('contents/narratives.json');
@@ -99,8 +64,6 @@ angular
 
             }
         })
-
-
       .when('/narrative/:narrative', {
         templateUrl: 'views/narrative.html', 
         controller: 'NarrativeCtrl',
@@ -133,6 +96,15 @@ angular
         resolve: {
           content : function (fileService) {
             return fileService.getFile('contents/pages/controversy-mapping.json');
+          }
+        }
+      })
+      .when('/foreword', {
+        templateUrl: 'views/foreword.html',
+        controller: 'ForewordCtrl',
+        resolve: {
+          content : function (fileService) {
+            return fileService.getFile('contents/pages/foreword.json');
           }
         }
       })

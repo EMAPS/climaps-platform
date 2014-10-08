@@ -9,8 +9,8 @@
  */
 angular.module('emapsApp')
   .controller('MapCtrl', function ($scope, $compile,content, narratives, maps) {
-	
-	$scope.content = content;
+  
+  $scope.content = content;
     $scope.narratives = narratives;
     $scope.maps = maps;
 
