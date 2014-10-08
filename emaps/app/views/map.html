@@ -33,11 +33,9 @@
 			<div class="metadata">
 				<section ng-repeat="section in content.metadata">
 					<h4>{{section.title}}</h4>
-
  					<span ng-if="section.title!=='Related maps' && section.title!=='Related narratives'" ng-bind-html="section.html"></span>
                     <div ng-if="section.title==='Related maps'" id="related-maps"> {{mapSlugFromId(section.html)}} </div>
                     <div ng-if="section.title==='Related narratives'" id="related-narratives"> {{narrativeSlugFromId(section.html)}} </div>
-
                     <!--<span  ng-bind-html="section.html"></span>-->
 				</section>
 <!-- 				<h4>Data Files</h4>
