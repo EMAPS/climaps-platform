@@ -397,6 +397,15 @@ table p{
   background-attachment: fixed;
 }
 
+.jumbotron.theory {
+  background-color:#ff5a52;
+  background-size: contain;          
+  background-repeat: no-repeat;
+  height: 400px;
+  background-image:  url(../images/foto_cover4.jpg);
+  background-attachment: fixed;
+}
+
 .jumbotron .logo{
   z-index: 1000px;
   margin: 85px auto 0;
@@ -417,7 +426,7 @@ table p{
   height: 140px;
 }
 
-.jumbotron.sprint h1, .jumbotron.about h1{
+.jumbotron.sprint h1, .jumbotron.about h1, .jumbotron.theory h1{
   z-index: 1000px;
   margin: 100px auto;
   text-align: center;
