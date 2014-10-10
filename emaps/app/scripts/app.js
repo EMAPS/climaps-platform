@@ -92,7 +92,7 @@ angular
             }
         }
       })
-      .when('/theory', {
+      .when('/controversy-mapping', {
         templateUrl: 'views/theory.html',
         controller: 'TheoryCtrl',
         resolve: {
