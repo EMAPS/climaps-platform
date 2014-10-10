@@ -1232,3 +1232,14 @@ transition: all 0.4s ease-in-out;
 #related-maps a, #related-narratives a{
     display: block;
 }
+
+#matrix14-container{
+    width:100%;
+}
+
+#matrix14-container .mat-sel{
+    fill:#B0CFCD !important;
+}
+#matrix14-container .xlabel{
+    cursor:pointer;
+}
