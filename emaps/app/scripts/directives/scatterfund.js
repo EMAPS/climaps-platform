@@ -19,7 +19,7 @@ angular.module('emapsApp')
   			chart = d3.select(scatterfundContainer),
   			scatterfund = emaps.scatterplot()
                  .width(1170)
-                 .height(700)
+                 .height(600)
                  .sizeField('Total')
                  .xField('Germanwatch_inverse')
                  .yField('Total')

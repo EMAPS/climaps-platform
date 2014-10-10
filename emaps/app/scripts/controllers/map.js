@@ -36,6 +36,8 @@ angular.module('emapsApp')
 
         var finalDiv = document.createElement("div");
 
+        console.log(res);
+
         res.forEach(function(d,i){
 
 

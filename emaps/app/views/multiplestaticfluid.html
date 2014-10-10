@@ -1,0 +1,15 @@
+<div class="container-fluid">
+
+    <div ng-if="indexes.length > 1" class="row multiple-controls">
+        <div class="col-md-4">
+
+            <label>Choose Index</label> <select class="form-control " ng-model="$parent.index" ng-options="index.label for index in indexes"></select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12" id="multiple-container">
+        </div>
+    </div>
+
+</div>

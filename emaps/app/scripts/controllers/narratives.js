@@ -9,8 +9,15 @@
  */
 angular.module('emapsApp')
   .controller('NarrativesCtrl', function ($location,$anchorScroll, $scope,narratives, maps) {
-        $scope.narratives = narratives;
-        $scope.maps = maps;
+        $scope.narratives = narratives.sort(function(a,b){
+            if(b.title < a.title) return 1;
+            else return -1;
+        });
+        $scope.maps = maps.sort(function(a,b){
+
+            if(b.title < a.title) return 1;
+            else return -1;
+        });
         $scope.tabs =
             [
                 { name: "Issue Stories", active:true  },
