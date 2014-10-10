@@ -8,10 +8,12 @@
  * Controller of the emapsApp
  */
 angular.module('emapsApp')
-  .controller('MainCtrl', function ($routeParams,$anchorScroll,$location,$scope, narratives, maps) {
+  .controller('MainCtrl', function ($routeParams,$anchorScroll,$location,$scope, narratives, maps, content) {
 
     $scope.narratives = narratives;
     $scope.maps = maps;
+    $scope.content = content;
+
     $scope.tabs =
         [
             { name: "Issue stories", active:true  },

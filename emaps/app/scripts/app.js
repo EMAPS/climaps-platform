@@ -30,11 +30,10 @@ angular
           },
           maps : function (fileService) {
             return fileService.getFile('contents/maps.json');
+          },
+          content : function (fileService) {
+            return fileService.getFile('contents/pages/home.json');
           }
-          // ,
-          // content : function (fileService) {
-          //   return fileService.getFile('contents/pages/home.json');
-          // }
         }
       })
       .when('/narratives', {
@@ -93,7 +92,7 @@ angular
             }
         }
       })
-      .when('/theory', {
+      .when('/controversy-mapping', {
         templateUrl: 'views/theory.html',
         controller: 'TheoryCtrl',
         resolve: {
@@ -136,6 +135,6 @@ angular
         redirectTo: '/'
       });
   })
-  .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
-    cfpLoadingBarProvider.includeSpinner = false;
-  }]);
+  // .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
+  //   cfpLoadingBarProvider.includeSpinner = false;
+  // }]);
