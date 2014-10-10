@@ -135,6 +135,6 @@ angular
         redirectTo: '/'
       });
   })
-  .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
-    cfpLoadingBarProvider.includeSpinner = false;
-  }]);
+  // .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
+  //   cfpLoadingBarProvider.includeSpinner = false;
+  // }]);

@@ -345,6 +345,21 @@ table p{
   background: #ff5a52;
 }
 
+/* spinner */
+#loading-bar-spinner{
+  top:50%;
+  left: 50%;
+}
+
+#loading-bar-spinner .spinner-icon {
+  width: 60px;
+  height: 60px;
+  border:  solid 3px transparent;
+  border-top-color:  #ff5a52;
+  border-left-color: #ff5a52;
+  border-radius: 30px;
+}
+
 /*Home*/
 .jumbotron {
   background-color:#ff5a52;
