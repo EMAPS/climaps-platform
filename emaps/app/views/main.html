@@ -1,6 +1,7 @@
 <div class="jumbotron home">
     <div class="container">
         <div class="logo"><img src="images/logo.png"></div>
+        <h1>a global issue atlas <span class="of">of</span> climate change adaptation</h1>
     </div>
 </div>
 
@@ -12,7 +13,7 @@
       As in all explorations the journey is as important as the final destination and this project is – we hope – but a leg in a longer effort to deploy the complexity of debate on climate change and make it legible for a wider public.</p>
 
       <p>The climate is changing. The efforts to reduce greenhouse emissions has so far been ineffective or, at least, insufficient. As the impacts of global warming are emerging all over the world, our societies experience an unprecedented pressure. How to live with climate change without giving up the fight against it? How to share the burden of adaption while respecting the responsibilities and the capacities of different countries, regions and communities? How to be fair to all human and non-human beings affected by such a planetary transition?
-          None of these questions has a straightforward answer. And fortunately so. As our collective life depends on them, they deserve discussion, debate and even controversy. The journey to our future passes through tumultuous debates and uncharted territories. No shortcut allowed.</p>
+         None of these questions has a straightforward answer. And fortunately so. As our collective life depends on them, they deserve discussion, debate and even controversy. The journey to our future passes through tumultuous debates and uncharted territories. No shortcut allowed.</p>
          <p> To provide some help in such a journey, this electronic atlas proposes a series of maps and stories related to climate adaptation issues. They are not exhaustive or error-proof. Far from it. They are nothing but sketches of the new world in which we will have to live. Such a world remains open and unexplored and its atlas can be but tentative.</p>
 
          <p> The website presents the results of a research project, but it also presents an experiment: an attempt to use computation and visualization techniques to harness the increasing availability of digital data and make it available for public debate. To do so, the EMAPS project gathered a team of social scientists, climate experts, data scientists and information designers. It also reached out beyond the walls of Academia and engaged with the actors of the climate debate.
@@ -28,10 +29,10 @@
   <div class="row">
     <div class="col-md-12">
       <tabset>
-        <tab heading="{{tabs[0].name}}" active=tabs[0].active>
+        <tab id="narratives" heading="{{tabs[0].name}}" active=tabs[0].active>
           <!-- <div class="container-fluid"> -->
           <!-- era narrative-thumb -->
-          <div class="row gallery-home" id="narratives">
+          <div class="row gallery-home" >
             <div ng-repeat="narrative in narratives" class="col-md-12">
               <a ng-href="#/narrative/{{narrative.slug}}">
                 <div class="narrative-thumb">
@@ -47,10 +48,10 @@
           </div>
           <!-- </div> -->
         </tab>
-        <tab heading="{{tabs[1].name}}" active=tabs[1].active>
+        <tab id="maps" heading="{{tabs[1].name}}" active=tabs[1].active>
           <!-- <div class="container-fluid"> -->
           <!-- era map-thumb -->
-          <div class="row gallery-home" id="maps">
+          <div class="row gallery-home" >
             <div ng-repeat="map in maps" class="col-md-3">
               <a ng-href="#/map/{{map.slug}}">
                 <div class="map-thumb">
