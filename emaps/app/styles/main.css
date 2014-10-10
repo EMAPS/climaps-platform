@@ -455,6 +455,7 @@ table p{
 
 .switch .nav-tabs{
   border-bottom: none;
+  margin-top: 60px;
 }
 
 .switch .nav-tabs > li{
@@ -691,7 +692,7 @@ font-size: 1.5em;
   font-size: 1.8em;
   font-weight: 400;
   margin-top: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .metadata-sprint{
