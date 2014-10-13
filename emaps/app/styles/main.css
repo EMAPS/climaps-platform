@@ -406,17 +406,19 @@ table p{
   background-attachment: fixed;
 }
 
+.jumbotron.forward {
+  background-color:#ff5a52;
+  background-size: contain;          
+  background-repeat: no-repeat;
+  height: 400px;
+  background-image:  url(../images/foto_cover5.jpg);
+  background-attachment: fixed;
+}
+
 .jumbotron .logo{
   z-index: 1000px;
   margin: 85px auto 0;
   text-align: center;
-}
-
-.jumbotron.sprint .logo img, .jumbotron.about .logo img{
-  z-index: 1000px;
-  margin: 25px auto;
-  text-align: center;
-  height: 80px;
 }
 
 .jumbotron.home .logo img{
@@ -426,7 +428,7 @@ table p{
   height: 140px;
 }
 
-.jumbotron.sprint h1, .jumbotron.about h1, .jumbotron.theory h1{
+.jumbotron.sprint h1, .jumbotron.about h1, .jumbotron.theory h1, .jumbotron.forward h1{
   z-index: 1000px;
   margin: 100px auto;
   text-align: center;
@@ -567,15 +569,17 @@ padding-right: 20px;
 }
 
 .map-thumb-text { 
-  padding: 20px !important; 
+  padding: 12px !important; 
   background-color: #fff !important;
-  height:100px;
+  height:50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }  
 
 .map-thumb-text h1 { 
   display: inline; 
   font-family: 'Crimson Text', serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-transform:capitalize;
   font-weight: 400;
   text-transform: none; 
@@ -800,7 +804,7 @@ font-size: 1.5em;
 
 .aside{
   padding-left: 30px;
-  padding-top: 60px;
+  padding-top: 0px;
   max-width: 100%;
 }
 
@@ -810,7 +814,6 @@ font-size: 1.5em;
 }
 
 .aside h4{
-  padding-top: 20px;
 }
 
 .aside .caption p{
@@ -818,7 +821,8 @@ font-size: 1.5em;
   font-weight: 400;
   font-size: 1em;
   line-height: 150%;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+  padding-top: 60px;
 }
 
 .aside .caption p::before { 
@@ -831,6 +835,27 @@ font-size: 1.5em;
   margin-right: 3px;
   color: #ff5a52;
 }
+
+.aside .caption-static p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 150%;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.aside .caption-static p::before { 
+  content: "\f104";
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  margin-right: 3px;
+  color: #ff5a52;
+}
+
 
 .metadata{
   max-width: 100%;
@@ -864,7 +889,7 @@ min-height: 600px;
 .narrative-viz, .map-viz {
   border-top: 1px #f0ecec solid;
   border-bottom: 1px #f0ecec solid;
-  margin-top: 50px;
+  margin-top: 100px;
   background-color: #FCFAFA;
   min-height: 600px;
 }
@@ -997,7 +1022,7 @@ navmap a {
 /*Footer*/
 .footer{
   border-top: #f0ecec 1px solid;
-  height: 200px;
+  min-height: 250px;
   margin-top: 150px;
   padding-top: 20px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -1317,4 +1342,25 @@ transition: all 0.4s ease-in-out;
 }
 #matrix14-container .xlabel{
     cursor:pointer;
+}
+
+
+/* share*/
+.sharing {
+  float: left;
+  display: block;
+  clear:both;  
+}
+
+.sharing h4{
+  padding-bottom: 0;
+}
+
+.sharing a{
+  text-decoration:none!important;
+}
+
+.sharing i{
+  font-size: 2em;
+  padding-right:3px; 
 }
