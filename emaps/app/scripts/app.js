@@ -119,6 +119,15 @@ angular
           }
         }
       })
+      .when('/datasets', {
+        templateUrl: 'views/datasets.html',
+        controller: 'DatasetsCtrl',
+        resolve: {
+          content : function (fileService) {
+            return fileService.getFile('contents/pages/datasets.json');
+          }
+        }
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
