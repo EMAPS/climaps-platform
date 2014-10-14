@@ -1388,3 +1388,6 @@ transition: all 0.4s ease-in-out;
   font-size: 2em;
   padding-right:3px; 
 }
+.img-narrative svg, .img-narrative img{
+    width:100%;
+}
