@@ -106,7 +106,7 @@ angular
         controller: 'ForewordCtrl',
         resolve: {
           content : function (fileService) {
-            return fileService.getFile('contents/pages/foreword-by-the-project-coordinator.json');
+            return fileService.getFile('contents/pages/a-foreword-for-emaps.json');
           }
         }
       })
