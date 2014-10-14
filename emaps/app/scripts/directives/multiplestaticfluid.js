@@ -9,7 +9,6 @@
 angular.module('emapsApp')
     .directive('multiplestaticfluid', function (fileService,$compile) {
         return {
-            //template: '<div></div>',
             restrict: 'A',
             templateUrl: 'views/multiplestaticfluid.html',
             link: function postLink(scope, element, attrs) {
@@ -19,7 +18,7 @@ angular.module('emapsApp')
 
                 scope.indexes = JSON.parse(attrs.directiveData);
                 scope.index = scope.indexes[0];
-                scope.container = element.find("#multiple-container");
+                scope.container = element.find("#multiple-container-fluid");
 
 
 

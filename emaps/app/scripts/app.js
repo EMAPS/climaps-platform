@@ -45,6 +45,9 @@ angular
                 },
                 maps : function (fileService) {
                     return fileService.getFile('contents/maps.json');
+                },
+                content : function (fileService) {
+                  return fileService.getFile('contents/pages/home.json');
                 }
 
             }
@@ -59,8 +62,10 @@ angular
                 },
                 maps : function (fileService) {
                     return fileService.getFile('contents/maps.json');
+                },
+                content : function (fileService) {
+                  return fileService.getFile('contents/pages/home.json');
                 }
-
             }
         })
       .when('/narrative/:narrative', {

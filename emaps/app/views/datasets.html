@@ -7,7 +7,7 @@
 <!-- Container -->
 <div class="container">
 
-    <div class="row" ng-repeat="dataset in content.sections" id="section_{{$index}}">
+    <div class="row" ng-repeat="dataset in content.sections" id="{{dataset.slug}}">
         <div class="col-md-8">
             <h4>{{dataset.dataset}}</h4>
             <div ng-repeat="section in dataset.sections">

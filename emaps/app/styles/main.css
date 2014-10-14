@@ -171,7 +171,7 @@ label{
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #000;
+  color: #333;
   background-color: #fff;
   background-image: none;
   border: 1px solid #f0ecec;
@@ -497,7 +497,7 @@ table p{
 }
 
 .switch .nav-tabs > li.active a {
-  color: #000;
+  color: #333;
 }
 
 .switch .nav-tabs{
@@ -571,7 +571,7 @@ padding-right: 20px;
 .map-thumb-text { 
   padding: 12px !important; 
   background-color: #fff !important;
-  height:50px;
+  height:60px;
   overflow: hidden;
   text-overflow: ellipsis;
 }  
@@ -585,7 +585,7 @@ padding-right: 20px;
   text-transform: none; 
   margin: 0 !important; 
   padding: 0 !important;
-  color: #000;
+  color: #333;
   text-decoration: none!important;
   padding-left: 50px;
   }
@@ -644,7 +644,7 @@ padding-right: 20px;
   text-transform: none; 
   margin: 0 !important; 
   padding: 0 !important;
-  color: #000;
+  color: #333;
   text-decoration: none!important;
   }
 
@@ -775,7 +775,7 @@ font-size: 1.5em;
   font-size: 1em;
   letter-spacing: 1px;
   text-transform: none;
-  color: #000;
+  color: #333;
 }
 
 .intro hr{
@@ -842,7 +842,7 @@ font-size: 1.5em;
   font-size: 1em;
   line-height: 150%;
   padding-bottom: 30px;
-  padding-top: 20px;
+  padding-top: 90px;
 }
 
 .aside .caption-static p::before { 
@@ -865,6 +865,15 @@ font-size: 1.5em;
   padding-top: 50px;
 }
 
+.text-narrative h2{
+  font-family: 'Crimson Text', serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-transform: none;
+  color: #333;
+  font-style: italic;
+}
 
 
 .text-narrative hr{
@@ -889,7 +898,7 @@ min-height: 600px;
 .narrative-viz, .map-viz {
   border-top: 1px #f0ecec solid;
   border-bottom: 1px #f0ecec solid;
-  margin-top: 100px;
+  margin-top: 50px;
   background-color: #FCFAFA;
   min-height: 600px;
 }
@@ -906,11 +915,13 @@ min-height: 600px;
 .container-viz.map-page h1{
   font-family: 'Crimson Text', serif; 
   font-size: 2em;
+  padding-bottom: 50px;
 }
 
 .map-viz h1{
   font-family: 'Crimson Text', serif; 
   font-size: 2em;
+  padding-bottom: 20px;
 }
 
 .container-viz p{
@@ -1344,6 +1355,19 @@ transition: all 0.4s ease-in-out;
     cursor:pointer;
 }
 
+#multiple-container-fluid{
+  overflow-x:hidden; 
+}
+
+#multiple-container-fluid svg{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#multiple-container svg{
+  width: 100%;
+}
 
 /* share*/
 .sharing {
