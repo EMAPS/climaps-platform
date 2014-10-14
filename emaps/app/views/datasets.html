@@ -7,12 +7,13 @@
 <!-- Container -->
 <div class="container">
 
-    <div class="row" ng-repeat="section in content.sections">
-        <div class="col-md-12">
-            <h4>{{section.title}}</h4>
-            <div class="home-column">
-            <span ng-bind-html="section.html">
-            </span>
+    <div class="row" ng-repeat="dataset in content.sections" id="section_{{$index}}">
+        <div class="col-md-8">
+            <h4>{{dataset.dataset}}</h4>
+            <div ng-repeat="section in dataset.sections">
+                <h5>{{section.title}}</h5>
+                <span ng-bind-html="section.html">
+                </span>
             </div>
         </div>
     </div>
