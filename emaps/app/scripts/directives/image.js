@@ -23,8 +23,7 @@ angular.module('emapsApp')
 
                 //find a better way to find imgs
                 if(ext === 'jpg' || ext === 'png'){
-                    container.append('img')
-                        .attr('src', JSON.parse(attrs.source)[0].url);
+                    container.append('<img src="'+JSON.parse(attrs.source)[0].url+ '"/>')
                     return;
                 }
 
