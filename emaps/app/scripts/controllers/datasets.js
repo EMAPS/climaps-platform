@@ -8,6 +8,6 @@
  * Controller of the emapsApp
  */
 angular.module('emapsApp')
-  .controller('DatasetsCtrl', function ($scope, content) {
-    $scope.content = content
+  .controller('DatasetsCtrl', function ($scope, content, $anchorScroll, $location) {
+    $scope.content = content;
   });
