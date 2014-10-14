@@ -1344,6 +1344,19 @@ transition: all 0.4s ease-in-out;
     cursor:pointer;
 }
 
+#multiple-container-fluid{
+  overflow-x:hidden; 
+}
+
+#multiple-container-fluid svg{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#multiple-container svg{
+  width: 100%;
+}
 
 /* share*/
 .sharing {
