@@ -7,25 +7,9 @@
 <!-- Container -->
 <div class="container">
     <div class="row">
-         <div class="col-md-8 intro">
-            <h4>
-                {{content.subtitle}}
-            </h4>
-        </div>
-    </div>
-    <div class="row">
         <div class="col-md-8 text-narrative">
             <span ng-bind-html="content.html">
             </span>    
-        </div>
-    </div>
-    <div class="row" ng-repeat="section in content.sections"> 
-        <div class="col-md-12">
-            <h4>{{section.title}}</h4>
-            <div class="home-column">
-            <span ng-bind-html="section.html">
-            </span>
-        </div>
         </div>
     </div>
 </div>
