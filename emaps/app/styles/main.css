@@ -822,7 +822,7 @@ font-size: 1.5em;
   font-size: 1em;
   line-height: 150%;
   padding-bottom: 20px;
-  padding-top: 0px;
+  padding-top: 60px;
 }
 
 .aside .caption p::before { 
@@ -1050,7 +1050,7 @@ navmap a {
   outline: none;
   text-align: left;
   z-index: 1000;
-  bottom: 0;
+  bottom: 50px;
   right:30px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -1183,7 +1183,7 @@ navmap a {
   margin-bottom: 0px!important;
 }
 
-.network-details h1{
+.network-details h2{
   font-family: 'Crimson Text', serif;
   font-size: 1.5em;
   line-height: 120%;
