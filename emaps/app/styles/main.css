@@ -19,19 +19,19 @@ p {
   font-size: 1.4em;
 }
 
-.text-narrative  li, .text-map-page li{
+.text-narrative  li, .text-map-page li, .dataset li{
   font-family: 'Crimson Text', serif;
   font-size: 1.4em;
 }
 
-.text-narrative  ul, .text-map-page ul{
+.text-narrative  ul, .text-map-page ul, .dataset ul{
   list-style: none;
   padding-left: 2em;
   text-indent: -2em;
   margin-left: 2em;
 }
 
-.text-narrative ul li::before, .text-map-page ul li:before{
+.text-narrative ul li::before, .text-map-page ul li:before, .dataset ul li:before{
   font-family: 'Crimson Text', serif;
   content: '—';
   padding-right: .5em;
@@ -316,12 +316,12 @@ label{
 }
 
 /*table*/
-table{
+table, .dataset table{
   margin-top: 50px;
   margin-bottom: 50px!important;
 }
 
-tr:first-child { 
+tr:first-child, .dataset tr:first-child { 
     background-color: #efeaeb;
     font-weight: 700;
     text-transform: uppercase;
@@ -331,11 +331,11 @@ tr:first-child {
     text-decoration: none;
 }
 
-tr:first-child a{ 
+tr:first-child a, .dataset tr:first-child a{ 
     text-decoration: none;
 }
 
-table p{
+table p, .dataset table p{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1em;
   margin: 0;
@@ -804,7 +804,6 @@ font-size: 1.5em;
 
 .aside{
   padding-left: 30px;
-  padding-top: 0px;
   max-width: 100%;
 }
 
@@ -814,6 +813,7 @@ font-size: 1.5em;
 }
 
 .aside h4{
+  padding-top: 40px!important;
 }
 
 .aside .caption p{
@@ -822,7 +822,7 @@ font-size: 1.5em;
   font-size: 1em;
   line-height: 150%;
   padding-bottom: 20px;
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 .aside .caption p::before { 
@@ -841,8 +841,7 @@ font-size: 1.5em;
   font-weight: 400;
   font-size: 1em;
   line-height: 150%;
-  padding-bottom: 30px;
-  padding-top: 90px;
+  padding-top: 25px;
 }
 
 .aside .caption-static p::before { 
@@ -882,6 +881,35 @@ font-size: 1.5em;
   width: 50px;
   background-color: #ff5a52;
   margin-left:0;
+}
+
+.dataset{
+  padding-top: 50px;
+}
+
+.dataset h1{
+  font-family: 'Crimson Text', serif;
+  font-size: 2em;
+  }
+
+.dataset h4{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-transform: none;
+  color: #333;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+
+.dataset p{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.4em;
+}
+
+.dataset hr{
+  margin-bottom: 20px;
 }
 
 /*.container-viz {
