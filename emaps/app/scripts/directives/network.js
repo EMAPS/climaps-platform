@@ -106,8 +106,16 @@ angular.module('emapsApp')
 
 		            function(data){
 
-		            	scope.bipartite = true; //to change w/ data.settings.bipartite when added to source json
+		            	//scope.bipartite = true; //to change w/ data.settings.bipartite when added to source json
+		            	scope.bipartite = data.settings.bipartite;
 		            	scope.nodes = data.nodes;
+		            	scope.nodesLabel = function(id){
+		            		var node = scope.nodes.filter(function(d){
+		            			return d.id === id;
+		            		});
+
+		            		return node[0];
+		            	};
 		            	scope.selected = undefined;
 		            	scope.isCollapsed = true;
 
@@ -120,7 +128,7 @@ angular.module('emapsApp')
 		            	}
 
 		            	var settings ={
-					        labelThreshold: 3, //to change w/ data.settings.labelThreshold when added to source json
+					        labelThreshold: data.settings.labelThreshold,
           					font: 'Source Sans Pro'
 					        }
 		            	

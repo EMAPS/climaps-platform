@@ -254,7 +254,7 @@ angular.module('emapsApp')
                   var svg = scope.el.append("svg")
                       .attr("width", width + margin.left + margin.right)
                       .attr("height", height + margin.top + margin.bottom)
-                      .style("margin-left", -margin.left + "px")
+                      //.style("margin-left", -margin.left + "px")
                       .append("g")
                       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -321,6 +321,26 @@ angular.module('emapsApp')
                   }
 
                   function row(row) {
+
+                      var bg = d3.select(this).selectAll(".bg")
+                          .data(row)
+                          .enter().append("rect")
+                          .attr("class", "bg")
+                          .attr("x", function (d) {
+                              return x(d.x);
+                          })
+                          .attr("y", function (d) {
+                              return y(d.y) / 2;
+                          })
+                          .attr("width", function (d) {
+                              return (x.rangeBand() - 5)
+                          })
+                          .attr("height", 10) //y.rangeBand()/2)
+                          .style("fill", function (d, i) {
+                              return "rgba(120, 120, 120)";
+                          })
+                          .style("opacity", 0.1);
+
                       var cell = d3.select(this).selectAll(".cell")
                           .data(row.filter(function(d) {
                               return d.z;

@@ -29,10 +29,14 @@
     function scatterplot(selection){
       selection.each(function(data){
         var chart,
-        w = width-50,
-        h = height-20;
+        w = width-100,
+        h = height-40;
 
         data = data.filter(function(d){return (yField in d && d[yField]!== "") && (xField in d && d[xField] !== "")})
+
+          data = data.sort(function(a,b){
+              return b[sizeField]-a[sizeField];
+          });
 
         //define scales for x, y and size
         sizeScale.range([minSize,maxSize]).domain(d3.extent(data, function(d) {return Math.sqrt(parseFloat(d[sizeField])/Math.PI)}));
@@ -269,15 +273,24 @@
         .style("font-size","11px")
         .style("font-family","Source Sans Pro")
         .attr("transform", "translate(" + 0 + "," + h + ")")
-        .call(xAxis);
+        .call(xAxis)
+        .append("text")
+        .attr("x",w)
+        .attr("y",35)
+        .attr("text-anchor","middle")
+        .text(xField.replace(/_/g," "));
 
       	chart.append("g")
         .attr("class", "y axis")
         .style("stroke-width", "1px")
         .style("font-size","11px")
-			  .style("font-family","Source Sans Pro")
+         .style("font-family","Source Sans Pro")
         .attr("transform", "translate(" + 100 + "," + 0 + ")")
-        .call(yAxis);
+        .call(yAxis)
+        .append("text")
+        .attr("x",-60)
+        .attr("y",100)
+        .text(yField.replace(/_/g," "));
 
         selection.selectAll(".y.axis line, .x.axis line, .y.axis path, .x.axis path")
          	.style("shape-rendering","crispEdges")

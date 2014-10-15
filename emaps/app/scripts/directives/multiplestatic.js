@@ -25,14 +25,17 @@ angular.module('emapsApp')
 
         scope.$watch('index', function(newValue, oldValue){
           //if(newValue !== oldValue){
-            console.log(newValue.url, newValue.label);
+            // console.log(newValue.url, newValue.label);
 
-            console.log(newValue);
+            // console.log(newValue);
 
           var ext = newValue.url.split('.');
               ext = ext[ext.length - 1].toLowerCase();
             if(ext === 'jpg' || ext === 'png'){
-             scope.container.append('img')
+             scope.container.find("img").remove();
+
+
+             scope.container.append('<img src="'+newValue.url+ '"/>')
                 .attr('src', newValue.url);
               return;
             }

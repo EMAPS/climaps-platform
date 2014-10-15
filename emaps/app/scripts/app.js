@@ -30,11 +30,10 @@ angular
           },
           maps : function (fileService) {
             return fileService.getFile('contents/maps.json');
+          },
+          content : function (fileService) {
+            return fileService.getFile('contents/pages/home.json');
           }
-          // ,
-          // content : function (fileService) {
-          //   return fileService.getFile('contents/pages/home.json');
-          // }
         }
       })
       .when('/narratives', {
@@ -46,6 +45,9 @@ angular
                 },
                 maps : function (fileService) {
                     return fileService.getFile('contents/maps.json');
+                },
+                content : function (fileService) {
+                  return fileService.getFile('contents/pages/home.json');
                 }
 
             }
@@ -60,8 +62,10 @@ angular
                 },
                 maps : function (fileService) {
                     return fileService.getFile('contents/maps.json');
+                },
+                content : function (fileService) {
+                  return fileService.getFile('contents/pages/home.json');
                 }
-
             }
         })
       .when('/narrative/:narrative', {
@@ -93,7 +97,7 @@ angular
             }
         }
       })
-      .when('/theory', {
+      .when('/controversy-mapping', {
         templateUrl: 'views/theory.html',
         controller: 'TheoryCtrl',
         resolve: {
@@ -107,7 +111,7 @@ angular
         controller: 'ForewordCtrl',
         resolve: {
           content : function (fileService) {
-            return fileService.getFile('contents/pages/foreword.json');
+            return fileService.getFile('contents/pages/a-foreword-for-emaps.json');
           }
         }
       })
@@ -117,6 +121,15 @@ angular
         resolve: {
           content : function (fileService) {
             return fileService.getFile('contents/pages/sprint.json');
+          }
+        }
+      })
+      .when('/datasets', {
+        templateUrl: 'views/datasets.html',
+        controller: 'DatasetsCtrl',
+        resolve: {
+          content : function (fileService) {
+            return fileService.getFile('contents/pages/datasets.json');
           }
         }
       })
@@ -136,6 +149,6 @@ angular
         redirectTo: '/'
       });
   })
-  .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
-    cfpLoadingBarProvider.includeSpinner = false;
-  }]);
+  // .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
+  //   cfpLoadingBarProvider.includeSpinner = false;
+  // }]);

@@ -39,7 +39,7 @@
 <div class="row network-details" collapse="isCollapsed">
     <div class="col-md-4 node-details">
         <h5>Selected node</h5>
-        <h1 id="nodeID">{{selectedNode.label}}</h1>
+        <h2 id="nodeID">{{selectedNode.label}}</h2>
         <h5>details</h5>
         <p ng-repeat="attr in attrs">{{attr.key}}: {{attr.value}}</p>
     </div>
@@ -52,24 +52,24 @@
             </div>
             <div ng-if="!bipartite">
                 <div class="row">
-                    <div class="col-md-4">
-                        <h3>{{linksLegend.incoming}}</h3>
-                        <span class="badge" ng-repeat="linkedNode in edges.incoming" ng-click="updateNetwork(linkedNode)">		
-                            {{linkedNode.source}}
+                    <div class="col-md-6">
+                        <h5>{{linksLegend.incoming}}</h5>
+                        <span class="badge" ng-repeat="linkedNode in edges.incoming" ng-click="updateNetwork(nodesLabel(linkedNode.source))">		
+                            {{nodesLabel(linkedNode.source).label}}
                         </span>
                     </div>
-                    <div class="col-md-4">
-                        <h3>{{linksLegend.outgoing}}</h3>
-                        <span class="badge" ng-repeat="linkedNode in edges.outgoing" ng-click="updateNetwork(linkedNode)">		
-                            {{linkedNode.target}}
+                    <div class="col-md-6">
+                        <h5>{{linksLegend.outgoing}}</h5>
+                        <span class="badge" ng-repeat="linkedNode in edges.outgoing" ng-click="updateNetwork(nodesLabel(linkedNode.target))">		
+                            {{nodesLabel(linkedNode.target).label}}
                         </span>
                     </div>
-                    <div class="col-md-4">
+<!--                     <div class="col-md-4">
                         <h3>{{linksLegend.mutual}}</h3>
                         <span class="badge" ng-repeat="linkedNode in edges.mutual" ng-click="updateNetwork(linkedNode)">		
                             {{linkedNode.source}}
                         </span>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

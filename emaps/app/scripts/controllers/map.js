@@ -38,15 +38,19 @@ angular.module('emapsApp')
 
         res.forEach(function(d,i){
 
+
+
            var found = maps.filter(function(e){
                return d === e.id;
            })[0];
 
-           var createA = document.createElement('a');
+           var createP = document.createElement('p');
+            var createA = document.createElement('a');
            var createAText = document.createTextNode(found.title);
            createA.setAttribute('href', "#/map/"+found.slug);
            createA.appendChild(createAText);
-           finalDiv.appendChild(createA);
+           createP.appendChild(createA);
+           finalDiv.appendChild(createP);
 
        })
 
@@ -68,13 +72,14 @@ angular.module('emapsApp')
                     return d === e.id;
                 })[0];
 
+                var createP = document.createElement('p');
                 var createA = document.createElement('a');
                 var createAText = document.createTextNode(found.title);
                 createA.setAttribute('href', "#/narrative/"+found.slug);
                 createA.appendChild(createAText);
-                finalDiv.appendChild(createA);
-
-            })
+                createP.appendChild(createA);
+                finalDiv.appendChild(createP);
+            });
 
 
             $("#related-narratives").html(finalDiv);

@@ -1,11 +1,20 @@
 <div class="container">
 
     <div class="row">
+
+        <div class="col-md-4">
+            <label></label>Dataset</label> <select class="form-control " ng-model="d" ng-options="data.name for data in datasets"></select>
+        </div>
+
+
+    </div>
+
+    <div class="row">
         <div class="col-md-2">
-            <label>X Axis</label> <select class="form-control " ng-model="xindex" ng-options="index.label for index in indexes"></select>
+            <label>X Axis</label> <select class="form-control " ng-model="source" ng-options="index.label for index in xindex"></select>
         </div>
         <div class="col-md-2">
-            <label>Y Axis</label> <select class="form-control " ng-model="yindex" ng-options="index.label for index in indexes"></select>
+            <label>Y Axis</label> <select class="form-control " ng-model="target" ng-options="index.label for index in yindex"></select>
         </div>
 
         <div class="col-md-4">

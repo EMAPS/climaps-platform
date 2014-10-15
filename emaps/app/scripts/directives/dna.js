@@ -31,7 +31,8 @@ angular.module('emapsApp')
 					var st = d3.select(this).attr('fill');
 					if (st === undefined) {return 0;}
 					else {return st;}
-				});
+				})
+                    .style("stroke-opacity",1);
 
 				rects.attr('tooltip', function(){
                   var title = d3.select(this).select('title').text();
