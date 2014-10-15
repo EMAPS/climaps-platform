@@ -21,7 +21,7 @@
 
 <div class="container-fluid switch">
   <!-- era class switch -->
-  <div class="row">
+  <div class="row" >
     <div class="col-md-12">
       <tabset>
         <tab id="narratives" heading="{{tabs[0].name}}" active=tabs[0].active>
@@ -39,22 +39,21 @@
                   </div> 
                 </div> </a>
               </div>
-            </div>
-            <!-- </div> -->
-          </tab>
-          <tab id="maps" heading="{{tabs[1].name}}" active=tabs[1].active>
-            <!-- <div class="container-fluid"> -->
-            <!-- era map-thumb -->
-            <div class="row gallery-home" >
-              <div ng-repeat="map in maps" class="col-md-3">
-                <a ng-href="#/map/{{map.slug}}">
-                  <div class="map-thumb">
-                    <div class="map-thumb-text">
-                      <h1>{{map.title || "Map title"}}</h1>
-                    </div> 
-                    <div ng-style="{ 'background-image': 'url(' + map.cover + ')'}" class="map-thumb-pic"></div>
-                  </div> </a>
-                </div>
+          </div>
+          <!-- </div> -->
+        </tab>
+        <tab id="maps" heading="{{tabs[1].name}}" active=tabs[1].active>
+          <!-- <div class="container-fluid"> -->
+          <!-- era map-thumb -->
+          <div class="row gallery-home" >
+            <div ng-repeat="map in maps" class="col-md-3">
+              <a ng-href="#/map/{{map.slug}}">
+                <div class="map-thumb">
+                 <div class="map-thumb-text">
+                  <h1>{{map.title || "Map title"}}</h1>
+                 </div> 
+                <div ng-style="{ 'background-image': 'url(' + map.cover + ')'}" class="map-thumb-pic"></div>
+                </div> </a>
               </div>
               <!-- </div> -->
             </tab>
