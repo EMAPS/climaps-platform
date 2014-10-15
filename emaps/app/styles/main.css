@@ -482,20 +482,20 @@ table p, .dataset table p{
 }
 
 .jumbotron .logo{
-  z-index: 1000px;
+  z-index: 1000;
   margin: 85px auto 0;
   text-align: center;
 }
 
 .jumbotron.home .logo img{
-  z-index: 1000px;
+  z-index: 1000;
   margin: 40px auto 0;
   text-align: center;
   height: 140px;
 }
 
 .jumbotron.sprint h1, .jumbotron.about h1, .jumbotron.theory h1, .jumbotron.forward h1{
-  z-index: 1000px;
+  z-index: 1000;
   margin: 100px auto;
   text-align: center;
   font-size: 5.5em;
@@ -505,7 +505,7 @@ table p, .dataset table p{
 }
 
 .jumbotron.home h1{
-  z-index: 1000px;
+  z-index: 1000;
   margin: 20px auto;
   text-align: center;
   font-size: 1.28em;
