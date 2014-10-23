@@ -8,7 +8,7 @@
  * Controller of the emapsApp
  */
 angular.module('emapsApp')
-  .controller('MainCtrl', function ($routeParams, $anchorScroll, $location, $scope, narratives, maps, content) {
+  .controller('MainCtrl', function ($routeParams, $anchorScroll, $location, $scope, $timeout, narratives, maps, content) {
 
     $scope.narratives = narratives.sort(function(a,b){
         if(b.title < a.title) return 1;
@@ -33,7 +33,6 @@ angular.module('emapsApp')
                 active:$location.hash() === "maps" ? true : false 
             }
         ];
-
 
   })
 
