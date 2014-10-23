@@ -22,6 +22,9 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
+          redirectTo: '/home'
+      })
+      .when('/home', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
         resolve: {
@@ -36,38 +39,6 @@ angular
           }
         }
       })
-      .when('/narratives', {
-            templateUrl: 'views/main.html',
-            controller: 'NarrativesCtrl',
-            resolve: {
-                narratives : function (fileService) {
-                    return fileService.getFile('contents/narratives.json');
-                },
-                maps : function (fileService) {
-                    return fileService.getFile('contents/maps.json');
-                },
-                content : function (fileService) {
-                  return fileService.getFile('contents/pages/home.json');
-                }
-
-            }
-        })
-
-        .when('/maps', {
-            templateUrl: 'views/main.html',
-            controller: 'MapsCtrl',
-            resolve: {
-                narratives : function (fileService) {
-                    return fileService.getFile('contents/narratives.json');
-                },
-                maps : function (fileService) {
-                    return fileService.getFile('contents/maps.json');
-                },
-                content : function (fileService) {
-                  return fileService.getFile('contents/pages/home.json');
-                }
-            }
-        })
       .when('/narrative/:narrative', {
         templateUrl: 'views/narrative.html', 
         controller: 'NarrativeCtrl',
