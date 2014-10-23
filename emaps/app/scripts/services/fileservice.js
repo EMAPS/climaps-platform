@@ -13,7 +13,7 @@ angular.module('emapsApp')
 
        getFile : function(url){
          var deferred = $q.defer();
-         $http.get(url).success(function(data){
+         $http.get(url, {cache: true}).success(function(data){
            deferred.resolve(data);
          }).error(function(){
            deferred.reject('An error occured while fetching file');
