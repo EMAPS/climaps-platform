@@ -14,11 +14,11 @@ angular.module('emapsApp')
       templateUrl: 'views/scatterfund.html',
       link: function postLink(scope, element, attrs) {
 
-
+        var scatterWidth = element.find('#scatterfund-container').width()
   	    var scatterfundContainer = element.find('#scatterfund-container')[0],
   			chart = d3.select(scatterfundContainer),
   			scatterfund = emaps.scatterplot()
-                 .width(1170)
+                 .width(scatterWidth)
                  .height(600)
                  .sizeField('Total')
                  .xField('Germanwatch_inverse')

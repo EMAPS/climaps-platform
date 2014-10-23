@@ -1458,7 +1458,10 @@ transition: all 0.4s ease-in-out;
   transform: translate(-50%);
 }
 
-#multiple-container svg{
+#multiple-container svg, 
+#multiple-container img, 
+.single-container svg,
+.single-container img{
   width: 100%;
 }
 

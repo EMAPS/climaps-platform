@@ -19,7 +19,7 @@ angular.module('emapsApp')
                       .append("div")
                       .attr("class", "row")
                       .append("div")
-                      .attr("class", "col-md-12");
+                      .attr("class", "col-md-12 single-container");
 
             fileService.getFile(JSON.parse(attrs.directiveData)[0].url).then(
             	function(data){
