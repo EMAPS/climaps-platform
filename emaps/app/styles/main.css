@@ -1488,6 +1488,8 @@ transition: all 0.4s ease-in-out;
     width:100%;
 }
 
+/* css effect for page transition*/
+
 .fade {
     position: absolute;
     top: 0;
@@ -1498,10 +1500,10 @@ transition: all 0.4s ease-in-out;
 }
 .fade.ng-enter,
 .fade.ng-leave {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
 .fade.ng-enter {
     opacity: 0;
