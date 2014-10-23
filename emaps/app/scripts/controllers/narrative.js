@@ -39,7 +39,4 @@ angular.module('emapsApp')
 
   	$scope.content = content;
 
-
-
-  	
   });

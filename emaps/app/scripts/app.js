@@ -119,7 +119,22 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-  })
-  // .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
-  //   cfpLoadingBarProvider.includeSpinner = false;
-  // }]);
+  }).run(function($rootScope, $route, $location, $window, $timeout, $anchorScroll){
+     //fanta angular 
+
+     $rootScope.$on('$locationChangeSuccess', function() {
+          $rootScope.actualLocation = $location.path();
+      });        
+
+     $rootScope.$watch(function () {return $location.path()}, function (newLocation, oldLocation) {
+          if($rootScope.actualLocation !== newLocation) {
+            $timeout(function(){
+              if($location.hash()){
+                $anchorScroll();
+              }else{
+                $window.scrollTo(0,0);
+              }
+            })
+          }
+      });
+  });
