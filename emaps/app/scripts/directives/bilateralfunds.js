@@ -31,34 +31,31 @@ angular.module('emapsApp')
               rects
                 .attr('tooltip', function(){
                   var title = d3.select(this).select('title').text();
+                  d3.select(this).datum(title)
                   return  title;
                 })
                 .attr('tooltip-append-to-body', 'true')
-                .attr('tooltip-placement', 'left');
+                .attr('tooltip-placement', 'left')
+                .on('mouseover', function(d){
+                  var title = d;
+                  rects
+                    .attr('opacity', function(e){
+                      var title2 = e;
+                      if(title === title2){
+                        return 1 ;
+                      } else  {
+                        return 0.3;
+                      }
+                    });
+                })
+                .on('mouseout', function(){
+                  rects
+                    .attr('opacity', function(){
+                      return 1;
+                    });
+                });
 
-
-              rects.on('mouseover', function(){
-					var title = d3.select(this).select('title').text();
-
-    					rects
-    						.attr('opacity', function(){
-    						var title2 = d3.select(this).select('title').text();
-    						if(title === title2){
-    							return 1 ;
-    						}else{
-    							return 0.3;
-    						}
-    					});
-    				});
-
-    			rects.on('mouseout', function(){
-    				rects
-    					.attr('opacity', function(){
-    						return 1;
-    				});
-    			});
-
-          $compile(angular.element(element.find('svg')))(scope);
+              $compile(angular.element(element.find('svg')))(scope);
 
             },
         function(error){
