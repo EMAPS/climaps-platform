@@ -17,7 +17,9 @@ angular
     'ngSanitize',
     'ngTouch',
     'ui.bootstrap',
-    'angular-loading-bar'
+    'angular-loading-bar',
+    'angulartics', 
+    'angulartics.google.analytics'
   ])
   .config(function ($routeProvider) {
     $routeProvider
