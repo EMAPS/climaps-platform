@@ -8,7 +8,8 @@
  * Controller of the emapsApp
  */
 angular.module('emapsApp')
-  .controller('AboutCtrl', function ($scope, content, institutions) {
+  .controller('AboutCtrl', function ($scope, content, institutions, authors) {
   	$scope.content = content;
   	$scope.institutions = institutions;
+  	$scope.authors = authors;
   });

@@ -117,9 +117,12 @@ angular
         resolve: {
           content : function (fileService) {
               return fileService.getFile('contents/pages/about-the-project.json');
-            },
+          },
           institutions : function (fileService) {
               return fileService.getFile('contents/pages/institutions.json');
+          },
+          authors : function (fileService) {
+              return fileService.getFile('contents/pages/authors.json');
           }
         }
       })
