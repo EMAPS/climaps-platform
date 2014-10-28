@@ -92,7 +92,7 @@
 
 
     <navmap ng-if="section.type == 'directive' && section.directive!=='image'" class="nav-roundslide">
-      <a class="next" ng-href="#/map/{{section.map}}">
+      <a class="next" ng-href="#!/map/{{section.map}}">
         <span class="icon-wrap"><svg class="icon" width="21" height="21" viewBox="0 0 64 64"><use xlink:href="#arrow-right"></svg></span>
         <h3>View map page</h3>
       </a>
@@ -113,5 +113,11 @@
       </div>
   </div>
 </section>
-
+<div class="container narrative">
+    <div class="row">
+        <div class="col-md-8 text-narrative">
+      <div disqus="content.title"></div>
+        </div>
+    </div>
+</div>
 <div ng-include="'views/footer.html'"></div>

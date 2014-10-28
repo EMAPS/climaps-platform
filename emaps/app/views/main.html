@@ -29,7 +29,7 @@
           <!-- era narrative-thumb -->
           <div class="row gallery-home" >
             <div ng-repeat="narrative in narratives" class="col-md-12">
-              <a ng-href="#/narrative/{{narrative.slug}}">
+              <a ng-href="#!/narrative/{{narrative.slug}}">
                 <div class="narrative-thumb">
                   <div ng-style="{ 'background-image': 'url(' + narrative.cover + ')'}" class="narrative-thumb-pic"></div>
                   <div class="narrative-thumb-text">
@@ -47,7 +47,7 @@
           <!-- era map-thumb -->
           <div class="row gallery-home" >
             <div ng-repeat="map in maps" class="col-md-3">
-              <a ng-href="#/map/{{map.slug}}">
+              <a ng-href="#!/map/{{map.slug}}">
                 <div class="map-thumb">
                  <div class="map-thumb-text">
                   <h1>{{map.title || "Map title"}}</h1>

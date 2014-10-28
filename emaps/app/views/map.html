@@ -19,15 +19,23 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 text-map-page">
-			<p ng-if="content.introduction" ng-bind-html="content.introduction">
+			<div class="row">
+				<div class="col-md-12">
+					<p ng-if="content.introduction" ng-bind-html="content.introduction">
 
-			</p>
+					</p>
 
-			<section ng-repeat="section in content.sections">
-				<h4>{{section.title}}</h4>
-				<span ng-bind-html="section.html"></span>
-			</section>
-
+					<section ng-repeat="section in content.sections">
+						<h4>{{section.title}}</h4>
+						<span ng-bind-html="section.html"></span>
+					</section>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div disqus="content.title"></div>
+				</div>
+			</div>
 		</div>
 		<div class="col-md-4 aside">
 			<div class="metadata">
@@ -46,5 +54,4 @@
 		</div>
 	</div>
 </div>
-<!-- /.Map-page texts container -->
 <div ng-include="'views/footer.html'"></div>

@@ -25,7 +25,7 @@ angular.module('emapsApp')
                     return e.id == b;
                 })[0].slug;
 
-                return "href='#narrative/" + slug + "'";
+                return "href='#!/narrative/" + slug + "'";
             });
         };
 

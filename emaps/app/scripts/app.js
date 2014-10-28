@@ -19,9 +19,14 @@ angular
     'ui.bootstrap',
     'angular-loading-bar',
     'angulartics', 
-    'angulartics.google.analytics'
+    'angulartics.google.analytics',
+    'ngDisqus'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $locationProvider, $disqusProvider) {
+
+    $disqusProvider.setShortname('climapsplatform'); // Configure the disqus shortname
+    $locationProvider.hashPrefix('!');   
+
     $routeProvider
       .when('/', {
           redirectTo: '/home'
