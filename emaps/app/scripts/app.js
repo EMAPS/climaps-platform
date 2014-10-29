@@ -24,7 +24,7 @@ angular
   ])
   .config(function ($routeProvider, $locationProvider, $disqusProvider) {
 
-    $disqusProvider.setShortname('climapsplatform'); // Configure the disqus shortname
+    $disqusProvider.setShortname('climapsplatform');
     $locationProvider.hashPrefix('!');   
 
     $routeProvider

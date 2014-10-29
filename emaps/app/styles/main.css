@@ -1490,30 +1490,42 @@ transition: all 0.4s ease-in-out;
 
 /* css effect for page transition*/
 
-.fade {
+.at-view-fade-in.ng-enter {
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    opacity: 1;
-}
-.fade.ng-enter,
-.fade.ng-leave {
-    -webkit-transition: all 0.7s ease;
-    -moz-transition: all 0.7s ease;
-    -o-transition: all 0.7s ease;
-    transition: all 0.7s ease;
-}
-.fade.ng-enter {
+    top: 0px;
+    left: 0px;
+    right: 0px;
     opacity: 0;
 }
-.fade.ng-enter-active {
+
+.at-view-fade-in.ng-enter-active {
     opacity: 1;
 }
-.fade.ng-leave {
+
+.at-view-fade-out.ng-leave {
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     opacity: 1;
 }
-.fade.ng-leave-active {
+
+.at-view-fade-out.ng-leave-active {
     opacity: 0;
 }
