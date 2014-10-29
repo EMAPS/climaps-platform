@@ -20,11 +20,9 @@ angular
     'angular-loading-bar',
     'angulartics', 
     'angulartics.google.analytics',
-    'ngDisqus'
   ])
-  .config(function ($routeProvider, $locationProvider, $disqusProvider) {
+  .config(function ($routeProvider, $locationProvider) {
 
-    $disqusProvider.setShortname('climapsplatform');
     $locationProvider.hashPrefix('!');   
 
     $routeProvider

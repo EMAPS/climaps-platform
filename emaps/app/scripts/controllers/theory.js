@@ -8,6 +8,6 @@
  * Controller of the emapsApp
  */
 angular.module('emapsApp')
-  .controller('TheoryCtrl', function ($scope, content) {
+  .controller('TheoryCtrl', function ($scope, content, $location) {
   	$scope.content = content;
   });

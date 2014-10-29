@@ -8,12 +8,11 @@
  * Controller of the emapsApp
  */
 angular.module('emapsApp')
-  .controller('MapCtrl', function ($scope, $compile,content, narratives, maps) {
+  .controller('MapCtrl', function ($scope, $compile,content, narratives, maps, $routeParams) {
   
     $scope.content = content;
     $scope.narratives = narratives;
     $scope.maps = maps;
-
 
     function regexMaker(id) {
 
