@@ -8,11 +8,46 @@
  * Controller of the emapsApp
  */
 angular.module('emapsApp')
-  .controller('MapCtrl', function ($scope, $compile,content, narratives, maps, $routeParams) {
+  .controller('MapCtrl', function ($scope, $compile,$timeout,content, narratives, maps) {
   
     $scope.content = content;
     $scope.narratives = narratives;
     $scope.maps = maps;
+    $scope.relatedMaps = [];
+    $scope.relatedNarratives = [];
+
+
+    $scope.content.metadata.forEach(function(d){
+        if(d.title==="Related maps"){
+            var res = regexMaker(d.html);
+            res.forEach(function(d,i){
+
+                var found =$scope.maps.filter(function(e){
+                    return d === e.id;
+                })[0];
+
+                $scope.relatedMaps.push({title:found.title,slug:found.slug})
+
+            })
+        }
+
+        if(d.title==="Related narratives"){
+            var res = regexMaker(d.html);
+            res.forEach(function(d,i){
+
+                var found =$scope.narratives.filter(function(e){
+                    return d === e.id;
+                })[0];
+
+                $scope.relatedNarratives.push({title:found.title,slug:found.slug})
+
+            })
+        }
+
+    });
+
+        console.log($scope.relatedMaps, $scope.relatedNarratives);
+
 
     function regexMaker(id) {
 
