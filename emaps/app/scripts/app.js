@@ -127,7 +127,7 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-  }).run(function($rootScope, $route, $location, $window, $timeout, $anchorScroll){
+  }).run(function($rootScope, $route, $location, $window, $timeout, $anchorScroll, $animate){
      //fanta angular 
 
      $rootScope.$on('$locationChangeSuccess', function() {
@@ -141,6 +141,7 @@ angular
                 $anchorScroll();
               }else{
                 $window.scrollTo(0,0);
+                //$("body").animate({scrollTop: 0}, 700);
               }
             })
           }

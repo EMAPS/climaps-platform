@@ -1508,6 +1508,12 @@ transition: all 0.4s ease-in-out;
     width:100%;
 }
 
+/* disqus*/
+
+#disqus_thread {
+  padding-top: 20px;
+}
+
 /* css effect for page transition*/
 
 .at-view-fade-in.ng-enter {
