@@ -75,6 +75,17 @@ angular.module('emapsApp')
 
                         });
 
+                    /*container.selectAll("circle")
+                        .on("mouseover",function(d){
+
+                            console.log(this);
+                        });
+
+                    container.selectAll("circle")
+                        .on("mouseout",function(d){
+                            container.selectAll(".scat-hov").classed("scat-hov",false);
+                        });*/
+
                 })
         }
     }
