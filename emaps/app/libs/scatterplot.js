@@ -134,6 +134,9 @@
         var newgees = gees.enter().append("g")
         .on("mouseover", function(d){
 
+          d3.select(this).selectAll("circle").classed("scat-hov",true);
+
+
           d3.select(this).selectAll("circle")
           .style("opacity",1);
 
@@ -179,6 +182,8 @@
         .on("mouseout", function(d){
           d3.select(this).selectAll("circle")
           .style("opacity",0.7);
+
+                d3.select(this).selectAll("circle").classed("scat-hov",false);
 
           texts.style("opacity",0)
           .attr("x",-10)
