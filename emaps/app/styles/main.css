@@ -1473,12 +1473,20 @@ transition: all 0.4s ease-in-out;
 /* share*/
 .sharing {
   float: left;
-  display: block;
   clear:both;  
+
 }
 
 .sharing h4{
   padding-bottom: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.sharing p{
+  padding-bottom: 0;
+  padding-top: 10px;
+  margin-bottom: 0;
 }
 
 .sharing a{
@@ -1486,11 +1494,18 @@ transition: all 0.4s ease-in-out;
 }
 
 .sharing i{
-  font-size: 2em;
-  padding-right:3px; 
+  font-size: 2.3em;
+  padding-right:2px; 
 }
+
+.license{
+  display: block;
+  clear: both;
+  padding-top: 5px;
+}
+
 .img-narrative svg, .img-narrative img{
-    width:100%;
+    width:180%;
 }
 
 /* css effect for page transition*/
