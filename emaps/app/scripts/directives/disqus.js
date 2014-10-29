@@ -20,7 +20,7 @@ angular.module('emapsApp')
                 readyToBind: '@'
             },
             template: '<div id="disqus_thread"></div><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>',
-            link: function(scope) {
+            link: function postLink(scope,element) {
 
                 // ensure that the disqus_identifier and disqus_url are both set, otherwise we will run in to identifier conflicts when using URLs with "#" in them
                 // see http://help.disqus.com/customer/portal/articles/662547-why-are-the-same-comments-showing-up-on-multiple-pages-
@@ -50,16 +50,16 @@ angular.module('emapsApp')
                             dsq.src = '//' + scope.disqus_shortname + '.disqus.com/embed.js';
                             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
                         } else {
-                            $timeout(function(){
-	                            $window.DISQUS.reset({
-	                                reload: true,
-	                                config: function () {
-	                                    this.page.identifier = scope.disqus_identifier;
-	                                    this.page.url = $location.absUrl();
-	                                    this.page.title = scope.disqus_title;
-	                                }
-	                            });
-	                        });
+                            $(".at-view-fade-in").on('$animate:close', function(data) {
+                                $window.DISQUS.reset({
+                                    reload: true,
+                                    config: function () {
+                                        this.page.identifier = scope.disqus_identifier;
+                                        this.page.url = $location.absUrl();
+                                        this.page.title = scope.disqus_title;
+                                    }
+                                });
+                            });
                         }
                     }
                 });

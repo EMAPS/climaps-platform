@@ -1505,7 +1505,7 @@ transition: all 0.4s ease-in-out;
 }
 
 .img-narrative svg, .img-narrative img{
-    width:180%;
+    width:100%;
 }
 
 /* css effect for page transition*/
