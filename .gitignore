@@ -35,6 +35,7 @@ sublime
 *.sublime-workspace
 
 # contents and other stories
+drive-out
 drive-out/contents
 drive-out/settings.js
 drive-out/index.js
