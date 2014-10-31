@@ -637,10 +637,11 @@ padding-right: 20px;
 .map-thumb-text { 
   padding: 12px !important; 
   background-color: #fff !important;
-  height:60px;
+  height:55px;
   overflow: hidden;
   text-overflow: ellipsis;
 }  
+
 
 .map-thumb-text h1 { 
   display: inline; 
