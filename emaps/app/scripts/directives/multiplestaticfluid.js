@@ -24,9 +24,7 @@ angular.module('emapsApp')
 
                 scope.$watch('index', function(newValue, oldValue){
                     //if(newValue !== oldValue){
-                    console.log(newValue.url, newValue.label);
 
-                    console.log(newValue);
 
                     var ext = newValue.url.split('.');
                     ext = ext[ext.length - 1].toLowerCase();
