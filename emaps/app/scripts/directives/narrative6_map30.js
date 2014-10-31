@@ -33,12 +33,16 @@ angular.module('emapsApp')
                       streamPath.on("mouseover", function () {
 
                           scope.container.select("#interactive").selectAll("path").transition().duration(300).style("opacity", 0.3);
+                          scope.container.select("#interactive").selectAll("text").transition().duration(300).style("opacity", 0.3);
                           d3.select(this).transition().duration(300).style("opacity", 1);
+                          d3.select(this.parentNode).select("text").transition().duration(300).style("opacity", 1);
+                          
                       })
 
 
                       streamPath.on("mouseout", function () {
                           scope.container.select("#interactive").selectAll("path").transition().duration(300).style("opacity", 0.7);
+                          scope.container.select("#interactive").selectAll("text").transition().duration(300).style("opacity", 1);
                       })
 
                   })
