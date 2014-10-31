@@ -119,7 +119,8 @@ module.exports = function (grunt) {
       all: {
         src: [
           'Gruntfile.js',
-          '<%= yeoman.app %>/scripts/{,*/}*.js'
+          '<%= yeoman.app %>/scripts/{,*/}*.js',
+          '<%= yeoman.app %>/libs/{,*/}*.js'
         ]
       },
       test: {
@@ -173,6 +174,7 @@ module.exports = function (grunt) {
       dist: {
         src: [
           '<%= yeoman.dist %>/scripts/{,*/}*.js',
+          '<%= yeoman.dist %>/libs/{,*/}*.js',
           '<%= yeoman.dist %>/styles/{,*/}*.css',
           '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
           '<%= yeoman.dist %>/styles/fonts/*'
@@ -221,18 +223,28 @@ module.exports = function (grunt) {
     //     }
     //   }
     // },
-    // uglify: {
-    //   dist: {
-    //     files: {
-    //       '<%= yeoman.dist %>/scripts/scripts.js': [
-    //         '<%= yeoman.dist %>/scripts/scripts.js'
-    //       ]
-    //     }
-    //   }
-    // },
-    // concat: {
-    //   dist: {}
-    // },
+//    concat: {
+//          options: {
+//              // define a string to put between each file in the concatenated output
+//              separator: ';'
+//          },
+//          dist: {
+//              // the files to concatenate
+//              src: ['<%= yeoman.app %>/libs/{,*/}*.js'],
+//              // the location of the resulting JS file
+//              dest: 'dist/libs/libs.js'
+//          }
+//      },
+//
+//      uglify: {
+//       dist: {
+//         files: {
+//           'dist/libs/libs.min.js': [
+//               '<%= concat.dist.dest %>'
+//           ]
+//         }
+//       }
+//     },
 
     imagemin: {
       dist: {
@@ -352,6 +364,7 @@ module.exports = function (grunt) {
         singleRun: true
       }
     }
+
   });
 
 
