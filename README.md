@@ -54,5 +54,5 @@ $ grunt serve
 
 Once this is running, go to [http://localhost:9000/](http://localhost:9000/)
 
-##Other informations
+##Other information
 To manage and export data we used [drive-out](https://github.com/medialab/drive-out) software by the [Médialab](http://medialab.sciences-po.fr/) of Sciences Po
