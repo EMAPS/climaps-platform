@@ -41,9 +41,9 @@ install client-side dependencies:
 $ bower install
 ```
 
-unzip contents.zip and copy the ```contents``` folder in the ```climaps-platform/app/``` folder:
+unzip ```contents.zip``` and copy the ```contents``` folder in the ```climaps-platform/app/``` folder:
 
-unzip dist.zip and copy the ```dist``` folder in the ```climaps-platform/bower_components/sigma/``` folder:
+unzip ```dist.zip``` and copy the ```dist``` folder in the ```climaps-platform/bower_components/sigma/``` folder:
 
 
 You can now run climaps-platform from your local web server:
