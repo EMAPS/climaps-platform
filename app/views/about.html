@@ -1,0 +1,63 @@
+<div class="jumbotron about">
+	<div class="container">
+		<h1>{{content.title}}</h1>
+	</div>
+</div>
+
+<!-- Container -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 sprint">
+			<p>
+				{{content.subtitle}}
+			</p>
+		</div>
+	</div>
+	<div class="row" ng-repeat="section in content.sections"> 
+		<div class="col-md-12">
+			<h4>{{section.title}}</h4>
+			<div class="home-column">
+				<span ng-bind-html="section.html">
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h4>{{institutions.title}}</h4>
+		</div>
+	</div>
+	<hr>
+	<div class="row institution" ng-repeat="section in institutions.sections">
+		<div class="col-md-12">
+			<h1>{{section.title}}</h1>
+			<hr>
+		</div>
+		<div class="col-md-9">
+			<span ng-bind-html="section.html">
+			</span>
+
+			<button class="website btn btn-round btn-default"><a ng-href="{{section.link}}">website</a></button>
+
+		</div>
+		<div class="col-md-3">
+			<div class="logo">
+				<img ng-src="images/{{section.logo}}">
+			</div>
+		</div>
+	</div>
+	<div class="row institution" ng-repeat="section in authors.sections">
+		<div class="col-md-12">
+			<h1>{{section.title}}</h1>
+			<hr>
+		</div>
+		<div class="col-md-9">
+			<div ng-repeat="subSection in section.sections">
+				<h4>{{subSection.title}}</h4>
+				<span ng-bind-html="subSection.html">
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+<div ng-include="'views/footer.html'"></div>

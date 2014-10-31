@@ -1,0 +1,42 @@
+<div class="jumbotron sprint">
+    <div class="container">
+        <h1>Sprints</h1>
+    </div>
+</div>
+<!-- Container -->
+<div class="container" ng-repeat="section in content.sections">
+    <div class="row">
+        <div class="col-md-8">
+
+            <div ng-if="$first" class="sprint">
+                <p>
+                    {{section.location}}
+                </p>
+            </div>
+
+            <h4 ng-if="!$first">
+                {{section.location}}
+            </h4>
+
+            <h1>
+                {{section.title}}
+            </h1>
+              <p ng-bind-html="section.subtitle">
+              </p>
+        </div>
+        <div class="col-md-4 aside">
+            <div class="metadata-sprint">
+                {{section.date}}<br>
+                {{section.participants}}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 text-narrative">
+              <span ng-bind-html="section.html">
+              </span>
+        </div>   
+    </div>
+    <hr>
+</div>
+<div ng-include="'views/footer.html'"></div>

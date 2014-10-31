@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Climaps by EMAPS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Google Fonts and Font Awesome-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/angular-loading-bar/build/loading-bar.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="emapsApp">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div menu></div>
+    <div ng-view="" class="at-view-fade-in at-view-fade-out"></div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       //ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/oldieshim.js -->
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.js"></script>
+    <![endif]-->
+    <!-- endbuild -->
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/angular-loading-bar/build/loading-bar.js"></script>
+    <script src="bower_components/d3/d3.js"></script>
+    <script src="bower_components/jquery-waypoints/waypoints.js"></script>
+    <script src="bower_components/SHA-1/sha1.js"></script>
+    <script src="bower_components/angulartics/src/angulartics.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-adobe.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-chartbeat.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-flurry.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-ga-cordova.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-ga.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-gtm.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-kissmetrics.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-mixpanel.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-piwik.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-scroll.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-segmentio.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-splunk.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-woopra.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-marketo.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-intercom.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+
+    <script src="bower_components/sigma/dist/sigma.min.js"></script>
+    <script src="bower_components/sigma/dist/plugins/sigma.plugins.filter.min.js"></script>
+
+
+    <!-- build:js({.tmp,app}) libs/libs.js -->
+    <script src="libs/graph.js"></script>
+    <script src="libs/scatterplot.js"></script>
+    <script src="libs/matrix.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/controllers/narrative.js"></script>
+    <script src="scripts/controllers/map.js"></script>
+    <script src="scripts/controllers/theory.js"></script>
+    <script src="scripts/controllers/sprints.js"></script>
+    <script src="scripts/services/fileservice.js"></script>
+    <script src="scripts/directives/bilateralfunds.js"></script>
+    <script src="scripts/directives/directivemanager.js"></script>
+    <script src="scripts/directives/static.js"></script>
+    <script src="scripts/directives/network.js"></script>
+    <script src="scripts/directives/mentions.js"></script>
+    <script src="scripts/directives/scatterfund.js"></script>
+    <script src="scripts/directives/dna.js"></script>
+    <script src="scripts/directives/treemention.js"></script>
+    <script src="scripts/directives/multiplestatic.js"></script>
+    <script src="scripts/directives/menu.js"></script>
+    <script src="scripts/directives/narrative3_map2.js"></script>
+    <script src="scripts/directives/narrative3_map10a.js"></script>
+    <script src="scripts/directives/imagemanager.js"></script>
+    <script src="scripts/directives/narrative3_map2_2.js"></script>
+    <script src="scripts/directives/narrative5_map25a.js"></script>
+    <script src="scripts/directives/narrative6_map30.js"></script>
+    <script src="scripts/controllers/foreword.js"></script>
+    <script src="scripts/directives/map14.js"></script>
+    <script src="scripts/directives/multiplestaticfluid.js"></script>
+    <script src="scripts/directives/map7.js"></script>
+    <script src="scripts/controllers/datasets.js"></script>
+    <script src="scripts/directives/image.js"></script>
+    <script src="scripts/directives/disqus.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

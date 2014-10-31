@@ -1,0 +1,64 @@
+<div class="jumbotron home">
+  <div class="container">
+    <div class="logo"><img src="images/logo.png"></div>
+    <h1>a global issue atlas <span class="of">of</span> climate change adaptation</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 sprint">
+      <p>{{content.subtitle}}</p>
+    </div>
+    <div class="col-md-12">
+      <div class="home-column">
+      <span ng-bind-html="content.html"></span>
+    </div>  
+  </div>
+  </div>
+  </div>
+</div>
+
+<div class="container-fluid switch">
+  <!-- era class switch -->
+  <div class="row" >
+    <div class="col-md-12">
+      <tabset>
+        <tab id="stories" heading="{{tabs[0].name}}" active="tabs[0].active">
+          <!-- <div class="container-fluid"> -->
+          <!-- era narrative-thumb -->
+          <div class="row gallery-home" >
+            <div ng-repeat="narrative in narratives" class="col-md-12">
+              <a ng-href="#!/narrative/{{narrative.slug}}">
+                <div class="narrative-thumb">
+                  <div ng-style="{ 'background-image': 'url(' + narrative.cover + ')'}" class="narrative-thumb-pic"></div>
+                  <div class="narrative-thumb-text">
+                    <h1>{{narrative.title || "Narrative title"}}</h1>
+                    <h2>{{narrative.subtitle || "Narrative subtitle"}}</h2>
+                    <hr>
+                  </div> 
+                </div> </a>
+              </div>
+          </div>
+          <!-- </div> -->
+        </tab>
+        <tab id="maps" heading="{{tabs[1].name}}" active="tabs[1].active">
+          <!-- <div class="container-fluid"> -->
+          <!-- era map-thumb -->
+          <div class="row gallery-home" >
+            <div ng-repeat="map in maps" class="col-md-3">
+              <a ng-href="#!/map/{{map.slug}}">
+                <div class="map-thumb">
+                 <div class="map-thumb-text">
+                  <h1>{{map.title || "Map title"}}</h1>
+                 </div> 
+                <div ng-style="{ 'background-image': 'url(' + map.cover + ')'}" class="map-thumb-pic"></div>
+                </div> </a>
+              </div>
+              <!-- </div> -->
+            </tab>
+          </tabset>
+        </div>
+      </div>
+    </div>
+    <div ng-include="'views/footer.html'"></div>

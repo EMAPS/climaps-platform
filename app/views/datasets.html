@@ -1,0 +1,22 @@
+<div class="jumbotron about">
+    <div class="container">
+        <h1>{{content.title}}</h1>
+    </div>
+</div>
+
+<!-- Container -->
+<div class="container">
+
+    <div class="row" ng-repeat="dataset in content.sections" id="{{dataset.slug}}">
+        <div class="col-md-10 dataset">
+            <h1>{{dataset.dataset}}</h1>
+            <div ng-repeat="section in dataset.sections">
+                <h4>{{section.title}}</h4>
+                <span ng-bind-html="section.html">
+                </span>
+            </div>
+            <hr>
+        </div>
+    </div>
+</div>
+<div ng-include="'views/footer.html'"></div>
