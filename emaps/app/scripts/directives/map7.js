@@ -329,7 +329,6 @@ angular.module('emapsApp')
 
                             scope.data.forEach(function (d, i) {
 
-                                console.log(source,target);
 
                                 if (scope.filter !== "" && d.source !== scope.filter) {
                                     return;

@@ -78,7 +78,7 @@ angular.module('emapsApp')
                     /*container.selectAll("circle")
                         .on("mouseover",function(d){
 
-                            console.log(this);
+
                         });
 
                     container.selectAll("circle")

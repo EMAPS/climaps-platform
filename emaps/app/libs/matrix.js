@@ -309,7 +309,7 @@
       d3.selectAll(".item").on("mouseover", function(d,j){
 
         var n = j % d3.selectAll(".ylabel")[0].length;
-        //console.log(d3.select(this).attr("class"));
+
         var m = parseInt(d3.select(this).attr("class").split(" ")[1].replace( /^\D+/g, ''))
         d3.select(".n"+n).classed("mat-sel",true)
         d3.select(".m"+m).classed("mat-sel",true)
@@ -324,7 +324,7 @@
       d3.selectAll(".item").on("mouseout", function(d,j){
 
         var n = j % d3.selectAll(".ylabel")[0].length;
-        //console.log(d3.select(this).attr("class"));
+
         var m = parseInt(d3.select(this).attr("class").split(" ")[1].replace( /^\D+/g, ''))
         d3.select(".n"+n).classed("mat-sel",false)
         d3.select(".m"+m).classed("mat-sel",false)

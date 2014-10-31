@@ -19,7 +19,7 @@ angular.module('emapsApp')
         if(regex.test(str)){
 
             str = str.replace(regex, function (a, b) {
-                console.log("found");
+
 
                 var slug = $scope.narratives.filter(function (e) {
                     return e.id == b;
