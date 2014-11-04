@@ -41,9 +41,9 @@ drive-out/settings.js
 drive-out/index.js
 drive-out/secrets.json
 contents
-
 dist
 .tmp
 .sass-cache
 bower_components
 app/contents
+app/scripts/services/config.js
