@@ -15,7 +15,6 @@ If you want to run your instance of Climaps platform locally on your machine, be
 ###Data files
 
 - [contents.zip](http://climaps.eu/contents/contents.zip)
-- [dist.zip](http://climaps.eu/contents/dist.zip)
 
 Clone Climaps platform from the command line:
 
@@ -43,7 +42,7 @@ $ bower install
 
 unzip ```contents.zip``` and copy the ```contents``` folder in the ```climaps-platform/app/``` folder:
 
-unzip ```dist.zip``` and copy the ```dist``` folder in the ```climaps-platform/bower_components/sigma/``` folder:
+copy the ```config.js``` file in the ```app/scripts/services/``` folder and add your credentials (if any):
 
 
 You can now run climaps-platform from your local web server:
