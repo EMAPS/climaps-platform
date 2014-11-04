@@ -10,7 +10,8 @@
         settings = {
           labelThreshold: 3,
           font: 'Source Sans Pro',
-          zoomingRatio : 1
+          zoomingRatio : 1,
+          mouseWheelEnabled: false
         },
         label,
         selectedNodes = [],

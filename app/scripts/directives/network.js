@@ -129,7 +129,8 @@ angular.module('emapsApp')
 
 		            	var settings ={
 					        labelThreshold: data.settings.labelThreshold,
-          					font: 'Source Sans Pro'
+          					font: 'Source Sans Pro',
+          					mouseWheelEnabled: false
 					        }
 		            	
 

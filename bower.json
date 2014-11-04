@@ -15,7 +15,7 @@
     "angular-bootstrap": "~0.11.0",
     "angular-loading-bar": "~0.6.0",
     "d3": "~3.4.11",
-    "sigma": "~1.0.3",
+    "sigma-climaps": "https://github.com/uf0/sigma.js.git#master",
     "angulartics": "~0.17.0"
   },
   "devDependencies": {
