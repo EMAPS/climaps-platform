@@ -7,7 +7,7 @@
  * # disqus
  */
 angular.module('emapsApp')
-  .directive('disqus', function ($window, $location,$timeout) {
+  .directive('disqus', function ($window, $location,$timeout, DISQUS_SHORTNAME) {
 	return {
             restrict: 'E',
             scope: {
@@ -37,7 +37,7 @@ angular.module('emapsApp')
                     }
                     if (scope.$eval(isReady)) {
                         // put the config variables into separate global vars so that the Disqus script can see them
-                        $window.disqus_shortname = scope.disqus_shortname;
+                        $window.disqus_shortname = scope.disqus_shortname || DISQUS_SHORTNAME;
                         $window.disqus_identifier = scope.disqus_identifier;
                         $window.disqus_title = scope.disqus_title;
                         $window.disqus_url = $location.absUrl();
@@ -47,7 +47,8 @@ angular.module('emapsApp')
                         // get the remote Disqus script and insert it into the DOM, but only if it not already loaded (as that will cause warnings)
                         if (!$window.DISQUS) {
                             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                            dsq.src = '//' + scope.disqus_shortname + '.disqus.com/embed.js';
+                            var shortname = scope.disqus_shortname || DISQUS_SHORTNAME;
+                            dsq.src = '//' + shortname + '.disqus.com/embed.js';
                             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
                         } else {
                             $(".at-view-fade-in").on('$animate:close', function(data) {
