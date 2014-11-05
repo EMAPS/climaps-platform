@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/6987/EMAPS/climaps-platform.png)](http://dx.doi.org/10.5281/zenodo.12568)
+
 Climaps platform
 ======
 
