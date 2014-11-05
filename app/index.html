@@ -14,6 +14,13 @@
     <meta property="og:site_name" content="Climaps.eu"/>
     <meta property="og:description" content="This website presents the results of the EU research project EMAPS, as well as its process: an experiment to use computation and visualization to harness the increasing availability of digital data and mobilize it for public debate."/>
     <meta property="og:image" content="http://www.climaps.eu/images/ignore/climaps_social.jpg"/>
+    <script>
+        //redirect old url. not needed for new installation
+        var loc = window.location.href
+        if (loc.indexOf("#/") != -1 && loc.indexOf("#!") == -1 ){
+            window.location.href = loc.replace("#/", "#!/");
+        }
+    </script>
     <!-- Google Fonts and Font Awesome-->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
