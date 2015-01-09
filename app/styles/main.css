@@ -775,6 +775,12 @@ font-size: 1.5em;
   margin-bottom: 60px;
 }
 
+#citation{
+  padding: 10px;
+  background-color: #f0ecec;
+  font-size: 1.2em;
+}
+
 .metadata-sprint{
   padding-top: 50px;
   font-family: 'Source Sans Pro', sans-serif;

@@ -19,10 +19,12 @@ angular.module('emapsApp')
 
     $scope.content.metadata.forEach(function(d){
         if(d.title==="Related maps"){
+
             var res = regexMaker(d.html);
+            
             res.forEach(function(d,i){
 
-                var found =$scope.maps.filter(function(e){
+                var found = $scope.maps.filter(function(e){
                     return d === e.id;
                 })[0];
 

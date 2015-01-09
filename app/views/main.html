@@ -9,6 +9,12 @@
   <div class="row">
     <div class="col-md-12 sprint">
       <p>{{content.subtitle}}</p>
+      <p id="citation">
+        {{content.citDesc}}<br><br>
+        <strong>{{content.citTitle}}</strong><br>
+        <em>{{content.citAuthors}}</em><br>
+        <span ng-bind-html="content.citLink"></span>
+      </p>
     </div>
     <div class="col-md-12">
       <div class="home-column">
